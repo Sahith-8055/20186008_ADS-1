@@ -27,7 +27,7 @@ class Percolation {
      *
      * @param      n1    The n1
      */
-    public Percolation(final int n1) {
+    Percolation(final int n1) {
         this.n = n1;
         this.size = n1 * n1;
         connected = new boolean[size];
@@ -48,13 +48,19 @@ class Percolation {
     private int indexOf(final int i, final int j) {
         return (n * (i - 1)) + (j - 1);
     }
+    /**
+     * Links open sites.
+     *
+     * @param      row   The row
+     * @param      col   The col
+     */
     private void linkOpenSites(final int row, final int col) {
         if (connected[col] && !uf.connected(row, col)) {
             uf.union(row, col);
         }
     }
     /**
-     * {Method to open site (row, col) if it is not open already}
+     * {Method to open site (row, col) if it is not open already}.
      *
      * @param      row   The row
      * @param      col   The col
@@ -62,6 +68,11 @@ class Percolation {
     public void open(final int row, final int col) {
         int index = indexOf(row, col);
         connected[index] = true;
+        if (n == 1) {
+            uf.union(first, index);
+            uf.union(last, index);
+            return;
+        }
         if (n == 2) {
             uf.union(index, index + 1);
         }
@@ -117,7 +128,7 @@ class Percolation {
     //     return -1;
     // }
     /**
-     * {Method to determine does the system percolate?}
+     * {Method to determine does the system percolate?}.
      *
      * @return     {Boolean value}
      */
@@ -136,7 +147,7 @@ public final class Solution {
         //Empty.
     }
     /**
-     * {Main method}
+     * {Main method}.
      *
      * @param      args  The arguments
      */
