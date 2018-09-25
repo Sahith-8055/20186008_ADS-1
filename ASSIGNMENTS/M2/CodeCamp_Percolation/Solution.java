@@ -30,6 +30,8 @@ class Percolation {
     Percolation(final int n1) {
         this.n = n1;
         this.size = n1 * n1;
+        this.first = size;
+        this.last = size + 1;
         connected = new boolean[size];
         uf = new WeightedQuickUnionUF(size + 2);
         for (int i = 0; i < n; i++) {
@@ -68,14 +70,6 @@ class Percolation {
     public void open(final int row, final int col) {
         int index = indexOf(row, col);
         connected[index] = true;
-        if (n == 1) {
-            uf.union(first, index);
-            uf.union(last, index);
-            return;
-        }
-        if (n == 2) {
-            uf.union(index, index + 1);
-        }
         int top = index - n;
         int bottom = index + n;
         if (bottom < size) {
