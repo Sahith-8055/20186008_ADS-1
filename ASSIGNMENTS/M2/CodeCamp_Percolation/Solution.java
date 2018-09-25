@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Class for percolation.
- * @author     Sahith.
+ * @author Sahith.
  */
 class Percolation {
     /**
@@ -108,17 +108,6 @@ class Percolation {
     public boolean isOpen(final int row, final int col) {
         return connected[indexOf(row, col)];
     }
-    // /**
-    //  * Determines if full.
-    //  *
-    //  * @param      row   The row
-    //  * @param      col   The col
-    //  *
-    //  * @return     True if full, False otherwise.
-    //  */
-    // public boolean isFull(final int row, final int col) {
-    //     return false;
-    // }
     /**
      * {Method to determine the number of open sites}.
      *
