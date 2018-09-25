@@ -120,7 +120,7 @@ class Percolation {
     //     return false;
     // }
     /**
-     * {Method to determine the number of open sites}
+     * {Method to determine the number of open sites}.
      *
      * @return     {Number of open sites}
      */
@@ -162,4 +162,3 @@ public final class Solution {
         System.out.println(p.percolates() && p.numberOfOpenSites() != 0);
     }
 }
-// You can implement the above API to solve the problem
