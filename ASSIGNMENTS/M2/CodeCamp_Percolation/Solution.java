@@ -13,9 +13,9 @@ class Percolation {
      */
     private int n;
     /**
-     * {Variables size, first, last}.
+     * {Variables size, first, last, count}.
      */
-    private int size, first, last;
+    private int size, first, last, count;
     /**
      * {Declaring an integer array of type boolean}.
      */
@@ -32,6 +32,7 @@ class Percolation {
         this.size = n1 * n1;
         this.first = size;
         this.last = size + 1;
+        this.count = 0;
         connected = new boolean[size];
         uf = new WeightedQuickUnionUF(size + 2);
         for (int i = 0; i < n; i++) {
@@ -70,6 +71,7 @@ class Percolation {
     public void open(final int row, final int col) {
         int index = indexOf(row, col);
         connected[index] = true;
+        count++;
         int top = index - n;
         int bottom = index + n;
         if (n == 1) {
@@ -117,14 +119,14 @@ class Percolation {
     // public boolean isFull(final int row, final int col) {
     //     return false;
     // }
-    // /**
-    //  * {Method to determine the number of open sites}
-    //  *
-    //  * @return     {Number of open sites}
-    //  */
-    // public int numberOfOpenSites() {
-    //     return -1;
-    // }
+    /**
+     * {Method to determine the number of open sites}
+     *
+     * @return     {Number of open sites}
+     */
+    public int numberOfOpenSites() {
+        return count;
+    }
     /**
      * {Method to determine does the system percolate?}.
      *
@@ -157,7 +159,7 @@ public final class Solution {
             String[] tokens = scan.nextLine().split(" ");
             p.open(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
         }
-        System.out.println(p.percolates());
+        System.out.println(p.percolates() && p.numberOfOpenSites() != 0);
     }
 }
 // You can implement the above API to solve the problem
