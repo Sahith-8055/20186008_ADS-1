@@ -72,6 +72,10 @@ class Percolation {
         connected[index] = true;
         int top = index - n;
         int bottom = index + n;
+        if (n == 1) {
+            uf.union(first, index);
+            uf.union(first, index);
+        }
         if (bottom < size) {
             linkOpenSites(index, bottom);
         }
@@ -79,7 +83,7 @@ class Percolation {
             linkOpenSites(index, top);
         }
         if (col == 1) {
-            if (col != n - 1) {
+            if (col != n) {
                 linkOpenSites(index, index + 1);
             }
             return;
