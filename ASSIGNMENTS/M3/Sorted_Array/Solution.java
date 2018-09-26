@@ -6,12 +6,17 @@ class SortedArray {
     private int[] array2;
     private int m2;
     private int[] array3;
-    SortedArray(final int m1, final int m2) {
-        array1 = new int[m1];
-        array2 = new int[m2];
-        array3 = new int[m1 + m2];
+    SortedArray(final int[] ar1, final int[] ar2) {
+        this.array1 = ar1;
+        this.m1 = array1.length;
+        this.array2 = ar2;
+        this.m2 = array2.length;
+        this.array3 = new int[m1 + m2];
     }
     public int[] sort(final int[] a1, final int[] a2) {
+
+        // System.out.println(Arrays.toString(a1));
+        // System.out.println(Arrays.toString(a2));
         int i = 0;
         int j = 0;
         int k = 0;
@@ -35,7 +40,7 @@ public class Solution {
     private Solution() {
         //Empty.
     }
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int s1 = Integer.parseInt(scan.nextLine());
         int s2 = Integer.parseInt(scan.nextLine());
@@ -53,8 +58,12 @@ public class Solution {
                 ar2[i] = Integer.parseInt(tokens1[i]);
             }
         }
-        SortedArray sa = new SortedArray(s1, s2);
+        SortedArray sa = new SortedArray(ar1, ar2);
         int[] a = sa.sort(ar1, ar2);
-        System.out.println(Arrays.toString(a));
+        int n = 0;
+        for (n = 0; n < a.length - 1; n++) {
+            System.out.println(a[n] + ",");
+        }
+        System.out.println(a[n]);
     }
 }
