@@ -36,7 +36,6 @@ class Sum {
      * @return     {Index value}
      */
     public int binarySearch(final int[] a, final int key) {
-        // System.out.println("----------");
         int first = 0;
         int last = a.length - 1;
         while (first <= last) {
@@ -70,9 +69,7 @@ class Sum {
                     count++;
                 }
             }
-            // System.out.println("here");
         }
-        System.out.println(count);
         return count;
     }
 }
@@ -99,9 +96,7 @@ public final class Solution {
         for (int i = 0; i < n; i++) {
             t[i] = scan.nextInt();
         }
-        System.out.println(s.sumOfArray(t));
-        // int count1 = s.sumOfArray(t);
-        // System.out.println("----------");
-        // System.out.println(count1);
+        int count1 = s.sumOfArray(t);
+        System.out.println(count1);
     }
 }
