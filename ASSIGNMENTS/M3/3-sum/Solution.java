@@ -36,6 +36,7 @@ class Sum {
      * @return     {Index value}
      */
     public int binarySearch(final int[] a, final int key) {
+        // System.out.println("----------");
         int first = 0;
         int last = a.length - 1;
         while (first <= last) {
@@ -43,7 +44,7 @@ class Sum {
             if (key < a[mid]) {
                 last = mid - 1;
             } else if (key > a[mid]) {
-                last = mid + 1;
+                first = mid + 1;
             } else {
                 return mid;
             }
@@ -59,14 +60,19 @@ class Sum {
      */
     public int sumOfArray(final int[] array) {
         Arrays.sort(array);
+        // System.out.println("yo");
         for (int i = 0; i <= array.length - 1; i++) {
             for (int j = i + 1; j <= array.length - 1; j++) {
+                // System.out.println("hello");
                 int k = binarySearch(array, -(array[i] + array[j]));
+                // System.out.println("yo");
                 if (k > j) {
                     count++;
                 }
             }
+            // System.out.println("here");
         }
+        System.out.println(count);
         return count;
     }
 }
@@ -90,10 +96,12 @@ public final class Solution {
         int n = Integer.parseInt(scan.nextLine());
         int[] t = new int[n];
         Sum s = new Sum(n);
-        for (int i = 0; i < t.length; i++) {
-            t[i] = Integer.parseInt(scan.nextLine());
+        for (int i = 0; i < n; i++) {
+            t[i] = scan.nextInt();
         }
-        int count1 = s.sumOfArray(t);
-        System.out.println(count1);
+        System.out.println(s.sumOfArray(t));
+        // int count1 = s.sumOfArray(t);
+        // System.out.println("----------");
+        // System.out.println(count1);
     }
 }
