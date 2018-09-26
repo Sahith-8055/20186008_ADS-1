@@ -60,7 +60,7 @@ class Sum {
     public int sumOfArray(final int[] array) {
         Arrays.sort(array);
         for (int i = 0; i <= array.length - 1; i++) {
-            for (int j = i + 1; j < array.length; ) {
+            for (int j = i + 1; j <= array.length - 1; j++) {
                 int k = binarySearch(array, -(array[i] + array[j]));
                 if (k > j) {
                     count++;
