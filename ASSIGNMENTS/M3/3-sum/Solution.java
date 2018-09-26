@@ -53,17 +53,17 @@ class Sum {
     /**
      * {Method to find the sum of array}.
      *
-     * @param      array  The array
+     * @param      array1  The array1
      *
      * @return     {Count}
      */
-    public int sumOfArray(final int[] array) {
-        Arrays.sort(array);
+    public int sumOfArray(final int[] array1) {
+        Arrays.sort(array1);
         // System.out.println("yo");
-        for (int i = 0; i <= array.length - 1; i++) {
-            for (int j = i + 1; j <= array.length - 1; j++) {
+        for (int i = 0; i <= array1.length - 1; i++) {
+            for (int j = i + 1; j <= array1.length - 1; j++) {
                 // System.out.println("hello");
-                int k = binarySearch(array, -(array[i] + array[j]));
+                int k = binarySearch(array1, -(array1[i] + array1[j]));
                 // System.out.println("yo");
                 if (k > j) {
                     count++;
@@ -84,7 +84,7 @@ public final class Solution {
         //Empty.
     }
     /**
-     * {Main method}
+     * {Main method}.
      *
      * @param      args  The arguments
      */
