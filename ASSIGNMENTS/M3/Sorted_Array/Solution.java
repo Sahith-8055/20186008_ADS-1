@@ -1,11 +1,36 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for sorted array.
+ * @author Sahith.
+ */
 class SortedArray {
+    /**
+     * {Initializing an integer array1}.
+     */
     private int[] array1;
+    /**
+     * {Size of 1st array}.
+     */
     private int m1;
+    /**
+     * {Initializing an integer array2}.
+     */
     private int[] array2;
+    /**
+     * {Size of 2nd array}.
+     */
     private int m2;
+    /**
+     * {Initializing an integer array3}.
+     */
     private int[] array3;
+    /**
+     * Constructs the object.
+     *
+     * @param      ar1   The archive 1
+     * @param      ar2   The archive 2
+     */
     SortedArray(final int[] ar1, final int[] ar2) {
         this.array1 = ar1;
         this.m1 = array1.length;
@@ -13,10 +38,15 @@ class SortedArray {
         this.m2 = array2.length;
         this.array3 = new int[m1 + m2];
     }
+    /**
+     * {Method to sort the array}
+     *
+     * @param      a1    Array 1
+     * @param      a2    Array 2
+     *
+     * @return     {Array}
+     */
     public int[] sort(final int[] a1, final int[] a2) {
-
-        // System.out.println(Arrays.toString(a1));
-        // System.out.println(Arrays.toString(a2));
         int i = 0;
         int j = 0;
         int k = 0;
@@ -36,10 +66,21 @@ class SortedArray {
         return this.array3;
     }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Empty.
     }
+    /**
+     * {Main method}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int s1 = Integer.parseInt(scan.nextLine());
@@ -60,10 +101,7 @@ public class Solution {
         }
         SortedArray sa = new SortedArray(ar1, ar2);
         int[] a = sa.sort(ar1, ar2);
-        int n = 0;
-        for (n = 0; n < a.length - 1; n++) {
-            System.out.println(a[n] + ",");
-        }
-        System.out.println(a[n]);
+        System.out.println(Arrays.toString(a).substring(
+            1, Arrays.toString(a).length() - 1).replace(" ", ""));
     }
 }
