@@ -39,7 +39,7 @@ class SortedArray {
         this.array3 = new int[m1 + m2];
     }
     /**
-     * {Method to sort the array}
+     * {Method to sort the array}.
      *
      * @param      a1    Array 1
      * @param      a2    Array 2
@@ -69,7 +69,7 @@ class SortedArray {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
