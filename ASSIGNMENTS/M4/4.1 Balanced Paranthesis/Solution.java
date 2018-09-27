@@ -68,7 +68,6 @@ class LinkedList {
      */
     public boolean checkBalancing(final int m, Scanner s) {
         s = new Scanner(System.in);
-        LinkedList ll = new LinkedList();
         boolean b = false;
         String str = s.nextLine();
         for (int i = 0; i < str.length(); i++) {
@@ -78,21 +77,15 @@ class LinkedList {
             } else if (isEmpty()) {
                 b = false;
                 return b;
-            } else if (chr == ')') {
-                if (ll == null || pop() != '(') {
+            } else if (chr == ')' && pop() != '(') {
                     b = false;
                     return b;
-                }
-            } else if (chr == ']') {
-                if (ll == null || pop() != '[') {
+            } else if (chr == ']' && pop() != '[') {
                     b = false;
                     return b;
-                }
-            } else if (chr == '}') {
-                if (ll == null || pop() != '{') {
+            } else if (chr == '}' && pop() != '{') {
                     b = false;
                     return b;
-                }
             }
         }
         if (isEmpty()) {
