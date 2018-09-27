@@ -66,11 +66,11 @@ class LinkedList {
      *
      * @return     {Boolean}
      */
-    public boolean checkBalancing(final int m, Scanner scan) {
-        scan = new Scanner(System.in);
+    public boolean checkBalancing(final int m, Scanner s) {
+        s = new Scanner(System.in);
         LinkedList ll = new LinkedList();
         boolean b = false;
-        String str = scan.nextLine();
+        String str = s.nextLine();
         for (int i = 0; i < str.length(); i++) {
             char chr = str.charAt(i);
             if (chr == '(' || chr == '{' || chr == '[') {
