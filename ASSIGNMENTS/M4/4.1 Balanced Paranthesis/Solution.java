@@ -80,10 +80,10 @@ public final class Solution {
         int j = 0;
         while (j < n) {
             boolean x = checkBalancing(scan);
-            if (x) {
-                System.out.println("YES");
-            } else {
+            if (!x) {
                 System.out.println("NO");
+            } else {
+                System.out.println("YES");
             }
             j++;
         }
@@ -123,12 +123,6 @@ public final class Solution {
                 }
             }
         }
-        // if (ll.isEmpty()) {
-        //     b = true;
-        //     return b;
-        // } else {
-        //     return b;
-        // }
         return (ll.isEmpty());
     }
 }
