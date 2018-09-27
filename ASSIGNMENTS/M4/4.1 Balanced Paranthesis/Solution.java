@@ -1,16 +1,44 @@
 import java.util.Scanner;
+/**
+ * Linked Lists.
+ */
 class LinkedList {
+    /**
+     * {Variable of type Node}.
+     */
     private Node head;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * {Variable of type char}.
+         */
         private char item;
+        /**
+         * {Variable of type node}.
+         */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     LinkedList() {
         this.head = null;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return (head == null);
     }
+    /**
+     * {Method to get the latest element from stack}.
+     *
+     * @return     {Character}
+     */
     public char pop() {
         if (head != null) {
             char value = head.item;
@@ -19,6 +47,11 @@ class LinkedList {
         }
         return '\0';
     }
+    /**
+     * {Method to push a character from the stack}.
+     *
+     * @param      value  The value
+     */
     public void push(final char value) {
         Node oldHead = head;
         head = new Node();
@@ -27,10 +60,21 @@ class LinkedList {
     }
 
 }
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Empty.
     }
+    /**
+     * {Main method}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
@@ -45,6 +89,14 @@ public class Solution {
             j++;
         }
     }
+    /**
+     * {Method to check whether the parenthesis are balanced}.
+     *
+     * @param      m     {Integer}
+     * @param      scan  The scanner object
+     *
+     * @return     {Boolean}
+     */
     public static boolean checkBalancing(final int m, final Scanner scan) {
         boolean b = false;
         LinkedList ll = new LinkedList();
