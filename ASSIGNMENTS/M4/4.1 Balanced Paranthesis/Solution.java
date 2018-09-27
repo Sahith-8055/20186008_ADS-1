@@ -91,7 +91,7 @@ public final class Solution {
     /**
      * {Method to check whether the parenthesis are balanced}.
      *
-     * @param      m     {Integer}
+     *
      * @param      scan  The scanner object
      *
      * @return     {Boolean}
