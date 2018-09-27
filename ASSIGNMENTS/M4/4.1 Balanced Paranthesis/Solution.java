@@ -58,40 +58,6 @@ class LinkedList {
         head.item = value;
         head.next = oldHead;
     }
-    public boolean checkBalancing(final Scanner scan) {
-        boolean b = false;
-        String str = scan.nextLine();
-        for (int i = 0; i < str.length(); i++) {
-            char chr = str.charAt(i);
-            if (chr == '(' || chr == '{' || chr == '[') {
-                push(chr);
-            } else if (head == null) {
-                b = false;
-                return b;
-            } else if (chr == ')') {
-                if (head == null || pop() != '(') {
-                    b = false;
-                    return b;
-                }
-            } else if (chr == ']') {
-                if (head == null || pop() != '[') {
-                    b = false;
-                    return b;
-                }
-            } else if (chr == '}') {
-                if (head == null || pop() != '{') {
-                    b = false;
-                    return b;
-                }
-            }
-        }
-        if (head == null) {
-            b = true;
-            return b;
-        } else {
-            return b;
-        }
-    }
 }
 /**
  * Class for solution.
@@ -111,10 +77,9 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
-        LinkedList ll = new LinkedList();
         int j = 0;
         while (j < n) {
-            boolean x = ll.checkBalancing(scan);
+            boolean x = checkBalancing(scan);
             if (x) {
                 System.out.println("YES");
             } else {
@@ -131,5 +96,39 @@ public final class Solution {
      *
      * @return     {Boolean}
      */
-
+    public static boolean checkBalancing(final Scanner scan) {
+        boolean b = false;
+        LinkedList ll = new LinkedList();
+        String str = scan.nextLine();
+        for (int i = 0; i < str.length(); i++) {
+            char chr = str.charAt(i);
+            if (chr == '(' || chr == '{' || chr == '[') {
+                ll.push(chr);
+            } else if (ll.isEmpty()) {
+                b = false;
+                return b;
+            } else if (chr == ')') {
+                if (ll == null || ll.pop() != '(') {
+                    b = false;
+                    return b;
+                }
+            } else if (chr == ']') {
+                if (ll == null || ll.pop() != '[') {
+                    b = false;
+                    return b;
+                }
+            } else if (chr == '}') {
+                if (ll == null || ll.pop() != '{') {
+                    b = false;
+                    return b;
+                }
+            }
+        }
+        if (ll.isEmpty()) {
+            b = true;
+            return b;
+        } else {
+            return b;
+        }
+    }
 }
