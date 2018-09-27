@@ -107,27 +107,28 @@ public final class Solution {
                 b = false;
                 return b;
             } else if (chr == ')') {
-                if (ll == null || ll.pop() == '(') {
-                    b = true;
+                if (ll == null || ll.pop() != '(') {
+                    b = false;
                     return b;
                 }
             } else if (chr == ']') {
-                if (ll == null || ll.pop() == '[') {
-                    b = true;
+                if (ll == null || ll.pop() != '[') {
+                    b = false;
                     return b;
                 }
             } else if (chr == '}') {
-                if (ll == null || ll.pop() == '{') {
-                    b = true;
+                if (ll == null || ll.pop() != '{') {
+                    b = false;
                     return b;
                 }
             }
         }
-        if (ll.isEmpty()) {
-            b = true;
-            return b;
-        } else {
-            return b;
-        }
+        // if (ll.isEmpty()) {
+        //     b = true;
+        //     return b;
+        // } else {
+        //     return b;
+        // }
+        return (ll.isEmpty());
     }
 }
