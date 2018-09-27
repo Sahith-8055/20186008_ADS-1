@@ -91,7 +91,6 @@ public final class Solution {
     /**
      * {Method to check whether the parenthesis are balanced}.
      *
-     *
      * @param      scan  The scanner object
      *
      * @return     {Boolean}
@@ -108,18 +107,18 @@ public final class Solution {
                 b = false;
                 return b;
             } else if (chr == ')') {
-                if (ll == null || ll.pop() != '(') {
-                    b = false;
+                if (ll == null || ll.pop() == '(') {
+                    b = true;
                     return b;
                 }
             } else if (chr == ']') {
-                if (ll == null || ll.pop() != '[') {
-                    b = false;
+                if (ll == null || ll.pop() == '[') {
+                    b = true;
                     return b;
                 }
             } else if (chr == '}') {
-                if (ll == null || ll.pop() != '{') {
-                    b = false;
+                if (ll == null || ll.pop() == '{') {
+                    b = true;
                     return b;
                 }
             }
