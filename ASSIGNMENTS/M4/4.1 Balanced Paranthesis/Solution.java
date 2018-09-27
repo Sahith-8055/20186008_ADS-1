@@ -58,37 +58,34 @@ class LinkedList {
         head.item = value;
         head.next = oldHead;
     }
-    /**
-     * {Method to check whether the parenthesis are balanced}.
-     *
-     * @param      m     {Integer}
-     * @param      scan  The scanner object
-     *
-     * @return     {Boolean}
-     */
-    public boolean checkBalancing(final int m, Scanner s) {
-        s = new Scanner(System.in);
+    public boolean checkBalancing(final Scanner scan) {
         boolean b = false;
-        String str = s.nextLine();
+        String str = scan.nextLine();
         for (int i = 0; i < str.length(); i++) {
             char chr = str.charAt(i);
             if (chr == '(' || chr == '{' || chr == '[') {
                 push(chr);
-            } else if (isEmpty()) {
+            } else if (head == null) {
                 b = false;
                 return b;
-            } else if (chr == ')' && pop() != '(') {
+            } else if (chr == ')') {
+                if (head == null || pop() != '(') {
                     b = false;
                     return b;
-            } else if (chr == ']' && pop() != '[') {
+                }
+            } else if (chr == ']') {
+                if (head == null || pop() != '[') {
                     b = false;
                     return b;
-            } else if (chr == '}' && pop() != '{') {
+                }
+            } else if (chr == '}') {
+                if (head == null || pop() != '{') {
                     b = false;
                     return b;
+                }
             }
         }
-        if (isEmpty()) {
+        if (head == null) {
             b = true;
             return b;
         } else {
@@ -113,11 +110,11 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        LinkedList ll = new LinkedList();
         int n = Integer.parseInt(scan.nextLine());
+        LinkedList ll = new LinkedList();
         int j = 0;
         while (j < n) {
-            boolean x = ll.checkBalancing(n, scan);
+            boolean x = ll.checkBalancing(scan);
             if (x) {
                 System.out.println("YES");
             } else {
@@ -126,4 +123,13 @@ public final class Solution {
             j++;
         }
     }
+    /**
+     * {Method to check whether the parenthesis are balanced}.
+     *
+     * @param      m     {Integer}
+     * @param      scan  The scanner object
+     *
+     * @return     {Boolean}
+     */
+
 }
