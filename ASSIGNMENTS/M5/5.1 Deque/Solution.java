@@ -3,12 +3,30 @@ import java.util.Scanner;
  * Class for deque.
  */
 class Deque {
+    /**
+     * {Variable first of node type}.
+     */
     private Node first;
+    /**
+     * {Variable last of node type}.
+     */
     private Node last;
+    /**
+     * {Variable size of int type}.
+     */
     private int size;
+    /**
+     * Class for node.
+     */
     private class Node {
-        int item;
-        Node next;
+        /**
+         * {Variable item of type integer}.
+         */
+        private int item;
+        /**
+         * {Variable next of type node}.
+         */
+        private Node next;
     }
     /**
      * Constructs the object.
@@ -117,7 +135,7 @@ class Deque {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
