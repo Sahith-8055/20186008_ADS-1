@@ -1,0 +1,364 @@
+363
+pushLeft 0
+pushRight 0
+popRight
+pushRight 1
+pushLeft 1
+popRight
+pushRight 2
+pushLeft 2
+popRight
+pushRight 3
+pushLeft 3
+popRight
+pushRight 4
+pushLeft 4
+popRight
+pushRight 5
+pushLeft 5
+popRight
+pushRight 6
+pushLeft 6
+popRight
+pushRight 7
+pushLeft 7
+popRight
+pushRight 8
+pushLeft 8
+popRight
+pushRight 9
+pushLeft 9
+popRight
+pushRight 10
+pushLeft 10
+popRight
+pushRight 11
+pushLeft 11
+popRight
+pushRight 12
+pushLeft 12
+popRight
+pushRight 13
+pushLeft 13
+popRight
+pushRight 14
+pushLeft 14
+popRight
+pushRight 15
+pushLeft 15
+popRight
+pushRight 16
+pushLeft 16
+popRight
+pushRight 17
+pushLeft 17
+popRight
+pushRight 18
+pushLeft 18
+popRight
+pushRight 19
+pushLeft 19
+popRight
+pushRight 20
+pushLeft 20
+popRight
+pushRight 21
+pushLeft 21
+popRight
+pushRight 22
+pushLeft 22
+popRight
+pushRight 23
+pushLeft 23
+popRight
+pushRight 24
+pushLeft 24
+popRight
+pushRight 25
+pushLeft 25
+popRight
+pushRight 26
+pushLeft 26
+popRight
+pushRight 27
+pushLeft 27
+popRight
+pushRight 28
+pushLeft 28
+popRight
+pushRight 29
+pushLeft 29
+popRight
+pushRight 30
+pushLeft 30
+popRight
+pushRight 31
+pushLeft 31
+popRight
+pushRight 32
+pushLeft 32
+popRight
+pushRight 33
+pushLeft 33
+popRight
+pushRight 34
+pushLeft 34
+popRight
+pushRight 35
+pushLeft 35
+popRight
+pushRight 36
+pushLeft 36
+popLeft
+popRight
+pushRight 37
+pushLeft 37
+popLeft
+popRight
+pushRight 38
+pushLeft 38
+popLeft
+popRight
+pushRight 39
+pushLeft 39
+popLeft
+popRight
+pushRight 40
+pushLeft 40
+popLeft
+popRight
+pushRight 41
+pushLeft 41
+popLeft
+popRight
+pushRight 42
+pushLeft 42
+popLeft
+popRight
+pushRight 43
+pushLeft 43
+popLeft
+popRight
+pushRight 44
+pushLeft 44
+popLeft
+popRight
+pushRight 45
+pushLeft 45
+popLeft
+popRight
+pushRight 46
+pushLeft 46
+popLeft
+popRight
+pushRight 47
+pushLeft 47
+popLeft
+popRight
+pushRight 48
+pushLeft 48
+popLeft
+popRight
+pushRight 49
+pushLeft 49
+popLeft
+popRight
+pushRight 50
+pushLeft 50
+popLeft
+popRight
+size
+pushRight 51
+pushLeft 51
+popLeft
+popRight
+pushRight 52
+pushLeft 52
+popLeft
+popRight
+pushRight 53
+pushLeft 53
+popLeft
+popRight
+pushRight 54
+pushLeft 54
+popLeft
+popRight
+pushRight 55
+pushLeft 55
+popLeft
+popRight
+pushRight 56
+pushLeft 56
+popLeft
+popRight
+pushRight 57
+pushLeft 57
+popLeft
+popRight
+pushRight 58
+pushLeft 58
+popLeft
+popRight
+pushRight 59
+pushLeft 59
+popLeft
+popRight
+pushRight 60
+pushLeft 60
+popLeft
+popRight
+pushRight 61
+pushLeft 61
+popLeft
+popRight
+pushRight 62
+pushLeft 62
+popLeft
+popRight
+pushRight 63
+pushLeft 63
+popLeft
+popRight
+pushRight 64
+pushLeft 64
+popLeft
+popRight
+pushRight 65
+pushLeft 65
+popLeft
+popRight
+pushRight 66
+pushLeft 66
+popLeft
+popRight
+pushRight 67
+pushLeft 67
+popLeft
+popRight
+pushRight 68
+pushLeft 68
+popLeft
+popRight
+pushRight 69
+pushLeft 69
+popLeft
+popRight
+pushRight 70
+pushLeft 70
+popLeft
+popRight
+pushRight 71
+pushLeft 71
+popLeft
+popRight
+pushRight 72
+pushLeft 72
+popLeft
+popRight
+pushRight 73
+pushLeft 73
+popLeft
+popRight
+pushRight 74
+pushLeft 74
+popLeft
+popRight
+pushRight 75
+pushLeft 75
+popLeft
+popRight
+pushRight 76
+pushLeft 76
+popLeft
+popRight
+pushRight 77
+pushLeft 77
+popLeft
+popRight
+pushRight 78
+pushLeft 78
+popLeft
+popRight
+pushRight 79
+pushLeft 79
+popLeft
+popRight
+pushRight 80
+pushLeft 80
+popLeft
+popRight
+pushRight 81
+pushLeft 81
+popLeft
+popRight
+pushRight 82
+pushLeft 82
+popLeft
+popRight
+pushRight 83
+pushLeft 83
+popLeft
+popRight
+pushRight 84
+pushLeft 84
+popLeft
+popRight
+pushRight 85
+pushLeft 85
+popLeft
+popRight
+pushRight 86
+pushLeft 86
+popLeft
+popRight
+pushRight 87
+pushLeft 87
+popLeft
+popRight
+pushRight 88
+pushLeft 88
+popLeft
+popRight
+pushRight 89
+pushLeft 89
+popLeft
+popRight
+pushRight 90
+pushLeft 90
+popLeft
+popRight
+pushRight 91
+pushLeft 91
+popLeft
+popRight
+pushRight 92
+pushLeft 92
+popLeft
+popRight
+pushRight 93
+pushLeft 93
+popLeft
+popRight
+pushRight 94
+pushLeft 94
+popLeft
+popRight
+pushRight 95
+pushLeft 95
+popLeft
+popRight
+pushRight 96
+pushLeft 96
+popLeft
+popRight
+pushRight 97
+pushLeft 97
+popLeft
+popRight
+pushRight 98
+pushLeft 98
+popLeft
+popRight
+pushRight 99
+pushLeft 99

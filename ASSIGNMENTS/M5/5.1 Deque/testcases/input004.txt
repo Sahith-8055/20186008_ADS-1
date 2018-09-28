@@ -1,0 +1,4 @@
+3
+popRight
+popLeft
+pushLeft 1
