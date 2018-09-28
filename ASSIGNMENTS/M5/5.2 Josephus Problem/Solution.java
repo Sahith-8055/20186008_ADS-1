@@ -1,20 +1,54 @@
 import java.util.Scanner;
+/**
+ * Class for deque.
+ */
 class Deque {
+    /**
+     * {Variable first of type node}.
+     */
     private Node first;
+    /**
+     * {Variable last of type node}.
+     */
     private Node last;
+    /**
+     * {Variable size of type integer}.
+     */
     private int size;
-    class Node {
+    /**
+     * Class for node.
+     */
+    private class Node {
+        /**
+         * {Variable name of type int}.
+         */
         private int name;
+        /**
+         * {Variable next of type node}.
+         */
         private Node next;
     }
+    /**
+     * Constructs the object.
+     */
     Deque() {
         first = null;
         last = null;
         size = 0;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return (first == null);
     }
+    /**
+     * {Method to pop an element from the front}.
+     *
+     * @return     {Integer}
+     */
     public int popFront() {
         if (first != null) {
             int item = first.name;
@@ -23,6 +57,11 @@ class Deque {
         }
         return last.name;
     }
+    /**
+     * Method to push back an element.
+     *
+     * @param      name  The name
+     */
     public void pushBack(final int name) {
         if (last == null) {
             last = new Node();
@@ -37,22 +76,18 @@ class Deque {
             temp.next = last;
         }
     }
+    /**
+     * {Method to get size}.
+     *
+     * @return     {Integer}
+     */
     public int getsize() {
         return size;
     }
-    public String displayAll() {
-        if (size != 0) {
-            String s = "[";
-            Node temp = first;
-            while (temp != null) {
-                s += temp.name + ", ";
-                temp = temp.next;
-            }
-            return s.substring(0, s.length() - 2) + "]";
-        }
-        return "[]";
-    }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
     /**
      * Constructs the object.
@@ -60,6 +95,11 @@ public class Solution {
     private Solution() {
         //Empty.
     }
+    /**
+     * {Main method}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int num = Integer.parseInt(scan.nextLine());
