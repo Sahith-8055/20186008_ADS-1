@@ -1,0 +1,3 @@
+In this code fragment, when we implement the first two lines of code, we will be able to push and store the elements in the stack from the queue.
+
+When we implement the next two lines of code, we will be able to pop the elements from the stack and store the elements in the queue in a reverse order.
