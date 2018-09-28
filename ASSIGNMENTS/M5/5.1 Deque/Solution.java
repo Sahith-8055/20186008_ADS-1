@@ -1,5 +1,7 @@
 import java.util.Scanner;
-import java.util.Iterator;
+/**
+ * Class for deque.
+ */
 class Deque {
     private Node first;
     private Node last;
@@ -7,19 +9,36 @@ class Deque {
     private class Node {
         int item;
         Node next;
-        // Node<Item> previous;
     }
+    /**
+     * Constructs the object.
+     */
     Deque() {
         this.first = null;
         this.last = null;
         this.size = 0;
     }
+    /**
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return (size == 0);
     }
+    /**
+     * Gets the size.
+     *
+     * @return     The size.
+     */
     public int getSize() {
         return size;
     }
+    /**
+     * Method to push from front.
+     *
+     * @param      int1  The int1
+     */
     public void pushFront(final int int1) {
         if (first == null) {
             first = new Node();
@@ -32,8 +51,13 @@ class Deque {
             first.item = int1;
             first.next = oldfirst;
         }
-            size++;
-        }
+        size++;
+    }
+    /**
+     * Method to push from back.
+     *
+     * @param      item1  The item 1
+     */
     public void pushBack(final int item1) {
         if (last == null) {
             last = new Node();
@@ -46,14 +70,20 @@ class Deque {
             last.next = null;
             oldlast.next = last;
         }
-            size++;
-        }
-    public void popFront() {
-            if (first != null) {
-                first = first.next;
-                size--;
-            }
+        size++;
     }
+    /**
+     * {Method to pop from front}.
+     */
+    public void popFront() {
+        if (first != null) {
+            first = first.next;
+            size--;
+        }
+    }
+    /**
+     * {Method to pop from back}.
+     */
     public void popBack() {
         if (last != null) {
             Node old = first;
@@ -65,6 +95,11 @@ class Deque {
             size--;
         }
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         if (size == 0) {
             return "[]";
@@ -79,10 +114,21 @@ class Deque {
         }
     }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Empty.
     }
+    /**
+     * {Main method}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
@@ -103,20 +149,20 @@ public class Solution {
                 System.out.println(d);
                 break;
             case "popLeft":
-                    if (!(d.isEmpty())) {
-                        d.popFront();
-                        System.out.println(d);
-                    } else {
-                        System.out.println("Deck is empty");
-                    }
+                if (!(d.isEmpty())) {
+                    d.popFront();
+                    System.out.println(d);
+                } else {
+                    System.out.println("Deck is empty");
+                }
                 break;
             case "popRight":
-                    if (!(d.isEmpty())) {
-                        d.popBack();
-                        System.out.println(d);
-                    } else {
-                        System.out.println("Deck is empty");
-                    }
+                if (!(d.isEmpty())) {
+                    d.popBack();
+                    System.out.println(d);
+                } else {
+                    System.out.println("Deck is empty");
+                }
                 break;
             default:
                 break;
