@@ -118,8 +118,7 @@ final class AddLargeNumbers {
         final LinkedList list1, final LinkedList list2) {
         LinkedList ll1 = new LinkedList();
         int carry = 0;
-        for (int i = 0; i < ll1.getSize(); i++) {
-        }
+        String sum = "";
         return ll1;
     }
 }
