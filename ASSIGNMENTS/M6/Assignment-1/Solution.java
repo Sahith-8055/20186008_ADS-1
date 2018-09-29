@@ -81,7 +81,7 @@ class AddLargeNumbers {
     /**
      * Constructs the object.
      */
-    AddLargeNumbers() {
+    private AddLargeNumbers() {
         //Empty.
     }
     /**
@@ -97,7 +97,7 @@ class AddLargeNumbers {
         return ll;
     }
     /**
-     * {Method to convert the digits to number}
+     * {Method to convert the digits to number}.
      *
      * @param      list  The list
      *
@@ -117,6 +117,7 @@ class AddLargeNumbers {
     public static LinkedList addLargeNumbers(
         final LinkedList list1, final LinkedList list2) {
         LinkedList ll1 = new LinkedList();
+        int carry = 0;
         for (int i = 0; i < ll1.getSize(); i++) {
         }
         return ll1;
@@ -153,8 +154,10 @@ public final class Solution {
         case "addLargeNumbers":
             pDigits = AddLargeNumbers.numberToDigits(p);
             qDigits = AddLargeNumbers.numberToDigits(q);
-            LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-            System.out.println(AddLargeNumbers.digitsToNumber(result));
+            LinkedList result =
+            AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+            System.out.println(
+                AddLargeNumbers.digitsToNumber(result));
             break;
         default:
             break;
