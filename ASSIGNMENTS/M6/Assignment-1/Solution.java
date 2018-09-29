@@ -1,12 +1,17 @@
 import java.util.Scanner;
 class LinkedList {
     private Node head;
+    private int size;
     private class Node {
         private String item;
         private Node next;
     }
     LinkedList() {
         this.head = null;
+        this.size = 0;
+    }
+    public int getSize() {
+        return this.size;
     }
     public boolean isEmpty() {
         return (head == null);
@@ -15,6 +20,7 @@ class LinkedList {
         if (head != null) {
             String value = head.item;
             head = head.next;
+            size--;
             return value;
         }
         return null;
@@ -24,6 +30,7 @@ class LinkedList {
         head = new Node();
         head.item = s1;
         head.next = oldHead;
+        size++;
     }
 }
 class AddLargeNumbers {
@@ -40,11 +47,13 @@ class AddLargeNumbers {
 
     public static LinkedList addLargeNumbers(final LinkedList list1, final LinkedList list2) {
         LinkedList ll1 = new LinkedList();
+        // for (int i = 0; i < ll1.getSize(); i++) {
+
+        // }
         return ll1;
     }
 }
-
-public class Solution {
+public final class Solution {
     private Solution() {
         //Empty.
     }
