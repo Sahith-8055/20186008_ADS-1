@@ -1,18 +1,13 @@
 import java.util.Scanner;
 class LinkedList {
     private Node head;
-    // private int size;
     private class Node {
         private String item;
         private Node next;
     }
     LinkedList() {
         this.head = null;
-        // this.size = 0;
     }
-    // public int getSize() {
-    //     return this.size;
-    // }
     public boolean isEmpty() {
         return (head == null);
     }
