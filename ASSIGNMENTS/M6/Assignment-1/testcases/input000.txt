@@ -1,0 +1,3 @@
+numberToDigits
+999
+111
