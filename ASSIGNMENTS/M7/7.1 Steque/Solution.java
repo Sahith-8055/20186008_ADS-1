@@ -36,7 +36,7 @@ class Steque {
         this.tail = null;
     }
     public boolean isEmpty() {
-        return (head == null && tail == null);
+        return (head == null || tail == null);
     }
     public int getSize() {
         return this.size;
