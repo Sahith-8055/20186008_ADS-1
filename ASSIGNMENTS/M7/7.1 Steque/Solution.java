@@ -64,7 +64,7 @@ class Steque {
                 str += node1.item + ", ";
                 node1 = node1.next;
             }
-            System.out.println(str.substring(0, str.length() - 2));
+            System.out.println(str.substring(0, str.length() - 1));
         } else {
             System.out.println("Steque is empty.");
         }
