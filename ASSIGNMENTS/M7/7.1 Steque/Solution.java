@@ -30,6 +30,7 @@ class Steque {
     }
     /**
      * Constructs the object.
+     * Time complexity of Steque() is 1.
      */
     Steque() {
         this.head = null;
@@ -38,23 +39,15 @@ class Steque {
     }
     /**
      * Method to determine if the steque is empty.
-     *
+     * Time complexity of isEmpty() is 1.
      * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return (head == null || tail == null);
     }
     /**
-     * Method to get the size.
-     *
-     * @return     The size.
-     */
-    public int getSize() {
-        return this.size;
-    }
-    /**
      * {Method to push an element into the steque}.
-     *
+     * Time complexity of push() is 1.
      * @param      num1  The number1
      */
     public void push(final int num1) {
@@ -73,7 +66,7 @@ class Steque {
     }
     /**
      * {Method to pop an element into the steque}.
-     *
+     * Time complexity of pop() is 1.
      * @return     {Integer value}
      */
     public int pop() {
@@ -87,7 +80,7 @@ class Steque {
     }
     /**
      * {Method to enqueue a value into the steque}.
-     *
+     * Time complexity of enqueue() is 1.
      * @param      num2  The number 2
      */
     public void enqueue(final int num2) {
@@ -107,6 +100,8 @@ class Steque {
     }
     /**
      * {Method to display the steque}.
+     * Time Complexity of display() is n.
+     * where n is size of steque.
      */
     public void display() {
         if (size != 0) {
@@ -130,10 +125,10 @@ public final class Solution {
      * Constructs the object.
      */
     private Solution() {
-        //Empty.
+        //Unused Contructor.
     }
     /**
-     * {Main method}.
+     * {Client Program}.
      *
      * @param      args  The arguments
      */
