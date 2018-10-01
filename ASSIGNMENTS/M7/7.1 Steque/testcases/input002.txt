@@ -1,0 +1,44 @@
+4
+pop
+pop
+
+push 1
+push 2
+push 3
+push 4
+pop
+pop
+pop
+pop
+enqueue 5
+enqueue 6
+enqueue 7
+enqueue 8
+pop
+pop
+
+enqueue 100
+enqueue 200
+enqueue 300
+enqueue 400
+enqueue 500
+enqueue 600
+enqueue 700
+enqueue 800
+push 900
+push 1000
+enqueue 1100
+enqueue 1200
+pop
+pop
+
+push 10
+enqueue 9
+push 8
+enqueue 7
+push 6
+enqueue 5
+push 4
+enqueue 3
+push 2
+enqueue 1
