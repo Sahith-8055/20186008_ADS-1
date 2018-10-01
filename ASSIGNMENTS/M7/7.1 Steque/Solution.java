@@ -1,23 +1,62 @@
 import java.util.Scanner;
+/**
+ * Class for steque.
+ */
 class Steque {
+    /**
+     * {Variable head of type node}.
+     */
     private Node head;
+    /**
+     * {Variable tail of type node}.
+     */
     private Node tail;
+    /**
+     * {Variable size of type integer}.
+     */
     private int size;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * {Variable item of type integer}.
+         */
         int item;
+        /**
+         * {Variable next of type node}.
+         */
         Node next;
     }
+    /**
+     * Constructs the object.
+     */
     Steque() {
         this.head = null;
         this.tail = null;
         this.size = 0;
     }
+    /**
+     * Method to determine if the steque is empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return (head == null || tail == null);
     }
+    /**
+     * Method to get the size.
+     *
+     * @return     The size.
+     */
     public int getSize() {
         return this.size;
     }
+    /**
+     * {Method to push an element into the steque}.
+     *
+     * @param      num1  The number1
+     */
     public void push(final int num1) {
         if (head == null) {
             head = new Node();
@@ -32,6 +71,11 @@ class Steque {
         }
         size++;
     }
+    /**
+     * {Method to pop an element into the steque}.
+     *
+     * @return     {Integer value}
+     */
     public int pop() {
         if (head != null) {
             int value = head.item;
@@ -41,6 +85,11 @@ class Steque {
         }
         return 0;
     }
+    /**
+     * {Method to enqueue a value into the steque}.
+     *
+     * @param      num2  The number 2
+     */
     public void enqueue(final int num2) {
         if (tail == null || head == null) {
             tail = new Node();
@@ -56,6 +105,9 @@ class Steque {
         }
         size++;
     }
+    /**
+     * {Method to display the steque}.
+     */
     public void display() {
         if (size != 0) {
             String str = "";
@@ -70,10 +122,21 @@ class Steque {
         }
     }
 }
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Empty.
     }
+    /**
+     * {Main method}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
