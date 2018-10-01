@@ -22,11 +22,11 @@ class Steque {
         /**
          * {Variable item of type integer}.
          */
-        int item;
+        private int item;
         /**
          * {Variable next of type node}.
          */
-        Node next;
+        private Node next;
     }
     /**
      * Constructs the object.
@@ -140,7 +140,7 @@ public final class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
-        if (n >= 1 && n <= 5) {
+        if (n >= 1 && n <= 2 + 2 + 1) {
             for (int i = 1; i < n + 1; i++) {
                 Steque sq = new Steque();
                 while (scan.hasNext()) {
