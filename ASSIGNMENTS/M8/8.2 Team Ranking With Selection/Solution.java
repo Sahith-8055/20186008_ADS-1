@@ -92,7 +92,7 @@ class InsertionSort {
             while (j >= 0 && count == -1) {
                 championsTrophy[j + 1] = championsTrophy[j];
                 j = j - 1;
-                if (j > 0) {
+                if (j >= 0) {
                     count = tour.compareTo(championsTrophy[j]);
                 }
             }
