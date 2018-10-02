@@ -87,12 +87,12 @@ class InsertionSort {
         for (int i = 1; i < size; i++) {
             Tournament tour = championsTrophy[i];
             int j = i - 1;
-            int count = championsTrophy[i].compareTo(championsTrophy[j]);
+            int count = tour.compareTo(championsTrophy[j]);
             while (j >= 0 && count == -1) {
                 championsTrophy[j + 1] = championsTrophy[j];
-                j--;
+                j = j - 1;
                 if (j > 0) {
-                    count = championsTrophy[i].compareTo(championsTrophy[j]);
+                    count = tour.compareTo(championsTrophy[j]);
                 }
             }
             championsTrophy[j + 1] = tour;
