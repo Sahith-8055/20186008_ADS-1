@@ -155,7 +155,7 @@ class InsertionSort {
      */
     InsertionSort() {
         final int x = 10;
-        this.championsTrophy = new Tournament[10];
+        this.championsTrophy = new Tournament[x];
         this.size = 0;
     }
     /**
@@ -163,7 +163,8 @@ class InsertionSort {
      * Time complexity of this method is 1.
      */
     public void resize() {
-        championsTrophy = Arrays.copyOf(championsTrophy, 2 * championsTrophy.length);
+        championsTrophy = Arrays.copyOf(
+            championsTrophy, 2 * championsTrophy.length);
     }
     /**
      * Method to get the number of teams in tournament.
@@ -241,7 +242,7 @@ public final class Solution {
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             tourn.add(new Tournament(tokens[0], Integer.parseInt(tokens[1]),
-                Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
+                Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1])));
         }
         tourn.sort();
         System.out.println(tourn);
