@@ -95,7 +95,7 @@ class InsertionSort {
                     count = championsTrophy[i].compareTo(championsTrophy[j]);
                 }
             }
-            championsTrophy[j++] = tour;
+            championsTrophy[j + 1] = tour;
         }
     }
     public void print() {
