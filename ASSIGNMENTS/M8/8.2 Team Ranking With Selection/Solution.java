@@ -204,7 +204,7 @@ class SelectionSort {
     }
     /**
      * {Method to swap two elements}.
-     * Time complexity of this method is 1.
+     * Time complexity of this method is N.
      * @param      b     {Object of tournament}
      * @param      k     {1st array index}
      * @param      l     {2nd array index}
