@@ -38,7 +38,8 @@ class Tournament implements Comparable<Tournament> {
      * @param      loss  The loss
      * @param      draw  The draw
      */
-    Tournament(final String name, final int win, final int loss, final int draw) {
+    Tournament(
+        final String name, final int win, final int loss, final int draw) {
         this.teamName = name;
         this.wins = win;
         this.losses = loss;
