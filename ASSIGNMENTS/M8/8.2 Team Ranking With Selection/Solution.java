@@ -191,19 +191,20 @@ class InsertionSort {
      * Time complexity of Insertion sort is N^2.
      */
     public void sort() {
-        for (int i = 1; i < size; i++) {
-            Tournament tour = championsTrophy[i];
-            int j = i - 1;
-            int count = tour.compareTo(championsTrophy[j]);
-            while (j >= 0 && count == -1) {
-                championsTrophy[j + 1] = championsTrophy[j];
-                j = j - 1;
-                if (j >= 0) {
-                    count = tour.compareTo(championsTrophy[j]);
-                }
-            }
-            championsTrophy[j + 1] = tour;
-        }
+    	for (int i = 0; i < size; i++) {
+    		int min = i;
+    		for (int j = i + 1; j < size; j++) {
+    			if (championsTrophy[j].compareTo(championsTrophy[min]) == -1) {
+    				min = j;
+    			}
+    		}
+    		exch(championsTrophy, i, min);
+    	}
+    }
+    public void exch(Tournament[] b, int k, int l) {
+    	Tournament temporary = championsTrophy[k];
+    	championsTrophy[k] = championsTrophy[l];
+    	championsTrophy[l] = temporary;
     }
     /**
      * Returns a string representation of the object.
