@@ -1,0 +1,1 @@
+When all the keys are identical,then basic insertion sort runs faster because in insertion sort we have the break statement whenever the if-condition doesn't satisfy, then we come out of the loop whereas in case of selection sort, we keep on performing the for-loop even when all the keys are identical.

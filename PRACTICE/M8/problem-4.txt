@@ -1,0 +1,1 @@
+Basic Selection Sort runs faster than the basic insertion sort in case of array being in reverse order because in selection sort we have N exchanges whereas in insertion sort we have (N^2)/4 exchanges.
