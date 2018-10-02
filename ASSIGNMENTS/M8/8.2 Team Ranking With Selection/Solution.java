@@ -141,7 +141,7 @@ class Tournament implements Comparable<Tournament> {
 /**
  * Class for insertion sort.
  */
-class InsertionSort {
+class SelectionSort {
     /**
      * {Array of tournaments champions trophy}.
      */
@@ -154,7 +154,7 @@ class InsertionSort {
      * Constructs the object.
      * Time complexity of this constructor is 1.
      */
-    InsertionSort() {
+    SelectionSort() {
         final int x = 10;
         this.championsTrophy = new Tournament[x];
         this.size = 0;
@@ -187,7 +187,7 @@ class InsertionSort {
         championsTrophy[size++] = t;
     }
     /**
-     * {Method of Insertion sort}.
+     * {Method of Selection sort}.
      * Time complexity of Insertion sort is N^2.
      */
     public void sort() {
@@ -202,7 +202,14 @@ class InsertionSort {
             exch(championsTrophy, i, min);
         }
     }
-    public void exch(Tournament[] b, int k, int l) {
+    /**
+     * {Method to swap two elements}.
+     * Time complexity of this method is 1.
+     * @param      b     {Object of tournament}
+     * @param      k     {1st array index}
+     * @param      l     {2nd array index}
+     */
+    public void exch(final Tournament[] b, final int k, final int l) {
         Tournament temporary = championsTrophy[k];
         championsTrophy[k] = championsTrophy[l];
         championsTrophy[l] = temporary;
@@ -241,7 +248,7 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        InsertionSort tourn = new InsertionSort();
+        SelectionSort tourn = new SelectionSort();
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             tourn.add(new Tournament(tokens[0], Integer.parseInt(tokens[1]),
