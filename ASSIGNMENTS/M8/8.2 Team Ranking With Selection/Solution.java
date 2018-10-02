@@ -98,12 +98,15 @@ class InsertionSort {
             championsTrophy[j + 1] = tour;
         }
     }
-    public void print() {
+    @Override
+    public String toString() {
         int k = 0;
+        String str = "";
         for (k = 0; k < size - 1; k++) {
-            System.out.print(championsTrophy[k].getName() + ",");
+            str += championsTrophy[k].getName() + ",";
         }
-        System.out.println(championsTrophy[k].getName());
+        str += championsTrophy[k].getName();
+        return str;
     }
 }
 public class Solution {
@@ -119,6 +122,6 @@ public class Solution {
                 Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3])));
         }
         tourn.sort();
-        tourn.print();
+        System.out.println(tourn);
     }
 }
