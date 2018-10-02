@@ -1,0 +1,7 @@
+England,4,2,3
+India,2,2,4
+Australia,6,2,3
+SouthAfrica,5,3,4
+Bangladesh,3,4,2
+Zimbabwe,6,4,6
+Ireland,4,4,1

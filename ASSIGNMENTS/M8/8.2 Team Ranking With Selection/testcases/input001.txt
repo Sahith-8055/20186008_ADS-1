@@ -1,0 +1,4 @@
+SouthAfrica,5,3,4
+Bangladesh,3,2,2
+Zimbabwe,5,3,6
+Ireland,3,4,1
