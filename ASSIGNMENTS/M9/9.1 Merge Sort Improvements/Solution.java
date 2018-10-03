@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for merge.
  */
@@ -10,15 +9,16 @@ class Merge {
         //Unused Constructor.
     }
     /**
-     * { function_description }.
+     * {Method to merge two arrays}.
      *
      * @param      array  The array
      * @param      aux    The auxiliary
-     * @param      lo     The lower
-     * @param      mid    The middle
-     * @param      hi     The higher
+     * @param      lo     The lower value
+     * @param      mid    The middle value
+     * @param      hi     The higher value
      */
-    public void merge(Comparable[] array, Comparable[] aux, int lo, int mid, int hi) {
+    public void merge(final Comparable[] array, final Comparable[] aux,
+        final int lo, final int mid, int hi) {
         assert isSorted(array, lo, mid);
         assert isSorted(array, mid + 1, hi);
         int i = lo;
@@ -37,14 +37,15 @@ class Merge {
         assert isSorted(aux, lo, hi);
     }
     /**
-     * { function_description }.
+     * {Method for sorting}.
      *
      * @param      array  The array
-     * @param      aux    The auxiliary
-     * @param      lo     The lower
-     * @param      hi     The higher
+     * @param      aux    The auxiliary array
+     * @param      lo     The lower value
+     * @param      hi     The higher value
      */
-    public void sort(Comparable[] array, Comparable[] aux, int lo, int hi) {
+    public void sort(final Comparable[] array, final Comparable[] aux,
+        final int lo, final int hi) {
         if (hi <= lo + CUTOFF) {
             insertionSort(aux, lo, hi);
             System.out.println("Insertion sort method invoked...");
@@ -57,7 +58,8 @@ class Merge {
             for (int i = lo; i <= hi; i++) {
                 aux[i] = array[i];
             }
-            System.out.println("Array is already sorted. So, skipped the call to merge...");
+            System.out.println(
+                "Array is already sorted. So, skipped the call to merge...");
             return;
         }
         merge(array, aux, lo, mid, hi);
@@ -65,21 +67,21 @@ class Merge {
     /**
      * Rearranges the array in ascending order, using the natural order.
      *
-     * @param      a     { parameter_description }.
+     * @param      a     {Comparable array}.
      */
-    public void sort(Comparable[] a) {
+    public void sort(final Comparable[] a) {
         Comparable[] aux = a.clone();
         sort(aux, a, 0, a.length - 1);
         assert isSorted(a);
     }
     /**
-     * { function_description }.
-     * sort from a[lo] to a[hi] using insertion sort
-     * @param      a     { parameter_description }.
-     * @param      lo    The lower
-     * @param      hi    The higher
+     * {Method for insertion sort}.
+     * sort from a[lo] to a[hi].
+     * @param      a     {Comparable array}.
+     * @param      lo    The lower value
+     * @param      hi    The higher value
      */
-    public void insertionSort(Comparable[] a, int lo, int hi) {
+    public void insertionSort(final Comparable[] a, final int lo, final int hi) {
         for (int i = lo; i <= hi; i++) {
             for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
                 exch(a, j, j - 1);
@@ -87,48 +89,49 @@ class Merge {
         }
     }
     /**
-     * { function_description }.
+     * {Method to exchange two elements in the array}.
      *
-     * @param      a     { parameter_description }
-     * @param      i     { parameter_description }
-     * @param      j     { parameter_description }
+     * @param      a     {Array of object}
+     * @param      i     {Integer i}
+     * @param      j     {Integer j}
      */
-    public void exch(Object[] a, int i, int j) {
+    public void exch(final Object[] a, final int i, final int j) {
         Object swap = a[i];
         a[i] = a[j];
         a[j] = swap;
     }
     /**
-     * { function_description }.
+     * {Method to check which one is smaller of the two}.
      *
-     * @param      a     { parameter_description }.
-     * @param      b     { parameter_description }.
+     * @param      a     {Comparable}.
+     * @param      b     {Comparable}.
      *
-     * @return     { description_of_the_return_value }.
+     * @return     {Boolean value}.
      */
-    public boolean less(Comparable a, Comparable b) {
+    public boolean less(final Comparable a, final Comparable b) {
         return a.compareTo(b) < 0;
     }
     /**
-     * Determines if sorted.
+     * Method to determine if the array is sorted (or) not.
      *
-     * @param      a     { parameter_description }
+     * @param      a     {Comparable array}
      *
      * @return     True if sorted, False otherwise.
      */
-    public boolean isSorted(Comparable[] a) {
+    public boolean isSorted(final Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
     }
     /**
-     * Determines if sorted.
+     * Method to determine if the array is sorted (or) not.
      *
-     * @param      a     { parameter_description }
+     * @param      a     {Comparable array}
      * @param      lo    The lower
      * @param      hi    The higher
      *
      * @return     True if sorted, False otherwise.
      */
-    public boolean isSorted(Comparable[] a, int lo, int hi) {
+    public boolean isSorted(final Comparable[] a,
+        final int lo, final int hi) {
         for (int i = lo + 1; i <= hi; i++) {
             if (less(a[i], a[i - 1])) {
                 return false;
@@ -156,7 +159,7 @@ class Merge {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
