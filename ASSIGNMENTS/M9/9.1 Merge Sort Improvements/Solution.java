@@ -9,13 +9,14 @@ class Merge {
     private final int x = 7;
     /**
      * Constructs the object.
+     * Time complexity of this method is O(1).
      */
     Merge() {
         //Unused Constructor.
     }
     /**
      * {Method to merge two arrays}.
-     *
+     * Time complexity of this method is O(N).
      * @param      array  The array
      * @param      aux    The auxiliary
      * @param      lo     The lower value
@@ -43,7 +44,7 @@ class Merge {
     }
     /**
      * {Method for sorting}.
-     *
+     * Time complexity of sorting is O(log(N)).
      * @param      array  The array
      * @param      aux    The auxiliary array
      * @param      lo     The lower value
@@ -71,7 +72,7 @@ class Merge {
     }
     /**
      * Rearranges the array in ascending order, using the natural order.
-     *
+     * Time complexity of this method is O(N).
      * @param      a     {Comparable array}.
      */
     public void sort(final Comparable[] a) {
@@ -82,6 +83,7 @@ class Merge {
     /**
      * {Method for insertion sort}.
      * sort from a[lo] to a[hi].
+     * Time complexity of insertion sort is O(N^2/2).
      * @param      a     {Comparable array}.
      * @param      lo    The lower value
      * @param      hi    The higher value
@@ -96,7 +98,7 @@ class Merge {
     }
     /**
      * {Method to exchange two elements in the array}.
-     *
+     * Time complexity of this method is O(N).
      * @param      a     {Array of object}
      * @param      i     {Integer i}
      * @param      j     {Integer j}
@@ -109,7 +111,7 @@ class Merge {
     }
     /**
      * {Method to check which one is smaller of the two}.
-     *
+     * Time complextiy of this method is O(1).
      * @param      a     {Comparable}.
      * @param      b     {Comparable}.
      *
@@ -120,7 +122,7 @@ class Merge {
     }
     /**
      * Method to determine if the array is sorted (or) not.
-     *
+     * Time complexity of this method is O(1).
      * @param      a     {Comparable array}
      *
      * @return     True if sorted, False otherwise.
@@ -130,7 +132,7 @@ class Merge {
     }
     /**
      * Method to determine if the array is sorted (or) not.
-     *
+     * Time complexity of this method is O(N).
      * @param      a     {Comparable array}
      * @param      lo    The lower
      * @param      hi    The higher
@@ -148,7 +150,7 @@ class Merge {
     }
     /**
      * {Method to print the values of the Comparable array}.
-     *
+     * Time complexity of this method is O(N).
      * @param      a     {Name of object array}
      *
      * @return     {String}
@@ -169,6 +171,7 @@ class Merge {
 public final class Solution {
     /**
      * Constructs the object.
+     * Time complexity of this method is O(1).
      */
     private Solution() {
         //Unused Constructor.
