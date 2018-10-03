@@ -1,25 +1,13 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for merge x.
+ */
 class MergeX {
     // cutoff to insertion sort
     private final int CUTOFF = 7;
-    private int[] array1;
-    private int size;
     MergeX() {
-        this.array1 = new int[1];
-        this.size = 0;
-    }
-    public int getSize() {
-        return this.size;
-    }
-    private void resize() {
-        array1 = Arrays.copyOf(array1, 2 * array1.length);
-    }
-    public void add(final int item) {
-        if (size == array1.length) {
-            resize();
-        }
-        array1[size++] = item;
+        //Unused Constructor.
     }
     public void merge(Comparable[] array, Comparable[] aux, int lo, int mid, int hi) {
         assert isSorted(array, lo, mid);
