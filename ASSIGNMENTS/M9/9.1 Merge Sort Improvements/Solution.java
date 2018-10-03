@@ -1,14 +1,23 @@
 import java.util.Scanner;
 import java.util.Arrays;
 /**
- * Class for merge x.
+ * Class for merge.
  */
-class MergeX {
+class Merge {
     // cutoff to insertion sort
     private final int CUTOFF = 7;
-    MergeX() {
+    Merge() {
         //Unused Constructor.
     }
+    /**
+     * { function_description }.
+     *
+     * @param      array  The array
+     * @param      aux    The auxiliary
+     * @param      lo     The lower
+     * @param      mid    The middle
+     * @param      hi     The higher
+     */
     public void merge(Comparable[] array, Comparable[] aux, int lo, int mid, int hi) {
         assert isSorted(array, lo, mid);
         assert isSorted(array, mid + 1, hi);
@@ -27,6 +36,14 @@ class MergeX {
         }
         assert isSorted(aux, lo, hi);
     }
+    /**
+     * { function_description }.
+     *
+     * @param      array  The array
+     * @param      aux    The auxiliary
+     * @param      lo     The lower
+     * @param      hi     The higher
+     */
     public void sort(Comparable[] array, Comparable[] aux, int lo, int hi) {
         if (hi <= lo + CUTOFF) {
             insertionSort(aux, lo, hi);
@@ -47,13 +64,21 @@ class MergeX {
     }
     /**
      * Rearranges the array in ascending order, using the natural order.
+     *
+     * @param      a     { parameter_description }.
      */
     public void sort(Comparable[] a) {
         Comparable[] aux = a.clone();
         sort(aux, a, 0, a.length - 1);
         assert isSorted(a);
     }
-    // sort from a[lo] to a[hi] using insertion sort
+    /**
+     * { function_description }.
+     * sort from a[lo] to a[hi] using insertion sort
+     * @param      a     { parameter_description }.
+     * @param      lo    The lower
+     * @param      hi    The higher
+     */
     public void insertionSort(Comparable[] a, int lo, int hi) {
         for (int i = lo; i <= hi; i++) {
             for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
@@ -61,17 +86,48 @@ class MergeX {
             }
         }
     }
+    /**
+     * { function_description }.
+     *
+     * @param      a     { parameter_description }
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     */
     public void exch(Object[] a, int i, int j) {
         Object swap = a[i];
         a[i] = a[j];
         a[j] = swap;
     }
+    /**
+     * { function_description }.
+     *
+     * @param      a     { parameter_description }.
+     * @param      b     { parameter_description }.
+     *
+     * @return     { description_of_the_return_value }.
+     */
     public boolean less(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
     }
+    /**
+     * Determines if sorted.
+     *
+     * @param      a     { parameter_description }
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
     }
+    /**
+     * Determines if sorted.
+     *
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      hi    The higher
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(Comparable[] a, int lo, int hi) {
         for (int i = lo + 1; i <= hi; i++) {
             if (less(a[i], a[i - 1])) {
@@ -80,8 +136,14 @@ class MergeX {
         }
         return true;
     }
-    // print array to standard output
-    public Object show(Object[] a) {
+    /**
+     * {Method to print the values of the object array}.
+     *
+     * @param      a     {Name of object array}
+     *
+     * @return     {String}
+     */
+    public String show(Object[] a) {
         String str = "[";
         int i;
         for (i = 0; i < a.length - 1; i++) {
@@ -91,17 +153,28 @@ class MergeX {
         return str;
     }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Unused Constructor.
     }
+    /**
+     * {Client Program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        MergeX mx = new MergeX();
+        Merge m = new Merge();
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
-            mx.sort(tokens);
-            System.out.println(mx.show(tokens));
+            m.sort(tokens);
+            System.out.println(m.show(tokens));
             System.out.println();
         }
     }
