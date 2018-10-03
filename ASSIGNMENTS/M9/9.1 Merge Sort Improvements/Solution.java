@@ -153,7 +153,7 @@ class Merge {
      *
      * @return     {String}
      */
-    public String show(final Object[] a) {
+    public String show(final Comparable[] a) {
         String str = "[";
         int i;
         for (i = 0; i < a.length - 1; i++) {
