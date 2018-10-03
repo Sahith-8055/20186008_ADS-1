@@ -3,8 +3,13 @@ import java.util.Scanner;
  * Class for merge.
  */
 class Merge {
-    // cutoff to insertion sort
-    private final int CUTOFF = 7;
+    /**
+     * cutoff to insertion sort.
+     */
+    private final int x = 7;
+    /**
+     * Constructs the object.
+     */
     Merge() {
         //Unused Constructor.
     }
@@ -18,7 +23,7 @@ class Merge {
      * @param      hi     The higher value
      */
     public void merge(final Comparable[] array, final Comparable[] aux,
-        final int lo, final int mid, int hi) {
+        final int lo, final int mid, final int hi) {
         assert isSorted(array, lo, mid);
         assert isSorted(array, mid + 1, hi);
         int i = lo;
@@ -46,7 +51,7 @@ class Merge {
      */
     public void sort(final Comparable[] array, final Comparable[] aux,
         final int lo, final int hi) {
-        if (hi <= lo + CUTOFF) {
+        if (hi <= lo + x) {
             insertionSort(aux, lo, hi);
             System.out.println("Insertion sort method invoked...");
             return;
@@ -81,7 +86,8 @@ class Merge {
      * @param      lo    The lower value
      * @param      hi    The higher value
      */
-    public void insertionSort(final Comparable[] a, final int lo, final int hi) {
+    public void insertionSort(final Comparable[] a,
+        final int lo, final int hi) {
         for (int i = lo; i <= hi; i++) {
             for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
                 exch(a, j, j - 1);
@@ -95,7 +101,8 @@ class Merge {
      * @param      i     {Integer i}
      * @param      j     {Integer j}
      */
-    public void exch(final Object[] a, final int i, final int j) {
+    public void exch(final Object[] a,
+        final int i, final int j) {
         Object swap = a[i];
         a[i] = a[j];
         a[j] = swap;
@@ -171,7 +178,7 @@ public final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         Merge m = new Merge();
         while (scan.hasNext()) {
