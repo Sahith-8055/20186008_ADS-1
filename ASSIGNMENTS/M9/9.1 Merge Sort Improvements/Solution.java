@@ -101,9 +101,9 @@ class Merge {
      * @param      i     {Integer i}
      * @param      j     {Integer j}
      */
-    public void exch(final Object[] a,
+    public void exch(final Comparable[] a,
         final int i, final int j) {
-        Object swap = a[i];
+        Comparable swap = a[i];
         a[i] = a[j];
         a[j] = swap;
     }
@@ -147,7 +147,7 @@ class Merge {
         return true;
     }
     /**
-     * {Method to print the values of the object array}.
+     * {Method to print the values of the Comparable array}.
      *
      * @param      a     {Name of object array}
      *
