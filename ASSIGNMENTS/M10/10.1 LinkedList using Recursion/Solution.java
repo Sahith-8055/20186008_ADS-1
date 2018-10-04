@@ -10,7 +10,7 @@ class LinkedList {
         }
     }
     LinkedList() {
-        this.head = null;
+        //Empty.
     }
     public Node insert(final Node head, final int count, final int element) {
         if (count == 0) {
