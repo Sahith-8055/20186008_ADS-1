@@ -8,9 +8,6 @@ class LinkedList {
             this.item = i;
             this.next = n;
         }
-        public String toString() {
-            return this.item + "";
-        }
     }
     LinkedList() {
         this.head = null;
@@ -37,7 +34,7 @@ class LinkedList {
     public void reverse() {
         head = Reverse(head);
     }
-    public String toString() {
+    public String display() {
         StringBuffer sb = new StringBuffer("");
         Node old = head;
         while (old != null) {
@@ -60,11 +57,11 @@ public class Solution {
             case "insertAt":
                 ll.insertAt(
                     Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
-                System.out.println(ll);
+                System.out.println(ll.display());
                 break;
             case "reverse":
                 ll.reverse();
-                System.out.println(ll);
+                System.out.println(ll.display());
                 break;
             default:
                 break;
