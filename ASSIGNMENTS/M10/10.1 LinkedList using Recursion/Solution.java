@@ -9,7 +9,7 @@ class LinkedList {
             this.next = n;
         }
         public String toString() {
-            return this.item + ",";
+            return this.item + "";
         }
     }
     LinkedList() {
