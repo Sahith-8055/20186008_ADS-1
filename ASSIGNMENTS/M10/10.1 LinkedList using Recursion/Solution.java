@@ -52,7 +52,7 @@ class LinkedList {
     /**
      * {Method to insert an element}.
      * Time complexity of this method is O(N).
-     * @param      head     The head
+     * @param      node1     The node1
      * @param      count    The count
      * @param      element  The element
      *
