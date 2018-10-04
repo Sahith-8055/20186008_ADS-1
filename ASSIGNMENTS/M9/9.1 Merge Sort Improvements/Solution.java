@@ -78,7 +78,7 @@ class Merge {
     public void sort(final Comparable[] a) {
         Comparable[] aux = a.clone();
         sort(aux, a, 0, a.length - 1);
-        assert isSorted(a);
+        // assert isSorted(a);
     }
     /**
      * {Method for insertion sort}.
