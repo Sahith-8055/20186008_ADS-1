@@ -5,10 +5,10 @@ Expected Output:
 7, 6, 5
 5, 6, 7
 Your Output: 
-LinkedList$Node@6aaa5eb
-LinkedList$Node@3498ed,LinkedList$Node@6aaa5eb
-LinkedList$Node@3498ed,LinkedList$Node@1a407d53,LinkedList$Node@6aaa5eb
-LinkedList$Node@6aaa5eb0,LinkedList$Node@1a407d53,LinkedList$Node@3498e
+5
+7,,5
+7,,6,,5
+5,,6,,7
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -26,17 +26,17 @@ Can't insert at this position.
 75, 71, 5, 9, 27, 32, 66, 17, 7
 7, 17, 66, 32, 27, 9, 5, 71, 75
 Your Output: 
-LinkedList$Node@6aaa5eb
-LinkedList$Node@3498ed,LinkedList$Node@6aaa5eb
-LinkedList$Node@3498ed,LinkedList$Node@1a407d53,LinkedList$Node@6aaa5eb
-LinkedList$Node@6aaa5eb0,LinkedList$Node@1a407d53,LinkedList$Node@3498e
+5
+7,,5
+7,,9,,5
+5,,9,,7
 Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insertAt(Solution.java:23)
-	at Solution.main(Solution.java:58)
+	at LinkedList.insert(Solution.java:22)
+	at LinkedList.insert(Solution.java:22)
+	at LinkedList.insert(Solution.java:22)
+	at LinkedList.insert(Solution.java:22)
+	at LinkedList.insertAt(Solution.java:26)
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -45,8 +45,8 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -2, length 0
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3107)
 	at java.base/java.lang.String.substring(String.java:1873)
-	at LinkedList.toString(Solution.java:44)
+	at LinkedList.toString(Solution.java:47)
 	at java.base/java.lang.String.valueOf(String.java:2788)
 	at java.base/java.io.PrintStream.println(PrintStream.java:897)
-	at Solution.main(Solution.java:64)
+	at Solution.main(Solution.java:67)
 ----------------------------------------

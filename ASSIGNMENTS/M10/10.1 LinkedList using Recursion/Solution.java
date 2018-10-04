@@ -8,6 +8,9 @@ class LinkedList {
             this.item = i;
             this.next = n;
         }
+        public String toString() {
+            return this.item + ",";
+        }
     }
     LinkedList() {
         this.head = null;
