@@ -82,14 +82,14 @@ class LinkedList {
      *
      * @return     {Node}
      */
-    public Node reverse(final Node head) {
-        if (head == null || head.next == null) {
-            return head;
+    public Node reverse(final Node node) {
+        if  (node == null || node.next == null) {
+            return node;
         }
-        Node nextHead = reverse(head.next);
-        head.next.next = head;
-        head.next = null;
-        return nextHead;
+        Node nextold = reverse(node.next);
+        node.next.next = node;
+        node.next = null;
+        return nextold;
     }
     /**
      * {Method to reverse a given linked list}.
