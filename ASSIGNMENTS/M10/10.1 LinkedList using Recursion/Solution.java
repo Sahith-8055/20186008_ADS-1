@@ -2,8 +2,8 @@ import java.util.Scanner;
 class LinkedList {
     private Node head;
     private class Node {
-        int item;
-        Node next;
+        private int item;
+        private Node next;
         Node(final int i, final Node n) {
             this.item = i;
             this.next = n;
@@ -35,13 +35,13 @@ class LinkedList {
         head = Reverse(head);
     }
     public String display() {
-        StringBuffer sb = new StringBuffer("");
         Node old = head;
+        String str = "";
         while (old != null) {
-            sb.append(old + ",");
+            str += old.item + ",";
             old = old.next;
         }
-        return sb.toString().substring(0, sb.length() - 2);
+        return str.substring(0, str.length() - 2);
     }
 }
 public class Solution {
