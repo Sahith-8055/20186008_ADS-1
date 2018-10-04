@@ -38,7 +38,7 @@ class LinkedList {
         Node old = head;
         String str = "";
         while (old != null) {
-            str += old.item + ",";
+            str += old.item + ", ";
             old = old.next;
         }
         return str.substring(0, str.length() - 2);
