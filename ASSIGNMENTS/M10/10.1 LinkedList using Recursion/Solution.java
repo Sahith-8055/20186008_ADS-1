@@ -73,7 +73,7 @@ public class Solution {
             case "reverse":
                 if (ll.getSize() == 0) {
                     System.out.println("No elements to reverse.");
-                    break;
+                    return;
                 }
                 ll.reverse();
                 System.out.println(ll.display());
