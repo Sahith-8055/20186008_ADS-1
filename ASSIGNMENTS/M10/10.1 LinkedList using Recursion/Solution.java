@@ -20,7 +20,11 @@ class LinkedList {
         return head;
     }
     public void insertAt(final int pos, final int item1) {
-        head = insert(head, pos, item1);
+        try {
+            head = insert(head, pos, item1);
+        } catch (Exception e) {
+            System.out.println("Can't insert at this position.");
+        }
     }
     public Node Reverse(Node head) {
         if (head == null || head.next == null) {

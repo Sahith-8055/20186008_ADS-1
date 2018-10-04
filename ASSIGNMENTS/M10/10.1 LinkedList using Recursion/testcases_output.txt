@@ -30,14 +30,17 @@ Your Output:
 7, 5
 7, 9, 5
 5, 9, 7
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList$Node.access$000(Solution.java:4)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insert(Solution.java:19)
-	at LinkedList.insertAt(Solution.java:23)
-	at Solution.main(Solution.java:58)
+Can't insert at this position.
+5, 9, 7
+Can't insert at this position.
+5, 9, 7
+5, 9, 17, 7
+5, 9, 27, 17, 7
+71, 5, 9, 27, 17, 7
+75, 71, 5, 9, 27, 17, 7
+75, 71, 5, 9, 27, 66, 17, 7
+75, 71, 5, 9, 27, 32, 66, 17, 7
+7, 17, 66, 32, 27, 9, 5, 71, 75
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -46,6 +49,6 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -2, length 0
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3107)
 	at java.base/java.lang.String.substring(String.java:1873)
-	at LinkedList.display(Solution.java:44)
-	at Solution.main(Solution.java:64)
+	at LinkedList.display(Solution.java:48)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
