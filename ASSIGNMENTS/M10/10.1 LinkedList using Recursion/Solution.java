@@ -25,7 +25,7 @@ class LinkedList {
         return head;
     }
     public void insertAt(final int pos, final int item1) {
-            head = insert(head, pos, item1);
+        head = insert(head, pos, item1);
     }
     public Node Reverse(Node head) {
         if (head == null || head.next == null) {
@@ -60,17 +60,21 @@ public class Solution {
             String[] tokens = scan.nextLine().split(" ");
             switch (tokens[0]) {
             case "insertAt":
-            if (Integer.parseInt(tokens[1]) < 0) {
-                System.out.println("Can't insert at this position.");
-            } else if (Integer.parseInt(tokens[1]) > ll.getSize() + 1) {
-                System.out.println("Can't insert at this position.");
-            } else {
-                ll.insertAt(
-                    Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
-                System.out.println(ll.display());
-            }
+                if (Integer.parseInt(tokens[1]) < 0) {
+                    System.out.println("Can't insert at this position.");
+                } else if (Integer.parseInt(tokens[1]) > ll.getSize() + 1) {
+                    System.out.println("Can't insert at this position.");
+                } else {
+                    ll.insertAt(
+                        Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
+                    System.out.println(ll.display());
+                }
                 break;
             case "reverse":
+                if (ll.getSize() == 0) {
+                    System.out.println("No elements to reverse.");
+                    break;
+                }
                 ll.reverse();
                 System.out.println(ll.display());
                 break;

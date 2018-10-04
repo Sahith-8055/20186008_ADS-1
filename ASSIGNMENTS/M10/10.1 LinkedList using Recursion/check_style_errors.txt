@@ -22,5 +22,6 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:52: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:53:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:69: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 24 errors.
