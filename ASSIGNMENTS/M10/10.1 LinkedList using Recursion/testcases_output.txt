@@ -49,6 +49,6 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -2, length 0
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3107)
 	at java.base/java.lang.String.substring(String.java:1873)
-	at LinkedList.display(Solution.java:48)
-	at Solution.main(Solution.java:68)
+	at LinkedList.display(Solution.java:50)
+	at Solution.main(Solution.java:70)
 ----------------------------------------

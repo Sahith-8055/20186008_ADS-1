@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class LinkedList {
     private Node head;
+    private int size;
     private class Node {
         private int item;
         private Node next;
@@ -22,6 +23,7 @@ class LinkedList {
     public void insertAt(final int pos, final int item1) {
         try {
             head = insert(head, pos, item1);
+            size++;
         } catch (Exception e) {
             System.out.println("Can't insert at this position.");
         }
