@@ -11,22 +11,21 @@ class LinkedList {
         }
     }
     LinkedList() {
-        //Empty.
+        this.size = 0;
+    }
+    public int getSize() {
+        return this.size;
     }
     public Node insert(final Node head, final int count, final int element) {
         if (count == 0) {
             return new Node(element, head);
         }
         head.next = insert(head.next, count - 1, element);
+        size++;
         return head;
     }
     public void insertAt(final int pos, final int item1) {
-        try {
             head = insert(head, pos, item1);
-            size++;
-        } catch (Exception e) {
-            System.out.println("Can't insert at this position.");
-        }
     }
     public Node Reverse(Node head) {
         if (head == null || head.next == null) {
@@ -61,9 +60,15 @@ public class Solution {
             String[] tokens = scan.nextLine().split(" ");
             switch (tokens[0]) {
             case "insertAt":
+            if (Integer.parseInt(tokens[1]) < 0) {
+                System.out.println("Can't insert at this position.");
+            } else if (Integer.parseInt(tokens[1]) > ll.getSize() + 1) {
+                System.out.println("Can't insert at this position.");
+            } else {
                 ll.insertAt(
                     Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
                 System.out.println(ll.display());
+            }
                 break;
             case "reverse":
                 ll.reverse();

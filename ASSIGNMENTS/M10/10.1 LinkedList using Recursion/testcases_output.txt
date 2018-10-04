@@ -10,7 +10,7 @@ Your Output:
 7, 6, 5
 5, 6, 7
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 5
 7, 5
@@ -31,9 +31,7 @@ Your Output:
 7, 9, 5
 5, 9, 7
 Can't insert at this position.
-5, 9, 7
 Can't insert at this position.
-5, 9, 7
 5, 9, 17, 7
 5, 9, 27, 17, 7
 71, 5, 9, 27, 17, 7
@@ -49,6 +47,6 @@ Your Output:
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -2, length 0
 	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3107)
 	at java.base/java.lang.String.substring(String.java:1873)
-	at LinkedList.display(Solution.java:50)
-	at Solution.main(Solution.java:70)
+	at LinkedList.display(Solution.java:49)
+	at Solution.main(Solution.java:75)
 ----------------------------------------
