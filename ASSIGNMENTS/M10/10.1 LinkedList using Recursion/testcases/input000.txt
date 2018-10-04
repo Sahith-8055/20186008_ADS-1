@@ -1,0 +1,4 @@
+insertAt 0 5
+insertAt 0 7
+insertAt 1 6
+reverse

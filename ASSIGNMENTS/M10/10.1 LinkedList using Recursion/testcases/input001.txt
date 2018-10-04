@@ -1,0 +1,13 @@
+insertAt 0 5
+insertAt 0 7
+insertAt 1 9
+reverse
+insertAt 7 8
+insertAt -1 7
+insertAt 2 17
+insertAt 2 27
+insertAt 0 71
+insertAt 0 75
+insertAt 5 66
+insertAt 5 32
+reverse
