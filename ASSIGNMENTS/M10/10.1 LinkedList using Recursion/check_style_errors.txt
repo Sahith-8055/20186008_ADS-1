@@ -1,9 +1,5 @@
 Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:61:35: 'head' hides a field. [HiddenField]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:85:17: Name 'Reverse' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:85:25: Parameter head should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:85:30: 'head' hides a field. [HiddenField]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:119: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:144: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M10\10.1 LinkedList using Recursion\Solution.java:85:36: 'head' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 2 errors.

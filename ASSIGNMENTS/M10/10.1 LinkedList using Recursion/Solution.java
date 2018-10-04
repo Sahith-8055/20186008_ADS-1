@@ -82,11 +82,11 @@ class LinkedList {
      *
      * @return     {Node}
      */
-    public Node Reverse(Node head) {
+    public Node reverse(final Node head) {
         if (head == null || head.next == null) {
             return head;
         }
-        Node nextHead = Reverse(head.next);
+        Node nextHead = reverse(head.next);
         head.next.next = head;
         head.next = null;
         return nextHead;
@@ -96,7 +96,7 @@ class LinkedList {
      * Time complexity of this method is O(1).
      */
     public void reverse() {
-        head = Reverse(head);
+        head = reverse(head);
     }
     /**
      * {Method to display the elements}.
@@ -116,7 +116,7 @@ class LinkedList {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -140,8 +140,8 @@ public class Solution {
                 } else if (Integer.parseInt(tokens[1]) > ll.getSize() + 1) {
                     System.out.println("Can't insert at this position.");
                 } else {
-                    ll.insertAt(
-                        Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
+                    ll.insertAt(Integer.parseInt(tokens[1]),
+                        Integer.parseInt(tokens[2]));
                     System.out.println(ll.display());
                 }
                 break;
