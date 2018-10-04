@@ -58,13 +58,13 @@ class LinkedList {
      *
      * @return     {Node}
      */
-    public Node insert(final Node head, final int count, final int element) {
+    public Node insert(final Node node1, final int count, final int element) {
         if (count == 0) {
-            return new Node(element, head);
+            return new Node(element, node1);
         }
-        head.next = insert(head.next, count - 1, element);
+        node1.next = insert(node1.next, count - 1, element);
         size++;
-        return head;
+        return node1;
     }
     /**
      * {Method to insert at a particular position}.
@@ -78,7 +78,7 @@ class LinkedList {
     /**
      * {Method for reverse}.
      * Time complexity of this method is O(N).
-     * @param      head  The head
+     * @param      node  The node
      *
      * @return     {Node}
      */
