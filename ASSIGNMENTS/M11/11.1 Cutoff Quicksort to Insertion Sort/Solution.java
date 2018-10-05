@@ -24,7 +24,6 @@ class QuickSort {
             exch(a, i, j);
         }
         exch(a, lo, j);
-        System.out.println(a);
         return j;
     }
     public void sort(final Comparable[] a) {
@@ -41,6 +40,7 @@ class QuickSort {
             return;
         }
         int k = partition(a, lo, hi);
+        System.out.println(a);
         sort(a, lo, k - 1);
         sort(a, k + 1, hi);
     }
