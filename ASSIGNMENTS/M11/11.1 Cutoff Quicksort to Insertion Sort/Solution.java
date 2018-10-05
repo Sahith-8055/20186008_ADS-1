@@ -24,6 +24,7 @@ class QuickSort {
             exch(a, i, j);
         }
         exch(a, lo, j);
+        System.out.println(a);
         return j;
     }
     public void sort(final Comparable[] a) {
@@ -81,7 +82,6 @@ public class Solution {
             String[] tokens = scan.nextLine().split(" ");
             qs.sort(tokens);
             System.out.println(qs.show(tokens));
-            System.out.println();
         }
         n--;
     }
