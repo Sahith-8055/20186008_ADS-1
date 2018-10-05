@@ -1,0 +1,22 @@
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[dim, for, ilk, now, tip]
+insertionSort called
+[jot, nob, sky, sob, tag]
+[001, 100, 1, 010, 100, 110, 101]
+[001, 100, 1, 010, 100, 110, 101]
+insertionSort called
+[001, 010, 1, 100, 100, 110, 101]
+insertionSort called
+insertionSort called
+insertionSort called
+[001, 010, 1, 100, 100, 101, 110]
+[122, 112, 121, 123, 132, 133, 131]
+insertionSort called
+insertionSort called
+[112, 121, 122, 123, 131, 132, 133]

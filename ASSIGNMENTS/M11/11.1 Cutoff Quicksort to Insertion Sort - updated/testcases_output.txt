@@ -1,0 +1,218 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+[P, O, R, E, E, L, A, M, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+insertionSort called
+[A, L, M, E, E, O, P, R, S, X, T]
+[A, E, E, L, M, O, P, R, S, X, T]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, L, M, O, P, R, S, T, X]
+[E, A, E, Y, Q, U, S, S, T, I, O, N]
+insertionSort called
+[A, E, E, N, Q, U, S, S, T, I, O, Y]
+[A, E, E, I, N, U, S, S, T, Q, O, Y]
+insertionSort called
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, I, N, O, Q, S, S, T, U, Y]
+Your Output: 
+[P, O, R, E, E, L, A, M, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+insertionSort called
+[A, L, M, E, E, O, P, R, S, X, T]
+[A, E, E, L, M, O, P, R, S, X, T]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, L, M, O, P, R, S, T, X]
+[E, A, E, Y, Q, U, S, S, T, I, O, N]
+insertionSort called
+[A, E, E, N, Q, U, S, S, T, I, O, Y]
+[A, E, E, I, N, U, S, S, T, Q, O, Y]
+insertionSort called
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, I, N, O, Q, S, S, T, U, Y]
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+insertionSort called
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+insertionSort called
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+[11121.55, 12122.45, 12123.44, 13212.54]
+insertionSort called
+insertionSort called
+[11121.55, 12122.45, 12123.44, 13212.54]
+[egg, few, hut, men, jay]
+insertionSort called
+insertionSort called
+[egg, few, hut, jay, men]
+[gig, joy, owl, rap, wee]
+insertionSort called
+insertionSort called
+[gig, joy, owl, rap, wee]
+insertionSort called
+[fee, tap, tar, wad, was]
+insertionSort called
+[all, bad, dug, jam, yet]
+Your Output: 
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+insertionSort called
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+insertionSort called
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+[11121.55, 12122.45, 12123.44, 13212.54]
+insertionSort called
+insertionSort called
+[11121.55, 12122.45, 12123.44, 13212.54]
+[egg, few, hut, men, jay]
+insertionSort called
+insertionSort called
+[egg, few, hut, jay, men]
+[gig, joy, owl, rap, wee]
+insertionSort called
+insertionSort called
+[gig, joy, owl, rap, wee]
+insertionSort called
+[fee, tap, tar, wad, was]
+insertionSort called
+[all, bad, dug, jam, yet]
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[dim, for, ilk, now, tip]
+insertionSort called
+[jot, nob, sky, sob, tag]
+[001, 100, 1, 010, 100, 110, 101]
+[001, 100, 1, 010, 100, 110, 101]
+insertionSort called
+[001, 010, 1, 100, 100, 110, 101]
+insertionSort called
+insertionSort called
+insertionSort called
+[001, 010, 1, 100, 100, 101, 110]
+[122, 112, 121, 123, 132, 133, 131]
+insertionSort called
+insertionSort called
+[112, 121, 122, 123, 131, 132, 133]
+Your Output: 
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+insertionSort called
+[bed, bug, dad, yes, zoo]
+insertionSort called
+[dim, for, ilk, now, tip]
+insertionSort called
+[jot, nob, sky, sob, tag]
+[001, 100, 1, 010, 100, 110, 101]
+[001, 100, 1, 010, 100, 110, 101]
+insertionSort called
+[001, 010, 1, 100, 100, 110, 101]
+insertionSort called
+insertionSort called
+insertionSort called
+[001, 010, 1, 100, 100, 101, 110]
+[122, 112, 121, 123, 132, 133, 131]
+insertionSort called
+insertionSort called
+[112, 121, 122, 123, 131, 132, 133]
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+insertionSort called
+[1234567890]
+[]
+[-1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7]
+insertionSort called
+[-1, -5, -2, -7, -3, -6, -4, 1, 4, 5, 3, 6, 2, 7]
+[-1, -3, -2, -4, -5, -6, -7, 1, 4, 5, 3, 6, 2, 7]
+[-1, -2, -3, -4, -5, -6, -7, 1, 4, 5, 3, 6, 2, 7]
+insertionSort called
+insertionSort called
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 3, 2, 4, 6, 5, 7]
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
+Your Output: 
+insertionSort called
+[1234567890]
+[]
+[-1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7]
+insertionSort called
+[-1, -5, -2, -7, -3, -6, -4, 1, 4, 5, 3, 6, 2, 7]
+[-1, -3, -2, -4, -5, -6, -7, 1, 4, 5, 3, 6, 2, 7]
+[-1, -2, -3, -4, -5, -6, -7, 1, 4, 5, 3, 6, 2, 7]
+insertionSort called
+insertionSort called
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 3, 2, 4, 6, 5, 7]
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+insertionSort called
+[-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
+----------------------------------------

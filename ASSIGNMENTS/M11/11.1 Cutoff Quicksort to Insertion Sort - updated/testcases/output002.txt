@@ -1,0 +1,38 @@
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+insertionSort called
+insertionSort called
+[1, 2, 3, 4, 5, 6, 7]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+[-7, 8, 7, 6, 5, 4, -9, -8, 9]
+insertionSort called
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+[-7, -8, 7, 6, 5, 4, -9, 8, 9]
+insertionSort called
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+[-7, -8, -9, 6, 5, 4, 7, 8, 9]
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[-7, -8, -9, 4, 5, 6, 7, 8, 9]
+[11121.55, 12122.45, 12123.44, 13212.54]
+insertionSort called
+insertionSort called
+[11121.55, 12122.45, 12123.44, 13212.54]
+[egg, few, hut, men, jay]
+insertionSort called
+insertionSort called
+[egg, few, hut, jay, men]
+[gig, joy, owl, rap, wee]
+insertionSort called
+insertionSort called
+[gig, joy, owl, rap, wee]
+insertionSort called
+[fee, tap, tar, wad, was]
+insertionSort called
+[all, bad, dug, jam, yet]
