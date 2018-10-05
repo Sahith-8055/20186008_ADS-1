@@ -1,0 +1,24 @@
+[P, O, R, E, E, L, A, M, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+[A, O, M, E, E, L, P, R, S, X, T]
+insertionSort called
+[A, L, M, E, E, O, P, R, S, X, T]
+[A, E, E, L, M, O, P, R, S, X, T]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, L, M, O, P, R, S, T, X]
+[E, A, E, Y, Q, U, S, S, T, I, O, N]
+insertionSort called
+[A, E, E, N, Q, U, S, S, T, I, O, Y]
+[A, E, E, I, N, U, S, S, T, Q, O, Y]
+insertionSort called
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+[A, E, E, I, N, O, S, S, T, Q, U, Y]
+insertionSort called
+insertionSort called
+insertionSort called
+insertionSort called
+[A, E, E, I, N, O, Q, S, S, T, U, Y]

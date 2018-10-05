@@ -1,0 +1,21 @@
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:10:16: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:29:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:46: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:46:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:53:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:71: Class Solution should be declared as final. [FinalClass]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:71: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:72:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:75:29: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 18 errors.
