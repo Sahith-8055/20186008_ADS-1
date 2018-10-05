@@ -76,8 +76,8 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
         while (n > 0) {
-            QuickSort qs = new QuickSort();
             int m = Integer.parseInt(scan.nextLine());
+            QuickSort qs = new QuickSort();
             String[] tokens = scan.nextLine().split(" ");
             qs.sort(tokens);
             System.out.println(qs.show(tokens));
