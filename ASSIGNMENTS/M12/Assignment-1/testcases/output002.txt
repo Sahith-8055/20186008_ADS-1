@@ -1,0 +1,14 @@
+divya,99,Open
+tanvi,90,Open
+Aditya,80,ST
+priya,76,SC
+Ajay,76,Open
+rahul,73,Open
+Amit,70,Open
+Priyanka,70,Open
+Tanya,66,BC
+Abhishek,60,BC
+
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
