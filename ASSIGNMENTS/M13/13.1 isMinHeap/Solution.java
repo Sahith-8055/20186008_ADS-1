@@ -71,17 +71,17 @@ public class Solution {
         case "Float":
             while (testcases > 0) {
                 String[] tokens = scan.nextLine().split(",");
-                if (tokens.length != 0) {
-                    Float[] floTokens = new Float[tokens.length];
-                    for (int l = 0; l < tokens.length; l++) {
-                        floTokens[l] = Float.parseFloat(tokens[l]);
-                    }
-                    IsMin<Float> min = new IsMin<Float>(floTokens);
-                    System.out.println(min.isMinHeap());
-                    testcases--;
-                } else {
+                if (tokens.length == 0) {
                     System.out.println("false");
+                    break;
                 }
+                Float[] floTokens = new Float[tokens.length];
+                for (int l = 0; l < tokens.length; l++) {
+                    floTokens[l] = Float.parseFloat(tokens[l]);
+                }
+                IsMin<Float> min = new IsMin<Float>(floTokens);
+                System.out.println(min.isMinHeap());
+                testcases--;
             }
             break;
         }
