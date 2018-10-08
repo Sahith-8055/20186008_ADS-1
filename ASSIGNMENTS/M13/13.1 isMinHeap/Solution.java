@@ -1,9 +1,27 @@
 import java.util.Scanner;
+/**
+ * Class for Isminimum.
+ *
+ * @param      <E>   {Any Object}
+ */
 class IsMin<E extends Comparable<E>> {
+    /**
+     * {Initializing a generic array}.
+     */
     private E[] array;
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     * @param      a     {Array}
+     */
     IsMin(final E[] a) {
         this.array = a;
     }
+    /**
+     * Determines if minimum heap.
+     * Time complexity of this method is O(N).
+     * @return     True if minimum heap, False otherwise.
+     */
     public boolean isMinHeap() {
         for (int i = 0; i < array.length - 1; i++) {
             if (less(i + 1, i)) {
@@ -12,6 +30,14 @@ class IsMin<E extends Comparable<E>> {
         }
         return true;
     }
+    /**
+     * {Method to compare two objects}.
+     *
+     * @param      a     {Index a}
+     * @param      b     {Index b}
+     *
+     * @return     {Boolean Value}
+     */
     public boolean less(final int a, final int b) {
         return array[a].compareTo(array[b]) < 0;
     }
