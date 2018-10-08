@@ -32,7 +32,7 @@ class IsMin<E extends Comparable<E>> {
     }
     /**
      * {Method to compare two objects}.
-     *
+     * Time complexity of this method is O(1).
      * @param      a     {Index a}
      * @param      b     {Index b}
      *
