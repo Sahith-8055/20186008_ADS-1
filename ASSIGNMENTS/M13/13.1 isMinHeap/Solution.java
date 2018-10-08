@@ -40,6 +40,7 @@ public class Solution {
             while (testcases > 0) {
                 String[] tokens = scan.nextLine().split(",");
                 IsMin<String> min = new IsMin<String>(tokens);
+                System.out.println(min.isMinHeap());
                 testcases--;
             }
             break;
@@ -51,6 +52,7 @@ public class Solution {
                     intTokens[j] = Integer.parseInt(tokens[j]);
                 }
                 IsMin<Integer> min = new IsMin<Integer>(intTokens);
+                System.out.println(min.isMinHeap());
                 testcases--;
             }
             break;
@@ -62,6 +64,7 @@ public class Solution {
                     douTokens[k] = Double.parseDouble(tokens[k]);
                 }
                 IsMin<Double> min = new IsMin<Double>(douTokens);
+                System.out.println(min.isMinHeap());
                 testcases--;
             }
             break;
@@ -73,6 +76,7 @@ public class Solution {
                     floTokens[l] = Float.parseFloat(tokens[l]);
                 }
                 IsMin<Float> min = new IsMin<Float>(floTokens);
+                System.out.println(min.isMinHeap());
                 testcases--;
             }
             break;
