@@ -79,6 +79,9 @@ public class Solution {
                     IsMin<Float> min = new IsMin<Float>(floTokens);
                     System.out.println(min.isMinHeap());
                     testcases--;
+                } else {
+                    System.out.println("false");
+                    break;
                 }
             }
             break;
