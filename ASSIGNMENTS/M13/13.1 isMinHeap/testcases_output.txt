@@ -5,10 +5,9 @@ false
 true
 false
 Your Output: 
-false
-false
-false
-false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at IsMin.isMinHeap(Solution.java:9)
+	at Solution.main(Solution.java:43)
 ----------------------------------------
 ########## Testcase 1: Passed ##########
 Expected Output: 
@@ -26,7 +25,7 @@ false
 false
 false
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 true
 true
@@ -37,14 +36,9 @@ false
 true
 false
 Your Output: 
-true
-true
-true
-false
-false
-false
-true
-false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 9
+	at IsMin.isMinHeap(Solution.java:9)
+	at Solution.main(Solution.java:55)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
