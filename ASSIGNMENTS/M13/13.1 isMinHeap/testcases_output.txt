@@ -6,12 +6,11 @@ true
 false
 Your Output: 
 false
+true
 false
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at IsMin.isMinHeap(Solution.java:9)
-	at Solution.main(Solution.java:43)
+true
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 false
 false
@@ -21,11 +20,11 @@ false
 false
 Your Output: 
 false
+true
 false
+true
 false
-false
-false
-false
+true
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -38,9 +37,14 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 9
-	at IsMin.isMinHeap(Solution.java:9)
-	at Solution.main(Solution.java:55)
+false
+false
+false
+true
+true
+true
+false
+true
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -49,7 +53,7 @@ false
 false
 Your Output: 
 false
-false
+true
 false
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -58,7 +62,11 @@ true
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at IsMin.isMinHeap(Solution.java:9)
-	at Solution.main(Solution.java:79)
+false
+true
+Exception in thread "main" java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:455)
+	at Solution.main(Solution.java:76)
 ----------------------------------------
