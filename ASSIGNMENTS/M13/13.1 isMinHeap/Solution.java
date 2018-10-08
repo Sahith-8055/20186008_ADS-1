@@ -70,11 +70,12 @@ public class Solution {
             break;
         case "Float":
             while (testcases > 0) {
-                String[] tokens = scan.nextLine().split(",");
-                if (tokens.length == 0) {
+                String strr = scan.nextLine();
+                if (strr.equals("")) {
                     System.out.println("false");
                     break;
                 } else {
+                    String[] tokens = strr.split(",");
                     Float[] floTokens = new Float[tokens.length];
                     for (int l = 0; l < tokens.length; l++) {
                         floTokens[l] = Float.parseFloat(tokens[l]);
