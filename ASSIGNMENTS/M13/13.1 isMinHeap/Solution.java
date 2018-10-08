@@ -74,14 +74,15 @@ public class Solution {
                 if (tokens.length == 0) {
                     System.out.println("false");
                     break;
+                } else {
+                    Float[] floTokens = new Float[tokens.length];
+                    for (int l = 0; l < tokens.length; l++) {
+                        floTokens[l] = Float.parseFloat(tokens[l]);
+                    }
+                    IsMin<Float> min = new IsMin<Float>(floTokens);
+                    System.out.println(min.isMinHeap());
+                    testcases--;
                 }
-                Float[] floTokens = new Float[tokens.length];
-                for (int l = 0; l < tokens.length; l++) {
-                    floTokens[l] = Float.parseFloat(tokens[l]);
-                }
-                IsMin<Float> min = new IsMin<Float>(floTokens);
-                System.out.println(min.isMinHeap());
-                testcases--;
             }
             break;
         }
