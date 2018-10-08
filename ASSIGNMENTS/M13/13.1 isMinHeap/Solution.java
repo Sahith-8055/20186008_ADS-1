@@ -45,7 +45,7 @@ class IsMin<E extends Comparable<E>> {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -57,7 +57,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
         int testcases = Integer.parseInt(scan.nextLine());
@@ -112,6 +112,8 @@ public class Solution {
                 }
             }
             break;
+            default:
+                break;
         }
     }
 }
