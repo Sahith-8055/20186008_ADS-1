@@ -68,5 +68,5 @@ Exception in thread "main" java.lang.NumberFormatException: empty String
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
 	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
 	at java.base/java.lang.Float.parseFloat(Float.java:455)
-	at Solution.main(Solution.java:80)
+	at Solution.main(Solution.java:77)
 ----------------------------------------
