@@ -1,0 +1,1 @@
+Array which is sorted in ascending order is a minimum-oriented heap because the root of the heap is the smallest value of all the values of the heap.
