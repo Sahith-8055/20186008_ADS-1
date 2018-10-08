@@ -1,0 +1,69 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+true
+false
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "String"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:37)
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+false
+false
+false
+false
+false
+false
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "String"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:37)
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Integer"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:37)
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+true
+false
+false
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Double"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:37)
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+true
+true
+false
+Your Output: 
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Float"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at Solution.main(Solution.java:37)
+----------------------------------------

@@ -1,0 +1,6 @@
+String
+4
+A,B,C,F,G,I,I,Z
+N,J,F,E,B,A
+B,D,H,P,Q,Q
+Z,Y,X,D,A

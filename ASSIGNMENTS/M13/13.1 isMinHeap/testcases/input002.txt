@@ -1,0 +1,8 @@
+String
+6
+X,T,S,R,P,O,M,L,E,E,A
+XX,TT,SS,RR,PP
+X,T,S,R,P,O,M,L,E,E,A
+X,T,S,R,P,O
+B,X,T,S,R,P,O,M,L,E,E,A
+X,T,S,E,A
