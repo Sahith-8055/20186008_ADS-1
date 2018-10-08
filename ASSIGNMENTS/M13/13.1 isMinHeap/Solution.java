@@ -81,7 +81,6 @@ public class Solution {
                     testcases--;
                 } else {
                     System.out.println("false");
-                    break;
                 }
             }
             break;
