@@ -1,16 +1,16 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 true
 false
 true
 false
 Your Output: 
-false
 true
 false
 true
+false
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 false
 false
@@ -20,13 +20,13 @@ false
 false
 Your Output: 
 false
-true
 false
-true
 false
-true
+false
+false
+false
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 true
 true
@@ -37,23 +37,23 @@ false
 true
 false
 Your Output: 
-false
-false
-false
 true
 true
 true
 false
+false
+false
 true
+false
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 true
 false
 false
 Your Output: 
-false
 true
+false
 false
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -62,7 +62,7 @@ true
 true
 false
 Your Output: 
-false
+true
 true
 Exception in thread "main" java.lang.NumberFormatException: empty String
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
