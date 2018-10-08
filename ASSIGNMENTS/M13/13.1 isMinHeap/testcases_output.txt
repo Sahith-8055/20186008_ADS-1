@@ -5,7 +5,9 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+false
+false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
 	at IsMin.isMinHeap(Solution.java:9)
 	at Solution.main(Solution.java:43)
 ----------------------------------------
@@ -56,11 +58,7 @@ true
 true
 false
 Your Output: 
-true
-true
-Exception in thread "main" java.lang.NumberFormatException: empty String
-	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
-	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
-	at java.base/java.lang.Float.parseFloat(Float.java:455)
-	at Solution.main(Solution.java:76)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at IsMin.isMinHeap(Solution.java:9)
+	at Solution.main(Solution.java:79)
 ----------------------------------------
