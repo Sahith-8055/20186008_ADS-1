@@ -1,13 +1,17 @@
 import java.util.Scanner;
-class IsMin<E extends Comparable<E>>{
+class IsMin<E extends Comparable<E>> {
     private E[] array;
     IsMin(final E[] a) {
         this.array = a;
     }
     public boolean isMinHeap() {
-        for (int i = 0; i < array.length - 1; i++) {
-            if (less(i + 1, i)) {
-                return false;
+        if (array.length == 0) {
+            return false;
+        } else {
+            for (int i = 0; i < array.length - 1; i++) {
+                if (less(i + 1, i)) {
+                    return false;
+                }
             }
         }
         return true;
