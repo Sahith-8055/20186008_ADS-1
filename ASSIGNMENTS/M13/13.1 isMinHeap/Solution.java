@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 class IsMin<E extends Comparable<E>>{
     private E[] array;
     IsMin(final E[] a) {
@@ -34,8 +33,8 @@ public class Solution {
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int testcases = Integer.parseInt(scan.nextLine());
         String str = scan.nextLine();
+        int testcases = Integer.parseInt(scan.nextLine());
         switch (str) {
         case "String":
             while (testcases > 0) {

@@ -1,15 +1,14 @@
 Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:3:37: '>' is followed by an illegal character. [GenericWhitespace]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:3:37: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:8:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:16:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:23: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:35:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:39: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:2:37: '>' is followed by an illegal character. [GenericWhitespace]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:2:37: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:22: Class Solution should be declared as final. [FinalClass]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:34:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M13\13.1 isMinHeap\Solution.java:38: switch without "default" clause. [MissingSwitchDefault]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 11 errors.

@@ -5,11 +5,7 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "String"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:37)
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -20,11 +16,7 @@ false
 false
 false
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "String"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:37)
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -37,11 +29,7 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Integer"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:37)
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -49,11 +37,7 @@ true
 false
 false
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Double"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:37)
+
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -61,9 +45,9 @@ true
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Float"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.base/java.lang.Integer.parseInt(Integer.java:652)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at Solution.main(Solution.java:37)
+Exception in thread "main" java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
+	at java.base/java.lang.Float.parseFloat(Float.java:455)
+	at Solution.main(Solution.java:73)
 ----------------------------------------
