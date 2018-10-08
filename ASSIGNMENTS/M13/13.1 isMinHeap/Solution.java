@@ -6,7 +6,7 @@ class IsMin<E extends Comparable<E>>{
     }
     public boolean isMinHeap() {
         for (int i = 0; i < array.length - 1; i++) {
-            if (less(array[i], array[i + 1])) {
+            if (less(array[i + 1], array[i])) {
                 return true;
             }
         }
