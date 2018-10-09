@@ -174,7 +174,7 @@ public class Solution {
             }
             if (bcSeats > 0) {
                 if (students[i].getReservation().equals("BC") &&
-                        students[i].getAllocation() != true) {
+                        students[i].getAllocation() == false) {
                     bcSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
