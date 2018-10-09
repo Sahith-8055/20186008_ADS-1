@@ -397,7 +397,7 @@ public final class Solution {
                 v--;
             }
             if (bc > 0) {
-                if (students[i].getAllocation() == false) {
+                if (!students[i].getAllocation()) {
                     if (students[i].getReservation().equals("BC")) {
                         bc--;
                         students[i].setAllocation(true);
@@ -407,7 +407,7 @@ public final class Solution {
                 }
             }
             if (sc > 0) {
-                if (students[i].getAllocation() == false) {
+                if (!students[i].getAllocation()) {
                     if (students[i].getReservation().equals("SC")) {
                         sc--;
                         students[i].setAllocation(true);
@@ -417,7 +417,7 @@ public final class Solution {
                 }
             }
             if (st > 0) {
-                if (students[i].getAllocation() == false) {
+                if (!students[i].getAllocation()) {
                     if (students[i].getReservation().equals("ST")) {
                         st--;
                         students[i].setAllocation(true);
@@ -428,7 +428,7 @@ public final class Solution {
             }
         }
         for (i = 0; i < n; i++) {
-            if (students[i].getAllocation() == false) {
+            if (!students[i].getAllocation()) {
                 if (v > 0 && students[i].getReservation().equals("Open")) {
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
