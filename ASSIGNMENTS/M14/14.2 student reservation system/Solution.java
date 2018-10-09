@@ -248,14 +248,16 @@ final class InsertionSort {
     }
     /**
      * {Method to find which among the two is less}.
-     *
+     * Time complexity of this method is O(1).
+     * @param      a     {Comparable Array}
      * @param      v     {Comparable object}
      * @param      w     {Comparable object}
      * Time complexity of this method is O(1).
      * @return     {Boolean value}
      */
-    private static boolean less(final Comparable v, final Comparable w) {
-        return v.compareTo(w) < 0;
+    private static boolean less(
+        final Comparable[] a, final int v, final int w) {
+        return a[v - 1].compareTo(a[w - 1]) < 0;
     }
     /**
      * {Method to exchange two objects}.
@@ -265,20 +267,31 @@ final class InsertionSort {
      * @param      j     {Integer j}
      */
     private static void exch(final Comparable[] a, final int i, final int j) {
-        Comparable temp = a[i];
-        a[i] = a[j];
-        a[j] = temp;
+        Comparable temp = a[i - 1];
+        a[i - 1] = a[j - 1];
+        a[j - 1] = temp;
     }
-    /**
-     * {Method for insertion sort}.
-     * Time complexity of this method is O(N^2).
-     * @param      a     {Comparable array}
-     */
-    public static void sort(final Comparable[] a) {
-        for (int i = 0; i < a.length; i++) {
-            for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
-                exch(a, j, j - 1);
+    private static void sink(final Comparable[] a, int k, final int n) {
+        while (2 * k <= a.length) {
+            int l = 2 * k;
+            if (l < n && less(a, l, l + 1)) {
+                l++;
             }
+            if (!less(a, k, n)) {
+                break;
+            }
+            exch(a, k, l);
+            k = l;
+        }
+    }
+    public static void sort(final Comparable[] a) {
+        int len = a.length;
+        for (int i = len/2; i >= 1; i--) {
+            sink(a, i, len);
+        }
+        while (len > 1) {
+            exch(a, 1, len--);
+            exch(a, 1, len);
         }
     }
 }
