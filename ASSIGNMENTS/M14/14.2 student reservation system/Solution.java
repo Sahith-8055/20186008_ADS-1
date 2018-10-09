@@ -370,9 +370,9 @@ public final class Solution {
      * @param      scSeats          The screen seats
      * @param      stSeats          The st seats
      */
-    public static void counselling(final Student[] students, int vacancies,
-                                   int unreservedSeats, int bcSeats,
-                                   int scSeats, int stSeats) {
+    public static void counselling(final Student[] students, final int vacancies,
+                                   final int unreservedSeats, final int bcSeats,
+                                   final int scSeats, final int stSeats) {
         int i = 0;
         int k = 0;
         int n = students.length;
