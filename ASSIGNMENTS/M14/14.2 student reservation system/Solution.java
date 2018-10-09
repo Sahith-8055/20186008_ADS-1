@@ -239,7 +239,7 @@ class Student implements Comparable<Student> {
 /**
  * Class for heap.
  */
-class Heap {
+final class Heap {
     /**
      * Constructs the object.
      */
@@ -253,7 +253,8 @@ class Heap {
      * @param      k     {Integer}
      * @param      n     {Integer}
      */
-    private static void sink(Comparable[] a, int k, int n) {
+    private static void sink(final Comparable[] a,
+        int k, final int n) {
         while (2 * k <= n) {
             int j = 2 * k;
             if (j < n && less(a, j, j + 1)) {
@@ -275,7 +276,8 @@ class Heap {
      *
      * @return     {Boolean}
      */
-    private static boolean less(Comparable[] a, int i, int j) {
+    private static boolean less(final Comparable[] a,
+        final int i, final int j) {
         return a[i - 1].compareTo(a[j - 1]) < 0;
     }
     /**
@@ -285,7 +287,8 @@ class Heap {
      * @param      i     {Integer}
      * @param      j     {Integer}
      */
-    private static void exch(Comparable[] a, int i, int j) {
+    private static void exch(final Comparable[] a,
+        final int i, final int j) {
         Comparable swap = a[i - 1];
         a[i - 1] = a[j - 1];
         a[j - 1] = swap;
@@ -295,7 +298,7 @@ class Heap {
      * Time complexity of this method is O(Nlog(N)).
      * @param      a     {Comparable array}
      */
-    public static void sort(Comparable[] a) {
+    public static void sort(final Comparable[] a) {
         int n = a.length;
         for (int k = n / 2; k >= 1; k--) {
             sink(a, k, n);
