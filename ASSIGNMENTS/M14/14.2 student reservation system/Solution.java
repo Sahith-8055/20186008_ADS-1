@@ -191,7 +191,7 @@ public class Solution {
                 }
             }
             if (stSeats > 0) {
-                if (students[i].getReservation().equals("SC") &&
+                if (students[i].getReservation().equals("ST") &&
                         students[i].getAllocation() != true) {
                     stSeats--;
                     students[i].setAllocation(true);
