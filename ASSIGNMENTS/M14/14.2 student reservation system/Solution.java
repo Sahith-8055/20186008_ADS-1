@@ -202,7 +202,7 @@ public class Solution {
         }
         for (i = 0; i < n; i++) {
             if (vacancies > 0 && students[i].getReservation().equals("Open") &&
-                    students[i].getAllocation() == true) {
+                    students[i].getAllocation() == false) {
                 students[i].setAllocation(true);
                 alloted[k++] = students[i];
                 vacancies--;

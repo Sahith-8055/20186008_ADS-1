@@ -173,10 +173,10 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
-divya,99,Open
+tanvi,90,Open
 priya,76,SC
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,ST
@@ -208,13 +208,13 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
-divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
 priya,76,SC
+Ajay,76,Open
 Tanya,66,BC
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,99,Open
@@ -293,18 +293,18 @@ shyam,23,Open
 Shreya,23,Open
 
 divya,99,Open
-divya,99,Open
-tanvi,99,Open
 tanvi,99,Open
 Ishita,99,Open
-Ishita,99,Open
-Deepak,98,Open
 Deepak,98,Open
 Ira,93,Open
-Ira,93,Open
-Raj,87,Open
 Raj,87,Open
 mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -386,9 +386,19 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.NullPointerException
-	at InsertionSort.less(Solution.java:111)
-	at InsertionSort.sort(Solution.java:120)
-	at Solution.counselling(Solution.java:211)
-	at Solution.main(Solution.java:151)
+divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+ROHIT,70,SC
+varsha,66,BC
 ----------------------------------------
