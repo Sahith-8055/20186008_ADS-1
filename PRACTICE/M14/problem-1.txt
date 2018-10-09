@@ -1,0 +1,1 @@
+We use unordered array priority queue implementation because it takes constant amount of time to insert an element into the queue whereas in other type of implementations it takes lot more time.
