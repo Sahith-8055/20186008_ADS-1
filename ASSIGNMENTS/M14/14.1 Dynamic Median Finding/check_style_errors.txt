@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M14\14.1 Dynamic Median Finding\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 Audit done.
-Checkstyle ends with 1 errors.
