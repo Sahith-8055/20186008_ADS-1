@@ -361,7 +361,7 @@ public final class Solution {
             }
             if (bcSeats > 0) {
                 if (students[i].getReservation().equals("BC")
-                        &&  students[i].getAllocation() != true) {
+                        &&  students[i].getAllocation() == false) {
                     bcSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
@@ -370,7 +370,7 @@ public final class Solution {
             }
             if (scSeats > 0) {
                 if (students[i].getReservation().equals("SC")
-                        &&  students[i].getAllocation() != true) {
+                        &&  students[i].getAllocation() == false) {
                     scSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
@@ -379,7 +379,7 @@ public final class Solution {
             }
             if (stSeats > 0) {
                 if (students[i].getReservation().equals("ST")
-                        &&  students[i].getAllocation() != true) {
+                        &&  students[i].getAllocation() == false) {
                     stSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
