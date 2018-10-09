@@ -254,7 +254,7 @@ final class Heap {
      * @param      n     {Integer}
      */
     private static void sink(final Comparable[] a,
-        final int k, final int n) {
+                             final int k, final int n) {
         int l = k;
         while (2 * l <= n) {
             int j = 2 * l;
@@ -278,7 +278,7 @@ final class Heap {
      * @return     {Boolean}
      */
     private static boolean less(final Comparable[] a,
-        final int i, final int j) {
+                                final int i, final int j) {
         return a[i - 1].compareTo(a[j - 1]) < 0;
     }
     /**
@@ -289,7 +289,7 @@ final class Heap {
      * @param      j     {Integer}
      */
     private static void exch(final Comparable[] a,
-        final int i, final int j) {
+                             final int i, final int j) {
         Comparable swap = a[i - 1];
         a[i - 1] = a[j - 1];
         a[j - 1] = swap;
@@ -371,9 +371,12 @@ public final class Solution {
      * @param      scSeats          The screen seats
      * @param      stSeats          The st seats
      */
-    public static void counselling(final Student[] students, final int vacancies,
-                                   final int unreservedSeats, final int bcSeats,
-                                   final int scSeats, final int stSeats) {
+    public static void counselling(final Student[] students,
+                                   final int vacancies,
+                                   final int unreservedSeats,
+                                   final int bcSeats,
+                                   final int scSeats,
+                                   final int stSeats) {
         int i = 0;
         int k = 0;
         int n = students.length;
@@ -394,12 +397,13 @@ public final class Solution {
                 v--;
             }
             if (bc > 0) {
-                if (students[i].getReservation().equals("BC")
-                        &&  students[i].getAllocation() == false) {
-                    bc--;
-                    students[i].setAllocation(true);
-                    alloted[k++] = students[i];
-                    v--;
+                if (students[i].getAllocation() == false) {
+                    if (students[i].getReservation().equals("BC")) {
+                        bc--;
+                        students[i].setAllocation(true);
+                        alloted[k++] = students[i];
+                        v--;
+                    }
                 }
             }
             if (sc > 0) {
