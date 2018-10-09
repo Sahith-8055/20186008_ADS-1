@@ -240,6 +240,9 @@ class Student implements Comparable<Student> {
  * Class for insertion sort.
  */
 class InsertionSort {
+    /**
+     * Constructs the object.
+     */
     private InsertionSort() {
         //Unused Constructor.
     }
@@ -357,8 +360,8 @@ public final class Solution {
                 vacancies--;
             }
             if (bcSeats > 0) {
-                if (students[i].getReservation().equals("BC") &&
-                        students[i].getAllocation() != true) {
+                if (students[i].getReservation().equals("BC")
+                        &&  students[i].getAllocation() != true) {
                     bcSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
@@ -366,8 +369,8 @@ public final class Solution {
                 }
             }
             if (scSeats > 0) {
-                if (students[i].getReservation().equals("SC") &&
-                        students[i].getAllocation() != true) {
+                if (students[i].getReservation().equals("SC")
+                        &&  students[i].getAllocation() != true) {
                     scSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
@@ -375,8 +378,8 @@ public final class Solution {
                 }
             }
             if (stSeats > 0) {
-                if (students[i].getReservation().equals("ST") &&
-                        students[i].getAllocation() != true) {
+                if (students[i].getReservation().equals("ST")
+                        &&  students[i].getAllocation() != true) {
                     stSeats--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
@@ -385,8 +388,8 @@ public final class Solution {
             }
         }
         for (i = 0; i < n; i++) {
-            if (vacancies > 0 && students[i].getReservation().equals("Open") &&
-                    students[i].getAllocation() == false) {
+            if (vacancies > 0 && students[i].getReservation().equals("Open")
+                    && students[i].getAllocation() == false) {
                 students[i].setAllocation(true);
                 alloted[k++] = students[i];
                 vacancies--;
