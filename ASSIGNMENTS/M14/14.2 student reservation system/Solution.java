@@ -376,51 +376,56 @@ public final class Solution {
         int i = 0;
         int k = 0;
         int n = students.length;
-        Student[] alloted = new Student[vacancies];
+        int v = vacancies;
+        int us = unreservedSeats;
+        int bc = bcSeats;
+        int sc = scSeats;
+        int st = stSeats;
+        Student[] alloted = new Student[v];
         for (i = 0; i < n; i++) {
-            if (vacancies == 0) {
+            if (v == 0) {
                 break;
             }
-            if (unreservedSeats > 0) {
-                unreservedSeats--;
+            if (us > 0) {
+                us--;
                 students[i].setAllocation(true);
                 alloted[k++] = students[i];
-                vacancies--;
+                v--;
             }
-            if (bcSeats > 0) {
+            if (bc > 0) {
                 if (students[i].getReservation().equals("BC")
                         &&  students[i].getAllocation() == false) {
-                    bcSeats--;
+                    bc--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
-                    vacancies--;
+                    v--;
                 }
             }
-            if (scSeats > 0) {
+            if (sc > 0) {
                 if (students[i].getReservation().equals("SC")
                         &&  students[i].getAllocation() == false) {
-                    scSeats--;
+                    sc--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
-                    vacancies--;
+                    v--;
                 }
             }
-            if (stSeats > 0) {
+            if (st > 0) {
                 if (students[i].getReservation().equals("ST")
                         &&  students[i].getAllocation() == false) {
-                    stSeats--;
+                    st--;
                     students[i].setAllocation(true);
                     alloted[k++] = students[i];
-                    vacancies--;
+                    v--;
                 }
             }
         }
         for (i = 0; i < n; i++) {
-            if (vacancies > 0 && students[i].getReservation().equals("Open")
+            if (v > 0 && students[i].getReservation().equals("Open")
                     && students[i].getAllocation() == false) {
                 students[i].setAllocation(true);
                 alloted[k++] = students[i];
-                vacancies--;
+                v--;
             }
         }
         Heap.sort(alloted);
