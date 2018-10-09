@@ -236,39 +236,73 @@ class Student implements Comparable<Student> {
         return sb.toString();
     }
 }
+/**
+ * Class for heap.
+ */
 class Heap {
+    /**
+     * Constructs the object.
+     */
     private Heap() {
         //Unused Constructor.
     }
-    private static void sink(Comparable[] pq, int k, int n) {
+    /**
+     * {Method to sink}.
+     * Time complexity of this method is O(log(N)).
+     * @param      a    {Comparable array}
+     * @param      k     {Integer}
+     * @param      n     {Integer}
+     */
+    private static void sink(Comparable[] a, int k, int n) {
         while (2 * k <= n) {
             int j = 2 * k;
-            if (j < n && less(pq, j, j + 1)) {
+            if (j < n && less(a, j, j + 1)) {
                 j++;
             }
-            if (!less(pq, k, j)) {
+            if (!less(a, k, j)) {
                 break;
             }
-            exch(pq, k, j);
+            exch(a, k, j);
             k = j;
         }
     }
-    private static boolean less(Comparable[] pq, int i, int j) {
-        return pq[i - 1].compareTo(pq[j - 1]) < 0;
+    /**
+     * {Method for comparing two objects}.
+     * Time complexity of this method is O(1).
+     * @param      a     {Comparable array}
+     * @param      i     {Integer}
+     * @param      j     {Integer}
+     *
+     * @return     {Boolean}
+     */
+    private static boolean less(Comparable[] a, int i, int j) {
+        return a[i - 1].compareTo(a[j - 1]) < 0;
     }
-    private static void exch(Comparable[] pq, int i, int j) {
-        Comparable swap = pq[i - 1];
-        pq[i - 1] = pq[j - 1];
-        pq[j - 1] = swap;
+    /**
+     * {Method to exchange two objects}.
+     * Time complexity of this method is O(1).
+     * @param      a     {Comparable array}
+     * @param      i     {Integer}
+     * @param      j     {Integer}
+     */
+    private static void exch(Comparable[] a, int i, int j) {
+        Comparable swap = a[i - 1];
+        a[i - 1] = a[j - 1];
+        a[j - 1] = swap;
     }
-    public static void sort(Comparable[] pq) {
-        int n = pq.length;
+    /**
+     * {Method for sort}.
+     * Time complexity of this method is O(Nlog(N)).
+     * @param      a     {Comparable array}
+     */
+    public static void sort(Comparable[] a) {
+        int n = a.length;
         for (int k = n / 2; k >= 1; k--) {
-            sink(pq, k, n);
+            sink(a, k, n);
         }
         while (n > 1) {
-            exch(pq, 1, n--);
-            sink(pq, 1, n);
+            exch(a, 1, n--);
+            sink(a, 1, n);
         }
     }
 
