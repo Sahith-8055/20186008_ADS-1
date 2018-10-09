@@ -239,7 +239,7 @@ class Student implements Comparable<Student> {
 /**
  * Class for insertion sort.
  */
-class InsertionSort {
+final class InsertionSort {
     /**
      * Constructs the object.
      */
