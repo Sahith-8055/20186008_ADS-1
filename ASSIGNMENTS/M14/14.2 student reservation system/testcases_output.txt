@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -56,13 +56,13 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
-Deepak,98,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -136,15 +136,15 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
-Ishita,99,Open
 Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -172,16 +172,11 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-Exception in thread "main" java.lang.NullPointerException
-	at Student.compareTo(Solution.java:203)
-	at Student.compareTo(Solution.java:7)
-	at Heap.less(Solution.java:282)
-	at Heap.sink(Solution.java:261)
-	at Heap.sort(Solution.java:305)
-	at Solution.counselling(Solution.java:439)
-	at Solution.main(Solution.java:350)
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,ST
@@ -213,13 +208,13 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
-divya,99,Open
-tanvi,90,ST
 tanvi,90,ST
 Aditya,80,Open
-Aditya,80,Open
+priya,76,SC
+Ajay,76,Open
+Tanya,66,BC
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,99,Open
@@ -298,20 +293,20 @@ shyam,23,Open
 Shreya,23,Open
 
 divya,99,Open
-divya,99,Open
-tanvi,99,Open
 tanvi,99,Open
 Ishita,99,Open
-Ishita,99,Open
-Deepak,98,Open
 Deepak,98,Open
 Ira,93,Open
-Ira,93,Open
-Raj,87,Open
 Raj,87,Open
 mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,99,Open
@@ -392,18 +387,18 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
 Deepak,99,Open
-Deepak,99,Open
-Ishita,99,Open
 Ishita,99,Open
 Ira,93,ST
 tanvi,90,BC
-tanvi,90,BC
-Raj,87,BC
 Raj,87,BC
 mahesh,87,BC
-mahesh,87,BC
 riya,83,Open
-riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+varsha,66,BC
 ----------------------------------------
