@@ -240,6 +240,9 @@ class Student implements Comparable<Student> {
  * Class for insertion sort.
  */
 class InsertionSort {
+    private InsertionSort() {
+        //Unused Constructor.
+    }
     /**
      * {Method to find which among the two is less}.
      *
@@ -279,7 +282,7 @@ class InsertionSort {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -291,7 +294,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
         int vacancies = Integer.parseInt(scan.nextLine());
@@ -312,7 +315,8 @@ public class Solution {
         }
         InsertionSort.sort(students);
         print(students);
-        counselling(students, vacancies, unreservedSeats, bcSeats, scSeats, stSeats);
+        counselling(students, vacancies,
+                    unreservedSeats, bcSeats, scSeats, stSeats);
     }
     /**
      * {Method to print}.
@@ -336,7 +340,8 @@ public class Solution {
      * @param      stSeats          The st seats
      */
     public static void counselling(final Student[] students, int vacancies,
-                                   int unreservedSeats, int bcSeats, int scSeats, int stSeats) {
+                                   int unreservedSeats, int bcSeats,
+                                   int scSeats, int stSeats) {
         int i = 0;
         int k = 0;
         int n = students.length;
