@@ -407,30 +407,33 @@ public final class Solution {
                 }
             }
             if (sc > 0) {
-                if (students[i].getReservation().equals("SC")
-                        &&  students[i].getAllocation() == false) {
-                    sc--;
-                    students[i].setAllocation(true);
-                    alloted[k++] = students[i];
-                    v--;
+                if (students[i].getAllocation() == false) {
+                    if (students[i].getReservation().equals("SC")) {
+                        sc--;
+                        students[i].setAllocation(true);
+                        alloted[k++] = students[i];
+                        v--;
+                    }
                 }
             }
             if (st > 0) {
-                if (students[i].getReservation().equals("ST")
-                        &&  students[i].getAllocation() == false) {
-                    st--;
-                    students[i].setAllocation(true);
-                    alloted[k++] = students[i];
-                    v--;
+                if (students[i].getAllocation() == false) {
+                    if (students[i].getReservation().equals("ST")) {
+                        st--;
+                        students[i].setAllocation(true);
+                        alloted[k++] = students[i];
+                        v--;
+                    }
                 }
             }
         }
         for (i = 0; i < n; i++) {
-            if (v > 0 && students[i].getReservation().equals("Open")
-                    && students[i].getAllocation() == false) {
-                students[i].setAllocation(true);
-                alloted[k++] = students[i];
-                v--;
+            if (students[i].getAllocation() == false) {
+                if (v > 0 && students[i].getReservation().equals("Open")) {
+                    students[i].setAllocation(true);
+                    alloted[k++] = students[i];
+                    v--;
+                }
             }
         }
         Heap.sort(alloted);
