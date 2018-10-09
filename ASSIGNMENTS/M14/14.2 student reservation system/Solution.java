@@ -236,64 +236,42 @@ class Student implements Comparable<Student> {
         return sb.toString();
     }
 }
-/**
- * Class for insertion sort.
- */
-final class InsertionSort {
-    /**
-     * Constructs the object.
-     */
-    private InsertionSort() {
+class Heap {
+    private Heap() {
         //Unused Constructor.
     }
-    /**
-     * {Method to find which among the two is less}.
-     * Time complexity of this method is O(1).
-     * @param      a     {Comparable Array}
-     * @param      v     {Comparable object}
-     * @param      w     {Comparable object}
-     * Time complexity of this method is O(1).
-     * @return     {Boolean value}
-     */
-    private static boolean less(
-        final Comparable[] a, final int v, final int w) {
-        return a[v - 1].compareTo(a[w - 1]) < 0;
-    }
-    /**
-     * {Method to exchange two objects}.
-     * Time complexity of this method is O(N).
-     * @param      a     {Comparable array}
-     * @param      i     {Integer i}
-     * @param      j     {Integer j}
-     */
-    private static void exch(final Comparable[] a, final int i, final int j) {
-        Comparable temp = a[i - 1];
-        a[i - 1] = a[j - 1];
-        a[j - 1] = temp;
-    }
-    private static void sink(final Comparable[] a, int k, final int n) {
-        while (2 * k <= a.length) {
-            int l = 2 * k;
-            if (l < n && less(a, l, l + 1)) {
-                l++;
+    private static void sink(Comparable[] pq, int k, int n) {
+        while (2 * k <= n) {
+            int j = 2 * k;
+            if (j < n && less(pq, j, j + 1)) {
+                j++;
             }
-            if (!less(a, k, n)) {
+            if (!less(pq, k, j)) {
                 break;
             }
-            exch(a, k, l);
-            k = l;
+            exch(pq, k, j);
+            k = j;
         }
     }
-    public static void sort(final Comparable[] a) {
-        int len = a.length;
-        for (int i = len/2; i >= 1; i--) {
-            sink(a, i, len);
+    private static boolean less(Comparable[] pq, int i, int j) {
+        return pq[i - 1].compareTo(pq[j - 1]) < 0;
+    }
+    private static void exch(Comparable[] pq, int i, int j) {
+        Comparable swap = pq[i - 1];
+        pq[i - 1] = pq[j - 1];
+        pq[j - 1] = swap;
+    }
+    public static void sort(Comparable[] pq) {
+        int n = pq.length;
+        for (int k = n / 2; k >= 1; k--) {
+            sink(pq, k, n);
         }
-        while (len > 1) {
-            exch(a, 1, len--);
-            exch(a, 1, len);
+        while (n > 1) {
+            exch(pq, 1, n--);
+            sink(pq, 1, n);
         }
     }
+
 }
 /**
  * Class for solution.
@@ -329,7 +307,7 @@ public final class Solution {
                                       Integer.parseInt(tokens[2 + 2 + 1]),
                                       tokens[2 + 2 + 2]);
         }
-        InsertionSort.sort(students);
+        Heap.sort(students);
         print(students);
         counselling(students, vacancies,
                     unreservedSeats, bcSeats, scSeats, stSeats);
@@ -408,7 +386,7 @@ public final class Solution {
                 vacancies--;
             }
         }
-        InsertionSort.sort(alloted);
+        Heap.sort(alloted);
         print(alloted);
     }
 }
