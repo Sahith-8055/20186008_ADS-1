@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:283: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 1 errors.

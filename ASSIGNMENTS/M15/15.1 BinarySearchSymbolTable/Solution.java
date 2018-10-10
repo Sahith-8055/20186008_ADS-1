@@ -280,7 +280,8 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * Returns the largest key in this
      * symbol table less than or equal to {@code key}.
      * @param  key the key
-     * @return the largest key in this symbol table less than or equal to {@code key}
+     * @return the largest key in this symbol
+     * table less than or equal to {@code key}
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
