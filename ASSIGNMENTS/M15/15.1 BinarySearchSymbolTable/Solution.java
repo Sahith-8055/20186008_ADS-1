@@ -293,10 +293,11 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         }
     }
     /**
-     * Returns the smallest key in this symbol table greater than or equal to {@code key}.
-     *
+     * Returns the smallest key in this symbol table
+     * greater than or equal to {@code key}.
      * @param  key the key
-     * @return the smallest key in this symbol table greater than or equal to {@code key}
+     * @return the smallest key in this symbol table
+     * greater than or equal to {@code key}
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
@@ -308,8 +309,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         int i = rank(key);
         if (i == n) {
             return null;
-        }
-        else {
+        } else {
             return keys[i];
         }
     }
@@ -414,7 +414,8 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        BinarySearchST<String, Integer> st = new BinarySearchST<String, Integer>();
+        BinarySearchST<String, Integer> st;
+        st = new BinarySearchST<String, Integer>();
         String[] tokens = scan.nextLine().split(" ");
         for (int i = 0; i < tokens.length; i++) {
             st.put(tokens[i], i);
