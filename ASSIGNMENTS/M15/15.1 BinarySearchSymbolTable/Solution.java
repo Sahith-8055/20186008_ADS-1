@@ -25,6 +25,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     private int n = 0;
     /**
      * Initializes an empty symbol table.
+     * Time complexity of this method is O(1).
      */
     BinarySearchST() {
         this(INIT_CAPACITY);
@@ -32,6 +33,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     /**
      * Initializes an empty symbol table with the specified initial capacity.
      * @param capacity the maximum capacity
+     * Time complexity of this method is O(1).
      */
     BinarySearchST(final int capacity) {
         keys = (Key[]) new Comparable[capacity];
@@ -39,7 +41,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * {resize the underlying arrays}.
-     *
+     * Time complexity of this method is O(N).
      * @param      capacity  The capacity
      */
     private void resize(final int capacity) {
@@ -55,7 +57,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Returns the number of key-value pairs in this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @return the number of key-value pairs in this symbol table
      */
     public int size() {
@@ -63,16 +65,16 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Returns true if this symbol table is empty.
-     *
+     * Time complexity of this method is O(1).
      * @return {@code true} if this symbol table is empty;
-     *         {@code false} otherwise
+     * {@code false} otherwise
      */
     public boolean isEmpty() {
         return size() == 0;
     }
     /**
      * Does this symbol table contain the given key?
-     *
+     * Time complexity of this method is O(1).
      * @param  key the key
      * @return {@code true} if this symbol table contains {@code key} and
      * {@code false} otherwise
@@ -87,7 +89,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Returns the value associated with the given key in this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @param  key the key
      * @return the value associated with the given key
      * if the key is in the symbol table
@@ -115,6 +117,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * @return the number of keys in
      * the symbol table strictly less than {@code key}
      * @throws IllegalArgumentException if {@code key} is {@code null}
+     * Time complexity of this method is O(log(N)).
      */
     public int rank(final Key key) {
         if (key == null) {
@@ -143,10 +146,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * Deletes the specified key (and its associated value)
      * from this symbol table
      * if the specified value is {@code null}.
-     *
      * @param  key the key
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
+     * Time complexity of this method is O(N).
      */
     public void put(final Key key, final Value val) {
         if (key == null) {
@@ -179,7 +182,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     /**
      * Removes the specified key and associated value from this symbol table
      * (if the key is in the symbol table).
-     *
+     * Time complexity of this method is O(N).
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
@@ -212,7 +215,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Removes the smallest key and associated value from this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMin() {
@@ -224,7 +227,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Removes the largest key and associated value from this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @throws NoSuchElementException if the symbol table is empty
      */
     public void deleteMax() {
@@ -236,7 +239,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
       * Returns the smallest key in this symbol table.
-      *
+      * Time complexity of this method is O(1).
       * @return the smallest key in this symbol table
       * @throws NoSuchElementException if this symbol table is empty
       */
@@ -249,7 +252,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Returns the largest key in this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @return the largest key in this symbol table
      * @throws NoSuchElementException if this symbol table is empty
      */
@@ -262,7 +265,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Return the kth smallest key in this symbol table.
-     *
+     * Time complexity of this method is O(1).
      * @param  k the order statistic
      * @return the {@code k}th smallest
      * key in this symbol table
@@ -284,6 +287,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * table less than or equal to {@code key}
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
+     * Time complexity of this method is O(log(N)).
      */
     public Key floor(final Key key) {
         if (key == null) {
@@ -308,6 +312,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * greater than or equal to {@code key}
      * @throws NoSuchElementException if there is no such key
      * @throws IllegalArgumentException if {@code key} is {@code null}
+     * Time complexity of this method is O(log(N)).
      */
     public Key ceiling(final Key key) {
         if (key == null) {
@@ -324,7 +329,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
 
     /**
      * Returns the number of keys in this symbol table in the specified range.
-     *
+     * Time complexity of this method is O(1).
      * @param lo minimum endpoint
      * @param hi maximum endpoint
      * @return the number of keys in this symbol table between {@code lo}
@@ -352,7 +357,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * {Method to check}.
-     *
+     * Time complexity of this method is O(1).
      * @return     {Boolean}
      */
     private boolean check() {
@@ -360,7 +365,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Determines if sorted.
-     *
+     * Time complexity of this method is O(N).
      * @return     True if sorted, False otherwise.
      */
     private boolean isSorted() {
@@ -373,7 +378,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * {Method to check the rank}.
-     *
+     * Time complexity of this method is O(N^2).
      * @return     {Boolean}
      */
     private boolean rankCheck() {
@@ -391,7 +396,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Returns a string representation of the object.
-     *
+     * Time complexity of this method is O(1).
      * @return     String representation of the object.
      */
     public String toString() {
