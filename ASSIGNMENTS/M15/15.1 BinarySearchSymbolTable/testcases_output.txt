@@ -1,0 +1,180 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+X
+R
+1
+true
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+null
+Your Output: 
+X
+R
+1
+true
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+null
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+null
+Y
+null
+O
+1
+false
+null
+Your Output: 
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+null
+Y
+null
+O
+1
+false
+null
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+X
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+0
+0
+0
+0
+0
+9
+9
+true
+5
+T
+Your Output: 
+X
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+0
+0
+0
+0
+0
+9
+9
+true
+5
+T
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+Y
+12
+true
+13
+P
+Your Output: 
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+Y
+12
+true
+13
+P
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+M
+null
+Y
+7
+true
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
+Your Output: 
+M
+null
+Y
+7
+true
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
+----------------------------------------

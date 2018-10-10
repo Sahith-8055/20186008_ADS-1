@@ -1,0 +1,17 @@
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:92: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:111: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:114: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:137: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:138: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:139: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:268: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:273: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:276: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:296: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:299: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:311:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:341:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M15\15.1 BinarySearchSymbolTable\Solution.java:417: Line is longer than 80 characters (found 83). [LineLength]
+Audit done.
+Checkstyle ends with 14 errors.

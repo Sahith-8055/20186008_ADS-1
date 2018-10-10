@@ -1,0 +1,15 @@
+E A S Y Q U E S T I O N
+deleteMin
+deleteMin
+deleteMin
+deleteMin
+max
+keys
+floor Z
+floor B
+floor Y
+floor D
+floor P
+rank P
+contains Z
+get E

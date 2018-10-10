@@ -1,0 +1,15 @@
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+null
+Y
+null
+O
+1
+false
+null

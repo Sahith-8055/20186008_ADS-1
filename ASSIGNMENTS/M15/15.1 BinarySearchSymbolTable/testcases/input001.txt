@@ -1,0 +1,8 @@
+S E A R C H E X A M P L E
+max
+floor R
+rank B
+deleteMin
+contains C
+keys
+get A

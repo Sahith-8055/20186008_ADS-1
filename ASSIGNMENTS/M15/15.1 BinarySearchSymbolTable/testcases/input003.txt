@@ -1,0 +1,14 @@
+S O R T E X A M P L E
+max
+deleteMin
+keys
+rank A
+rank B
+rank C
+rank D
+rank E
+rank Z
+rank Y
+contains X
+get X
+floor T
