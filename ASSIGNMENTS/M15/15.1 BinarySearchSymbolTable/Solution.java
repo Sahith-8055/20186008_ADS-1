@@ -89,8 +89,9 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * Returns the value associated with the given key in this symbol table.
      *
      * @param  key the key
-     * @return the value associated with the given key if the key is in the symbol table
-     *         and {@code null} if the key is not in the symbol table
+     * @return the value associated with the given key
+     * if the key is in the symbol table
+     * and {@code null} if the key is not in the symbol table
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public Value get(final Key key) {
@@ -108,10 +109,11 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         return null;
     }
     /**
-     * Returns the number of keys in this symbol table strictly less than {@code key}.
-     *
+     * Returns the number of keys in
+     * this symbol table strictly less than {@code key}.
      * @param  key the key
-     * @return the number of keys in the symbol table strictly less than {@code key}
+     * @return the number of keys in
+     * the symbol table strictly less than {@code key}
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
     public int rank(final Key key) {
@@ -134,9 +136,12 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         return lo;
     }
     /**
-     * Inserts the specified key-value pair into the symbol table, overwriting the old
-     * value with the new value if the symbol table already contains the specified key.
-     * Deletes the specified key (and its associated value) from this symbol table
+     * Inserts the specified key-value pair
+     * into the symbol table, overwriting the old
+     * value with the new value if the symbol table
+     * already contains the specified key.
+     * Deletes the specified key (and its associated value)
+     * from this symbol table
      * if the specified value is {@code null}.
      *
      * @param  key the key
@@ -259,19 +264,21 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * Return the kth smallest key in this symbol table.
      *
      * @param  k the order statistic
-     * @return the {@code k}th smallest key in this symbol table
+     * @return the {@code k}th smallest
+     * key in this symbol table
      * @throws IllegalArgumentException unless {@code k} is between 0 and
      *        <em>n</em>–1
      */
     public Key select(final int k) {
         if (k < 0 || k >= size()) {
-            throw new IllegalArgumentException("called select() with invalid argument: " + k);
+            throw new IllegalArgumentException(
+                "called select() with invalid argument: " + k);
         }
         return keys[k];
     }
     /**
-     * Returns the largest key in this symbol table less than or equal to {@code key}.
-     *
+     * Returns the largest key in this
+     * symbol table less than or equal to {@code key}.
      * @param  key the key
      * @return the largest key in this symbol table less than or equal to {@code key}
      * @throws NoSuchElementException if there is no such key
@@ -338,8 +345,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         }
         if (contains(hi)) {
             return rank(hi) - rank(lo) + 1;
-        }
-        else {
+        } else {
             return rank(hi) - rank(lo);
         }
     }
