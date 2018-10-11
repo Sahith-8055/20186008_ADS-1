@@ -82,7 +82,7 @@ class Book implements Comparable<Book> {
      *
      * @return     {Integer}
      */
-    public int compareTo(Book that) {
+    public int compareTo(final Book that) {
         return this.getName().compareTo(that.getName());
     }
 }
@@ -120,12 +120,12 @@ class BST<Key extends Comparable<Key>, Value> {
         /**
          * Constructs the object.
          * Time complexity of this method is O(1).
-         * @param      key   The key
-         * @param      val   The value
+         * @param      key1   The key1
+         * @param      val1   The value1
          */
-        public Node(Key key, Value val) {
-            this.key = key;
-            this.val = val;
+        Node(final Key key1, final Value val1) {
+            this.key = key1;
+            this.val = val1;
             //this.size = size;
         }
     }
@@ -143,7 +143,7 @@ class BST<Key extends Comparable<Key>, Value> {
      * if the key is in the symbol table
      * and {@code null} if the key is not in the symbol table
      */
-    public Value get(Key key) {
+    public Value get(final Key key) {
         return get(root, key);
     }
     /**
@@ -154,7 +154,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Value}
      */
-    private Value get(Node x, Key key) {
+    private Value get(final Node x, final Key key) {
         if (key == null) {
             throw new IllegalArgumentException(
                 "calls get() with a null key");
@@ -181,7 +181,7 @@ class BST<Key extends Comparable<Key>, Value> {
      * @param  val the value
      * @throws IllegalArgumentException if {@code key} is {@code null}
      */
-    public void put(Key key, Value val) {
+    public void put(final Key key, final Value val) {
         if (key == null) {
             throw new IllegalArgumentException(
                 "calls put() with a null key");
@@ -190,14 +190,15 @@ class BST<Key extends Comparable<Key>, Value> {
     }
     /**
      * {Private method to put the value}
-     * Time complexity of this method is O(log(N)).
+     * Time complexity of this method is O(N).
      * @param      x     {Node}
      * @param      key   The key
      * @param      val   The value
      *
      * @return     {Node}
      */
-    private Node put(Node x, Key key, Value val) {
+    private Node put(final Node x,
+        final Key key, final Value val) {
         if (x == null) {
             return new Node(key, val);
         }
