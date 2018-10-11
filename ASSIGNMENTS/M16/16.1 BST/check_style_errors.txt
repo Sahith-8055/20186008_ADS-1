@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:175: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:176: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:177: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.
