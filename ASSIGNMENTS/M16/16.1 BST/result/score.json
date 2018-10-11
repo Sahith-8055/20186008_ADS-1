@@ -1,0 +1,1 @@
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_m16_a1", "user_id": "Sahith-8055", "score": {"sample": {"0": {"execution_time": 0.29080843925476074, "passed": true}, "1": {"execution_time": 0.399031400680542, "passed": true}, "2": {"execution_time": 0.30434656143188477, "passed": true}}}, "check_style_score": "0/1"}

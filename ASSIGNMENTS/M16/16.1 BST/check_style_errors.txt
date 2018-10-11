@@ -1,0 +1,20 @@
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:85:26: Parameter that should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:126:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:126:21: Parameter key should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:126:25: 'key' hides a field. [HiddenField]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:126:30: Parameter val should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:126:36: 'val' hides a field. [HiddenField]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:146:22: Parameter key should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:157:23: Parameter x should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:157:31: Parameter key should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:175: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:176: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:177: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:184:21: Parameter key should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:184:30: Parameter val should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:200:22: Parameter x should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:200:30: Parameter key should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M16\16.1 BST\Solution.java:200:39: Parameter val should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 17 errors.

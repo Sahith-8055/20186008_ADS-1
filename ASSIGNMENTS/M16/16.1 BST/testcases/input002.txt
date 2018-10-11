@@ -1,0 +1,7 @@
+put,Harry,JK,600.0,1
+put,IT,Viswas,400.0,2
+put,Street,Kiran,800.0,6
+get,Hello,Ajay,200.0
+put,Hello,Ajay,200.0,5
+put,Hello,Ajay,200.0,7
+get,Hello,Ajay,200.0
