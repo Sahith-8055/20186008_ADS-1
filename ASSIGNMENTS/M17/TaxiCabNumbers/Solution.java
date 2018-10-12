@@ -1,32 +1,86 @@
 import java.util.Scanner;
-import java.lang.Math;
+/**
+ * Class for taxicab.
+ */
 class Taxicab implements Comparable<Taxicab> {
+    /**
+     * {Sum of cubes}.
+     */
     private int sum;
+    /**
+     * {1st number}.
+     */
     private int n1;
+    /**
+     * {2nd number}.
+     */
     private int n2;
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     * @param      i     {Integer}
+     * @param      j     {Integer}
+     */
     Taxicab(final int i, final int j) {
         this.n1 = i;
         this.n2 = j;
         this.sum = (n1 * n1 * n1) + (n2 * n2 * n2);
     }
+    /**
+     * Gets the number1.
+     * Time complexity of this method is O(1).
+     * @return     The number1.
+     */
     public int getNum1() {
         return this.n1;
     }
+    /**
+     * Sets the number1.
+     * Time complexity of this method is O(1).
+     * @param      a     {Integer}
+     */
     public void setNum1(int a) {
         this.n1 = a;
     }
+    /**
+     * Gets the number2.
+     * Time complexity of this method is O(1).
+     * @return     The number2.
+     */
     public int getNum2() {
         return this.n2;
     }
+    /**
+     * Sets the number2.
+     * Time complexity of this method is O(1).
+     * @param      b     {Integer}
+     */
     public void setNum2(int b) {
         this.n2 = b;
     }
+    /**
+     * Gets the sum.
+     * Time complexity of this method is O(1).
+     * @return     The sum.
+     */
     public int getSum() {
         return this.sum;
     }
+    /**
+     * Sets the sum.
+     * Time complexity of this method is O(1).
+     * @param      s     {Integer}
+     */
     public void setSum(int s) {
         this.sum = s;
     }
+    /**
+     * {Method to compare two objects}.
+     * Time complexity of this method is O(1).
+     * @param      that  The that
+     *
+     * @return     {Integer}
+     */
     public int compareTo(final Taxicab that) {
         if (this.getSum() > that.getSum()) {
             return 1;
@@ -36,14 +90,30 @@ class Taxicab implements Comparable<Taxicab> {
         }
         return 0;
     }
+    /**
+     * Returns a string representation of the object.
+     * Time complexity of this method is O(1).
+     * @return     String representation of the object.
+     */
     public String toString() {
         return Integer.toString(sum);
     }
 }
-public class Solution {
+/**
+ * Class for solution.
+ */
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Unused Constructor.
     }
+    /**
+     * {Client program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
