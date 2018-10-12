@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:119:13: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:120:13: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 2 errors.

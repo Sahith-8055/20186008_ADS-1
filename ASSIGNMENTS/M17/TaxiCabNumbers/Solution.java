@@ -116,8 +116,8 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        int N = scan.nextInt();
-        int M = scan.nextInt();
+        int number = scan.nextInt();
+        int pairs = scan.nextInt();
         final int n = 600;
         MinPQ<Taxicab> min = new MinPQ<Taxicab>();
         for (int i = 0; i <= n; i++) {
@@ -132,9 +132,9 @@ public final class Solution {
             } else {
                 count = 0;
             }
-            if (count == M - 1) {
-                N--;
-                if (N == 0) {
+            if (count == pairs - 1) {
+                number--;
+                if (number == 0) {
                     System.out.println(current.getSum());
                     break;
                 }
