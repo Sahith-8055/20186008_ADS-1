@@ -39,7 +39,7 @@ class Taxicab implements Comparable<Taxicab> {
      * Time complexity of this method is O(1).
      * @param      a     {Integer}
      */
-    public void setNum1(int a) {
+    public void setNum1(final int a) {
         this.n1 = a;
     }
     /**
@@ -55,7 +55,7 @@ class Taxicab implements Comparable<Taxicab> {
      * Time complexity of this method is O(1).
      * @param      b     {Integer}
      */
-    public void setNum2(int b) {
+    public void setNum2(final int b) {
         this.n2 = b;
     }
     /**
@@ -71,7 +71,7 @@ class Taxicab implements Comparable<Taxicab> {
      * Time complexity of this method is O(1).
      * @param      s     {Integer}
      */
-    public void setSum(int s) {
+    public void setSum(final int s) {
         this.sum = s;
     }
     /**
@@ -118,7 +118,7 @@ public final class Solution {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         int M = scan.nextInt();
-        int n = 600;
+        final int n = 600;
         MinPQ<Taxicab> min = new MinPQ<Taxicab>();
         for (int i = 0; i <= n; i++) {
             min.insert(new Taxicab(i, i));
@@ -141,7 +141,8 @@ public final class Solution {
             }
             temp = current.getSum();
             if (current.getNum2() < n) {
-                min.insert(new Taxicab(current.getNum1(), current.getNum2() + 1));
+                min.insert(new Taxicab(
+                               current.getNum1(), current.getNum2() + 1));
             }
         }
     }

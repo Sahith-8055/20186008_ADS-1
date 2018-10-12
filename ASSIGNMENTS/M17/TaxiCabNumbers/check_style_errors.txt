@@ -1,11 +1,5 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:42:25: Parameter a should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:58:25: Parameter b should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:74:24: Parameter s should be final. [FinalParameters]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:119:13: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:120:13: Name 'M' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:121:17: '600' is a magic number. [MagicNumber]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M17\TaxiCabNumbers\Solution.java:144: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 2 errors.
