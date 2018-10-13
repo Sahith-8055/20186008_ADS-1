@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:94: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:106:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 3 errors.
