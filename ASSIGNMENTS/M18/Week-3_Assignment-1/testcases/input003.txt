@@ -1,0 +1,66 @@
+10
+Larsen & Toubro,4.11
+APL Apollo Tube,3.18
+Vinati Organics,4.03
+Jubilant Food,0.08
+Endurance Technologies Ltd.,0.1
+Nalwa Sons Invst,-0.06
+NIIT Tech,0.21
+Chola Inv Fin,1.47
+Fine Organic Industries Ltd.,2.29
+Ceat,0.23
+Larsen & Toubro,4.08
+APL Apollo Tube,2.18
+Vinati Organics,3.03
+Jubilant Food,4.08
+Endurance Technologies Ltd.,1.1
+Nalwa Sons Invst,-0.06
+NIIT Tech,3.21
+Chola Inv Fin,2.47
+Fine Organic Industries Ltd.,1.29
+Ceat,-0.06
+Larsen & Toubro,1.11
+APL Apollo Tube,0.18
+Vinati Organics,4.03
+Jubilant Food,4.08
+Endurance Technologies Ltd.,1.1
+Nalwa Sons Invst,-0.06
+NIIT Tech,0.21
+Chola Inv Fin,4.47
+Fine Organic Industries Ltd.,3.29
+Ceat,0.23
+Larsen & Toubro,-4.11
+APL Apollo Tube,2.18
+Vinati Organics,1.03
+Jubilant Food,0.08
+Endurance Technologies Ltd.,-0.1
+Nalwa Sons Invst,-0.1
+NIIT Tech,0.34
+Chola Inv Fin,3.47
+Fine Organic Industries Ltd.,3.29
+Ceat,1.23
+Larsen & Toubro,3.11
+APL Apollo Tube,2.18
+Vinati Organics,1.03
+Jubilant Food,2.08
+Endurance Technologies Ltd.,1.1
+Nalwa Sons Invst,-2.06
+NIIT Tech,1.21
+Chola Inv Fin,0.47
+Fine Organic Industries Ltd.,0.29
+Ceat,1.23
+Larsen & Toubro,5.11
+APL Apollo Tube,2.18
+Vinati Organics,1.03
+Jubilant Food,5.08
+Endurance Technologies Ltd.,4.1
+Nalwa Sons Invst,4.06
+NIIT Tech,0.21
+Chola Inv Fin,1.47
+Fine Organic Industries Ltd.,0.29
+Ceat,-1.23
+4
+get,minST,Chola Inv Fin
+get,minST,TCS
+get,maxST,Chola Inv Fin
+get,maxST,TCS

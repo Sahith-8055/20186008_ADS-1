@@ -1,0 +1,126 @@
+20
+MRF,0.48
+3M India,1.56
+Eicher Motors,1.6
+Honeywell Auto,1.08
+Bosch,0.3
+Nestle India,1.57
+Tasty Bite Eat,1.23
+Abbott India,0.46
+GSK Cons Health,0.84
+WABCO India,1.33
+Sanofi India,1.21
+TTK Prestige,2.15
+Lakshmi Machine,0.7
+Bajaj Finserv,0.64
+Bharat Rasayan,2
+Schaeffler India,2.57
+HEG Ltd,1.61
+Oracle Fin,0.52
+ICRA,2.84
+Merck Ltd,4.83
+MRF,3.48
+3M India,2.56
+Eicher Motors,0.6
+Honeywell Auto,-1.08
+Bosch,1.3
+Nestle India,4.57
+Tasty Bite Eat,2.23
+Abbott India,1.46
+GSK Cons Health,0.84
+WABCO India,0.33
+Sanofi India,2.21
+TTK Prestige,0.15
+Lakshmi Machine,1.7
+Bajaj Finserv,5.64
+Bharat Rasayan,2
+Schaeffler India,4.59
+HEG Ltd,2.61
+Oracle Fin,1.52
+ICRA,4.84
+Merck Ltd,5.83
+MRF,1.48
+3M India,1.56
+Eicher Motors,1.6
+Honeywell Auto,1.08
+Bosch,2.3
+Nestle India,4.57
+Tasty Bite Eat,5.23
+Abbott India,0.46
+GSK Cons Health,-0.84
+WABCO India,-1.33
+Sanofi India,-1.21
+TTK Prestige,2.15
+Lakshmi Machine,3.7
+Bajaj Finserv,4.64
+Bharat Rasayan,2
+Schaeffler India,2.57
+HEG Ltd,1.61
+Oracle Fin,0.52
+ICRA,3.84
+Merck Ltd,1.83
+MRF,3.48
+3M India,2.56
+Eicher Motors,-1.6
+Honeywell Auto,-1.08
+Bosch,-0.3
+Nestle India,-1.57
+Tasty Bite Eat,-1.23
+Abbott India,-0.46
+GSK Cons Health,-0.84
+WABCO India,-1.33
+Sanofi India,-1.21
+TTK Prestige,-2.15
+Lakshmi Machine,-0.7
+Bajaj Finserv,-0.64
+Bharat Rasayan,-2
+Schaeffler India,-2.57
+HEG Ltd,-1.61
+Oracle Fin,-0.52
+ICRA,-2.84
+Merck Ltd,4.83
+MRF,0.48
+3M India,1.56
+Eicher Motors,1.6
+Honeywell Auto,1.08
+Bosch,0.3
+Nestle India,1.57
+Tasty Bite Eat,1.23
+Abbott India,0.46
+GSK Cons Health,0.84
+WABCO India,1.33
+Sanofi India,1.21
+TTK Prestige,2.15
+Lakshmi Machine,0.7
+Bajaj Finserv,0.64
+Bharat Rasayan,2
+Schaeffler India,2.57
+HEG Ltd,1.61
+Oracle Fin,0.52
+ICRA,2.84
+Merck Ltd,4.83
+MRF,1.48
+3M India,1.56
+Eicher Motors,-1.6
+Honeywell Auto,-1.08
+Bosch,0.34
+Nestle India,1.57
+Tasty Bite Eat,0.23
+Abbott India,1.46
+GSK Cons Health,1.84
+WABCO India,0.33
+Sanofi India,0.21
+TTK Prestige,3.15
+Lakshmi Machine,4.7
+Bajaj Finserv,3.64
+Bharat Rasayan,2
+Schaeffler India,1.57
+HEG Ltd,1.61
+Oracle Fin,1.52
+ICRA,5.84
+Merck Ltd,3.83
+4
+get,maxST,Merck Ltd
+get,maxST,Bharat Rasayan
+get,minST,Bharat Rasayan
+get,minST,WABCO India
