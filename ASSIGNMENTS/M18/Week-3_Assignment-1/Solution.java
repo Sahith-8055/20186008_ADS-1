@@ -1,25 +1,67 @@
 import java.util.Scanner;
+/**
+ * Class for stock data.
+ */
 class StockData implements Comparable<StockData> {
+    /**
+     * {Name of the company}.
+     */
     private String name;
+    /**
+     * {Change of stock percentage}.
+     */
     private Double change;
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     * @param      company  The company
+     * @param      percent  The percent
+     */
     StockData(final String company, final Double percent) {
         this.name = company;
         this.change = percent;
     }
+    /**
+     * Gets the name.
+     * Time complexity of this method is O(1).
+     * @return     The name.
+     */
     public String getName() {
         return this.name;
     }
 
+    /**
+     * Sets the name.
+     * Time complexity of this method is O(1).
+     * @param      n     {String}
+     */
     public void setName(final String n) {
         this.name = n;
     }
+    /**
+     * Gets the change.
+     * Time complexity of this method is O(1).
+     * @return     The change.
+     */
     public Double getChange() {
         return this.change;
     }
 
+    /**
+     * Sets the change.
+     * Time complexity of this method is O(1).
+     * @param      c     {Double}
+     */
     public void setChange(final Double c) {
         this.change = c;
     }
+    /**
+     * {Method to compare two objects}.
+     * Time complexity of this method is O(1).
+     * @param      that  The that
+     *
+     * @return     {Integer}
+     */
     public int compareTo(final StockData that) {
         if (this.getChange() > that.getChange()) {
             return 1;
@@ -35,16 +77,32 @@ class StockData implements Comparable<StockData> {
         }
         return 0;
     }
+    /**
+     * Returns a string representation of the object.
+     * Time complexity of this method is O(1).
+     * @return     String representation of the object.
+     */
     public String toString() {
         String str = "";
         str += this.getName() + " " + this.getChange();
         return str;
     }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Unused Constructor.
     }
+    /**
+     * {Client program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());

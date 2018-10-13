@@ -1,19 +1,6 @@
 Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:9:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:13:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:16:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:20:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:23:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:38:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:44: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:44: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:45:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:48:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:48:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:94: Class Solution should be declared as final. [FinalClass]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M18\Week-3_Assignment-1\Solution.java:106:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 3 errors.
