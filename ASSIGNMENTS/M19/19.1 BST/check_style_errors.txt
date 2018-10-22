@@ -1,5 +1,7 @@
 Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:138:48: Parameter s should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:138:52: Expected @param tag for 's'. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:168:22: Parameter x should be final. [FinalParameters]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:214:22: Parameter key should be final. [FinalParameters]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:225:23: Parameter x should be final. [FinalParameters]
@@ -16,4 +18,4 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:400: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:412:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 18 errors.

@@ -135,12 +135,12 @@ class BST<Key extends Comparable<Key>, Value> {
          * @param      key1  The key1
          * @param      val1  The value1
          */
-        Node(final Key key1, final Value val1) {
+        Node(final Key key1, final Value val1, int s) {
             this.key = key1;
             this.value = val1;
             this.left = null;
             this.right = null;
-            this.size = 0;
+            this.size = s;
         }
     }
     /**
@@ -192,7 +192,7 @@ class BST<Key extends Comparable<Key>, Value> {
      */
     private Node put(final Node x, final Key key, final Value val) {
         if (x == null) {
-            return new Node(key, val);
+            return new Node(key, val, 1);
         }
         int cmp = key.compareTo(x.key);
         if (cmp < 0) {
