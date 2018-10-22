@@ -138,6 +138,8 @@ class BST<Key extends Comparable<Key>, Value> {
         Node(final Key key1, final Value val1) {
             this.key = key1;
             this.value = val1;
+            this.left = null;
+            this.right = null;
             this.size = 0;
         }
     }
