@@ -1,58 +1,168 @@
 import java.util.Scanner;
+/**
+ * Class for book.
+ */
 class Book implements Comparable<Book> {
+    /**
+     * {Name of the book}.
+     */
     private String bookName;
+    /**
+     * {Name of the author}.
+     */
     private String author;
+    /**
+     * {Price of the book}.
+     */
     private float price;
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     * @param      name  The name
+     * @param      a     {Author name}
+     * @param      p     {Price}
+     */
     Book(final String name, final String a, final float p) {
         this.bookName = name;
         this.author = a;
         this.price = p;
     }
+    /**
+     * Gets the book name.
+     * Time complexity of this method is O(1).
+     * @return     The book name.
+     */
     public String getBookName() {
         return this.bookName;
     }
+    /**
+     * Sets the book name.
+     * Time complexity of this method is O(1).
+     * @param      s     {Name of the book}
+     */
     public void setBookName(final String s) {
         this.bookName = s;
     }
+    /**
+     * Gets the author.
+     * Time complexity of this method is O(1).
+     * @return     The author.
+     */
     public String getAuthor() {
         return this.author;
     }
+    /**
+     * Sets the author.
+     * Time complexity of this method is O(1).
+     * @param      a1    A1
+     */
     public void setAuthor(final String a1) {
         this.author = a1;
     }
+    /**
+     * Gets the price.
+     * Time complexity of this method is O(1).
+     * @return     The price.
+     */
     public float getPrice() {
         return this.price;
     }
+    /**
+     * Sets the price.
+     * Time complexity of this method is O(1).
+     * @param      p1    The p 1
+     */
     public void setPrice(final float p1) {
         this.price = p1;
     }
+    /**
+     * {Method to compare two objects}.
+     * Time complexity of this method is O(1).
+     * @param      that  The that
+     *
+     * @return     {Integer}
+     */
     public int compareTo(final Book that) {
         return this.getBookName().compareTo(that.getBookName());
     }
+    /**
+     * Returns a string representation of the object.
+     * Time complexity of this method is O(1).
+     * @return     String representation of the object.
+     */
     public String toString() {
         return getBookName() + ", " + getAuthor() + ", " + getPrice();
     }
 }
+/**
+ * Class for bst.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class BST<Key extends Comparable<Key>, Value> {
+    /**
+     * {Root node}.
+     */
     private Node root;
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * {Key}.
+         */
         private Key key;
+        /**
+         * {Value}.
+         */
         private Value value;
+        /**
+         * {Left link}.
+         */
         private Node left;
+        /**
+         * {Right link}.
+         */
         private Node right;
+        /**
+         * {Size of BST}.
+         */
         private int size;
+        /**
+         * Constructs the object.
+         * Time complexity of this method is O(1).
+         * @param      key1  The key1
+         * @param      val1  The value1
+         */
         Node(final Key key1, final Value val1) {
             this.key = key1;
             this.value = val1;
             this.size = 0;
         }
     }
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     */
     BST() {
         //Unused Constructor.
     }
+    /**
+     * {Method to get the size}.
+     * Time complexity of this method is O(1).
+     * @return     {Integer}
+     */
     public int size() {
         return size(root);
     }
+    /**
+     * {Private method of size}.
+     * Time complexity of this method is O(1).
+     * @param      x     {Node}
+     *
+     * @return     {Integer}
+     */
     private int size(Node x) {
         if (x == null) {
             return 0;
@@ -60,9 +170,24 @@ class BST<Key extends Comparable<Key>, Value> {
             return x.size;
         }
     }
+    /**
+     * {Method to put a key into a tree}.
+     * Time complexity of this method is O(1).
+     * @param      key   The key
+     * @param      val   The value
+     */
     public void put(final Key key, final Value val) {
         root = put(root, key, val);
     }
+    /**
+     * {Private method to put a key}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     * @param      key   The key
+     * @param      val   The value
+     *
+     * @return     {Node}
+     */
     private Node put(final Node x, final Key key, final Value val) {
         if (x == null) {
             return new Node(key, val);
@@ -77,9 +202,24 @@ class BST<Key extends Comparable<Key>, Value> {
         }
         return x;
     }
+    /**
+     * {Method to retreive a value from BST}.
+     * Time complexity of this method is O(1).
+     * @param      key   The key
+     *
+     * @return     {Value}
+     */
     public Value get(Key key) {
         return get(root, key);
     }
+    /**
+     * {Private method to retreive a value from BST}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     * @param      key   The key
+     *
+     * @return     {Value}
+     */
     private Value get(Node x, Key key) {
         if (x == null) {
             return null;
@@ -93,9 +233,21 @@ class BST<Key extends Comparable<Key>, Value> {
             return x.value;
         }
     }
+    /**
+     * {Method to get the minimum of the BST}.
+     * Time complexity of this method is O(1).
+     * @return     {Key}
+     */
     public Key min() {
         return min(root).key;
     }
+    /**
+     * {Private method to get the minimum of the BST}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     *
+     * @return     {Node}
+     */
     private Node min(Node x) {
         if (x.left == null) {
             return x;
@@ -103,9 +255,21 @@ class BST<Key extends Comparable<Key>, Value> {
             return min(x.left);
         }
     }
+    /**
+     * {Method to get the maximum of the BST}.
+     * Time complexity of this method is O(1).
+     * @return     {Key}
+     */
     public Key max() {
         return max(root).key;
     }
+    /**
+     * {Private method to get the maximum of the BST}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     *
+     * @return     {Node}
+     */
     private Node max(Node x) {
         if (x.right == null) {
             return x;
@@ -113,6 +277,13 @@ class BST<Key extends Comparable<Key>, Value> {
             return max(x.right);
         }
     }
+    /**
+     * {Method to get the floor for a particular key}.
+     * Time complexity of this method is O(1).
+     * @param      key   The key
+     *
+     * @return     {Key}
+     */
     public Key floor(Key key) {
         Node x = floor(root, key);
         if (x == null) {
@@ -121,6 +292,14 @@ class BST<Key extends Comparable<Key>, Value> {
             return x.key;
         }
     }
+    /**
+     * {Private method to get the floor for a particular key}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     * @param      key   The key
+     *
+     * @return     {Node}
+     */
     private Node floor(final Node x, final Key key) {
         if (x == null) {
             return null;
@@ -139,6 +318,13 @@ class BST<Key extends Comparable<Key>, Value> {
             return x;
         }
     }
+    /**
+     * {Method to get the ceiling for a particular key}.
+     * Time complexity of this method is O(1).
+     * @param      key   The key
+     *
+     * @return     {Key}
+     */
     public Key ceiling(Key key) {
         Node x = ceiling(root, key);
         if (x == null) {
@@ -147,6 +333,14 @@ class BST<Key extends Comparable<Key>, Value> {
             return x.key;
         }
     }
+    /**
+     * {Private method to get the ceiling for a particular key}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     * @param      key   The key
+     *
+     * @return     {Node}
+     */
     private Node ceiling(Node x, Key key) {
         if (x == null) {
             return null;
@@ -165,10 +359,25 @@ class BST<Key extends Comparable<Key>, Value> {
         }
         return ceiling(x.right, key);
     }
+    /**
+     * {Method to get the selected value}.
+     * Time complexity of this method is O(1).
+     * @param      k     {Integer}
+     *
+     * @return     {Key}
+     */
     public Key select(int k) {
         Node x = select(root, k);
         return x.key;
     }
+    /**
+     * {Private method to get the selected value}.
+     * Time complexity of this method is O(log(N)).
+     * @param      x     {Node}
+     * @param      k     {Integer}
+     *
+     * @return     {Node}
+     */
     private Node select(Node x, int k) {
         if (x == null) {
             return null;
@@ -182,27 +391,22 @@ class BST<Key extends Comparable<Key>, Value> {
             return x;
         }
     }
-    public int rank(Key key) {
-        return rank(key, root);
-    }
-    private int rank(Key key, Node x) {
-        if (x == null) {
-            return 0;
-        }
-        int cmp = key.compareTo(x.key);
-        if (cmp < 0) {
-            return rank(key, x.left);
-        } else if (cmp > 0) {
-            return 1 + size(x.left) + rank(key, x.right);
-        } else {
-            return size(x.left);
-        }
-    }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //Unused Constructor.
     }
+    /**
+     * {Client Program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         BST<Book, Integer> b = new BST<Book, Integer>();
