@@ -135,7 +135,8 @@ class BST<Key extends Comparable<Key>, Value> {
          * @param      key1  The key1
          * @param      val1  The value1
          */
-        Node(final Key key1, final Value val1, int s) {
+        Node(final Key key1, final Value val1,
+        	final int s) {
             this.key = key1;
             this.value = val1;
             this.left = null;
@@ -165,7 +166,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Integer}
      */
-    private int size(Node x) {
+    private int size(final Node x) {
         if (x == null) {
             return 0;
         } else {
@@ -211,7 +212,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Value}
      */
-    public Value get(Key key) {
+    public Value get(final Key key) {
         return get(root, key);
     }
     /**
@@ -222,7 +223,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Value}
      */
-    private Value get(Node x, Key key) {
+    private Value get(final Node x, final Key key) {
         if (x == null) {
             return null;
         }
@@ -250,7 +251,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Node}
      */
-    private Node min(Node x) {
+    private Node min(final Node x) {
         if (x.left == null) {
             return x;
         } else {
@@ -272,7 +273,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Node}
      */
-    private Node max(Node x) {
+    private Node max(final Node x) {
         if (x.right == null) {
             return x;
         } else {
@@ -286,7 +287,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Key}
      */
-    public Key floor(Key key) {
+    public Key floor(final Key key) {
         Node x = floor(root, key);
         if (x == null) {
             return null;
@@ -327,7 +328,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Key}
      */
-    public Key ceiling(Key key) {
+    public Key ceiling(final Key key) {
         Node x = ceiling(root, key);
         if (x == null) {
             return null;
@@ -343,7 +344,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Node}
      */
-    private Node ceiling(Node x, Key key) {
+    private Node ceiling(final Node x, final Key key) {
         if (x == null) {
             return null;
         }
@@ -368,7 +369,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Key}
      */
-    public Key select(int k) {
+    public Key select(final int k) {
         Node x = select(root, k);
         return x.key;
     }
@@ -380,7 +381,7 @@ class BST<Key extends Comparable<Key>, Value> {
      *
      * @return     {Node}
      */
-    private Node select(Node x, int k) {
+    private Node select(final Node x, final int k) {
         if (x == null) {
             return null;
         }
@@ -397,7 +398,7 @@ class BST<Key extends Comparable<Key>, Value> {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -409,7 +410,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         BST<Book, Integer> b = new BST<Book, Integer>();
         while (scan.hasNext()) {

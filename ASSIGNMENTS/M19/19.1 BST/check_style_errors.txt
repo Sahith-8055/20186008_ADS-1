@@ -1,21 +1,5 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:138:48: Parameter s should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:138:52: Expected @param tag for 's'. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:168:22: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:214:22: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:225:23: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:225:31: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:253:22: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:275:22: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:289:22: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:330:24: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:346:26: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:346:34: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:371:23: Parameter k should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:383:25: Parameter x should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:383:33: Parameter k should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:400: Class Solution should be declared as final. [FinalClass]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:412:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:139:9: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:139:27: Expected @param tag for 's'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 2 errors.
