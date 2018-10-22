@@ -1,0 +1,11 @@
+put,Algorithms,Bob Sedgewick,6000.0,1
+put,Python,eric,5000,2
+get,Algorithms,Bob Sedgewick,6000.0
+put,Hello,Ajay,200.0,5
+put,IT,Viswas,400.0,2
+max
+get,IT,Viswas,400.0
+min
+select,1
+floor,Algorithms,Bob Sedgewick,6000.0
+ceiling,Python,eric,5000

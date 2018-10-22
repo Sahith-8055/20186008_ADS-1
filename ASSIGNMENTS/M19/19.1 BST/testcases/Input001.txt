@@ -1,0 +1,15 @@
+put,Harry,JK,600.0,1
+put,IT,Viswas,400.0,2
+put,Street,Kiran,800.0,6
+min
+get,Street,Kiran,800.0
+put,Hello,Ajay,200.0,5
+floor,Street,Kiran,800.0
+ceiling,Street,Kiran,800.0
+get,Hello,Ajay,200.0
+min
+put,Hello,Ajay,200.0,7
+get,Hello,Ajay,200.0
+max
+select,2
+get,IT,Viswas,400.0
