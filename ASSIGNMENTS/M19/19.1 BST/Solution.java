@@ -134,9 +134,10 @@ class BST<Key extends Comparable<Key>, Value> {
          * Time complexity of this method is O(1).
          * @param      key1  The key1
          * @param      val1  The value1
+         * @param      s     {Size of the BST}
          */
         Node(final Key key1, final Value val1,
-        	final int s) {
+            final int s) {
             this.key = key1;
             this.value = val1;
             this.left = null;

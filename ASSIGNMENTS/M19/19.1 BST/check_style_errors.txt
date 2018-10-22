@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:139:9: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M19\19.1 BST\Solution.java:139:27: Expected @param tag for 's'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
