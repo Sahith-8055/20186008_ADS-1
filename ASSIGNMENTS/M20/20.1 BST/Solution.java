@@ -405,7 +405,7 @@ class BST<Key extends Comparable<Key>, Value> {
     }
     /**
      * {Private method to delete the node}.
-     * Time complexity of this method is O(log(N)).
+     * Time complexity of this method is O(N).
      * @param      x     {Node}
      * @param      key   The key
      *
