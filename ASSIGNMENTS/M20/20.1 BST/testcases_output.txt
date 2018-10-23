@@ -1,0 +1,74 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1
+Python, eric, 5000.0
+Hello, Ajay, 200.0
+2
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+null
+null
+Your Output: 
+1
+Python, eric, 5000.0
+Hello, Ajay, 200.0
+2
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+null
+null
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+6
+Street, Kiran, 800.0
+Mental, Robert, 1800.0
+null
+5
+Hello, Ajay, 200.0
+7
+Mental, Robert, 1800.0
+IT, Viswas, 400.0
+2
+Your Output: 
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+6
+Street, Kiran, 800.0
+Mental, Robert, 1800.0
+null
+5
+Hello, Ajay, 200.0
+7
+Mental, Robert, 1800.0
+IT, Viswas, 400.0
+2
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+Harry, JK, 600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+null
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+Anamy, Steave, 1600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+Street, Kiran, 800.0
+null
+Your Output: 
+Harry, JK, 600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+null
+IT, Viswas, 400.0
+IT, Viswas, 400.0
+Anamy, Steave, 1600.0
+Harry, JK, 600.0
+TheBook, Joy, 24000.0
+Street, Kiran, 800.0
+null
+----------------------------------------
