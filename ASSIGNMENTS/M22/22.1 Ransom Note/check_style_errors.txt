@@ -1,18 +1,2 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:61: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:78: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:90: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:92: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:182:8: Unused @param tag for 'm'. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:184:38: Expected @param tag for 'm1'. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:198: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:216:34: '0x7fffffff' is a magic number. [MagicNumber]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:257: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:258: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:259: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:270:18: '10' is a magic number. [MagicNumber]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:299:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:326:51: ')' is preceded with whitespace. [ParenPad]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M22\22.1 Ransom Note\Solution.java:331: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 15 errors.
