@@ -14,18 +14,18 @@ class LinearProbingHashST<Key, Value> {
         this.keys = (Key[]) new Object[m];
         this.vals = (Value[]) new Object[m];
     }
-    public int hashCode() {
-        int hash = 0;
-        int h = hash;
-        if (h != 0) {
-            return h;
-        }
-        for (int i = 0; i < keys.length; i++) {
-            h = ((11 * (int)keys[i]) % m);
-        }
-        hash = h;
-        return h;
-    }
+    // public int hashCode() {
+    //     int hash = 0;
+    //     int h = hash;
+    //     if (h != 0) {
+    //         return h;
+    //     }
+    //     for (int i = 0; i < keys.length; i++) {
+    //         h = ((11 * (int)keys[i]) % m);
+    //     }
+    //     hash = h;
+    //     return h;
+    // }
     private void resize(final int capacity) {
         LinearProbingHashST<Key, Value> temp;
         temp = new LinearProbingHashST<Key, Value>(capacity);
@@ -42,7 +42,7 @@ class LinearProbingHashST<Key, Value> {
         return n;
     }
     private int hash(Key key) {
-        return (key.hashCode() & 0x7fffffff) % m;
+        return (11 * key.hashCode()) % m;
     }
     void put(Key key, Value val) {
         if (val == null) {

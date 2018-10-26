@@ -8,15 +8,11 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:7:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:8:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:11:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:17:5: Definition of 'hashCode()' without corresponding definition of 'equals()'. [EqualsHashCode]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:17:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:24:19: '11' is a magic number. [MagicNumber]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:24:29: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:29:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:41:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:44:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:44:22: Parameter key should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:45:34: '0x7fffffff' is a magic number. [MagicNumber]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:45:17: '11' is a magic number. [MagicNumber]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:47:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:47:14: Parameter key should be final. [FinalParameters]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:47:23: Parameter val should be final. [FinalParameters]
@@ -32,4 +28,4 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:104:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:107:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 28 errors.
