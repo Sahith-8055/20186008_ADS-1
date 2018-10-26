@@ -86,7 +86,7 @@ class LinearProbingHashST<Key, Value> {
     void display() {
         String str = "{";
         int i;
-        for (i = keys.length - 1; i <= 0; i++) {
+        for (i = keys.length - 1; i < 0; i--) {
             if (keys[i] != null) {
                 str += keys[i] + ":" + vals[i] + ", ";
             }
