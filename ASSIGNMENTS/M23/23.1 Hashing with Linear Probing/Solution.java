@@ -89,8 +89,6 @@ class LinearProbingHashST<Key, Value> {
         for (i = 0; i < keys.length - 1; i++) {
             if (keys[i] != null) {
                 str += keys[i] + ":" + vals[i] + ", ";
-            } else {
-                str += keys[i] + ":" + vals[i];
             }
         }
         if (keys[i] != null) {
