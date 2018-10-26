@@ -21,7 +21,11 @@ public class Solution {
                 hash.delete(tokens[1]);
                 break;
             case "display":
-                hash.display();
+                try {
+                    hash.display();
+                } catch(Exception e) {
+                    System.out.println("{}");
+                }
                 break;
             default:
                 break;
