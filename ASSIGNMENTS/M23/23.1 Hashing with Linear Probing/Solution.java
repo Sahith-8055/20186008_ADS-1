@@ -108,7 +108,7 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         LinearProbingHashST<String, Integer> hash;
         int n = Integer.parseInt(scan.nextLine());
-        hash = new LinearProbingHashST<String, Integer>(n);
+        hash = new LinearProbingHashST<String, Integer>();
         while (n > 0) {
             String[] tokens = scan.nextLine().split(" ");
             switch (tokens[0]) {
