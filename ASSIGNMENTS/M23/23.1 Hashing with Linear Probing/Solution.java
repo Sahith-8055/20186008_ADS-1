@@ -105,7 +105,7 @@ public class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         LinearProbingHashST<String, Integer> hash;
-        int n = scan.nextInt();
+        int n = Integer.parseInt(scan.nextLine());
         hash = new LinearProbingHashST<String, Integer>(n);
         while (n > 0) {
             String[] tokens = scan.nextLine().split(" ");
