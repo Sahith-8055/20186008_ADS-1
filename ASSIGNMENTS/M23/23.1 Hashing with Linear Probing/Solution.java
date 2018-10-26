@@ -114,7 +114,7 @@ public class Solution {
                 hash.put(tokens[1], Integer.parseInt(tokens[2]));
                 break;
             case "get":
-                hash.get(tokens[1]);
+                System.out.println(hash.get(tokens[1]));
                 break;
             case "delete":
                 hash.delete(tokens[1]);
