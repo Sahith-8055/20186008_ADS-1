@@ -93,8 +93,8 @@ class LinearProbingHashST<Key, Value> {
         }
         if (keys[i] != null) {
             str += keys[i] + ":" + vals[i];
-            str += "}";
         }
+        str += "}";
         System.out.println(str);
     }
 }
