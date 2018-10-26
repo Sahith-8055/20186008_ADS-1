@@ -201,8 +201,9 @@ public class LinearProbingHashST<Key, Value> {
         return true;
     }
     void display() {
-        StringBuffer s = new StringBuffer("{");
+        StringBuffer s = new StringBuffer();
         int i;
+        s.append("{");
         for (i = 0; i < keys.length - 1; i++) {
             if (keys[i] != null) {
                 s.append(keys[i] + ":" + vals[i] + ", ");
