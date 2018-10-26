@@ -84,6 +84,9 @@ class LinearProbingHashST<Key, Value> {
         }
     }
     void display() {
+        if (keys.length == 0) {
+            System.out.println("{}");
+        }
         String str = "{";
         int i;
         for (i = 0; i < keys.length - 1; i++) {
