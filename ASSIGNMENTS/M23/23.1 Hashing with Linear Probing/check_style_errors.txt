@@ -1,8 +1,4 @@
 Starting audit...
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:26:24: 'catch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.

@@ -1,8 +1,19 @@
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 public class Solution {
-    public Solution() {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
         // Constructor.
     }
+    /**
+     * {Client Program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         LinearProbingHashST<String, Integer> hash;
@@ -23,7 +34,7 @@ public class Solution {
             case "display":
                 try {
                     hash.display();
-                } catch(Exception e) {
+                } catch (Exception e) {
                     System.out.println("{}");
                 }
                 break;
