@@ -27,10 +27,9 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:77:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:77:17: Parameter key should be final. [FinalParameters]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:86:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:89:12: 'for' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:97: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:97:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:98:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:101:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:99: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:99:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:100:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M23\23.1 Hashing with Linear Probing\Solution.java:103:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 32 errors.
