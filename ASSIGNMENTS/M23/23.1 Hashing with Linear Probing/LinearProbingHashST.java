@@ -212,7 +212,9 @@ public class LinearProbingHashST<Key, Value> {
             s.append(keys[i] + ":" + vals[i]);
         } else {
             String str = s.toString().substring(0, s.toString().length() - 2);
-            s.append(str);
+            StringBuffer ss = new StringBuffer("{");
+            ss.append(str);
+            s = ss;
         }
         s.append("}");
         System.out.println(s.toString());
