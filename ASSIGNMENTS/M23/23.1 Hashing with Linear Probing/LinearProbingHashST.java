@@ -201,19 +201,20 @@ public class LinearProbingHashST<Key, Value> {
         return true;
     }
     void display() {
-        String str = "{";
+        StringBuffer s = new StringBuffer("{");
         int i;
         for (i = 0; i < keys.length - 1; i++) {
             if (keys[i] != null) {
-                str += keys[i] + ":" + vals[i] + ", ";
+                s.append(keys[i] + ":" + vals[i] + ", ");
             }
         }
         if (keys[i] != null) {
-            str += keys[i] + ":" + vals[i];
+            s.append(keys[i] + ":" + vals[i]);
         } else {
-            str = str.substring(0, str.length() - 2);
+            String str = s.toString().substring(0, s.toString().length() - 2);
+            s.append(str);
         }
-        str += "}";
-        System.out.println(str);
+        s.append("}");
+        System.out.println(s.toString());
     }
 }
