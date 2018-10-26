@@ -1,0 +1,97 @@
+96
+put S 9
+put I 0
+put V 9
+put A 0
+put S 9
+put A 9
+put N 0
+put K 9
+put A 0
+put R 0
+display
+put D 1
+put E 2
+put E 3
+put P 4
+put A 5
+put K 6
+display
+put N 7
+put E 8
+put E 9
+put R 10
+put A 11
+put J 12
+display
+put M 13
+put A 14
+put N 15
+put A 16
+put S 17
+put A 18
+display
+put M 19
+put U 20
+put R 21
+put T 22
+put H 23
+put Y 24
+display
+put R 25
+put A 26
+put J 27
+put E 28
+put S 29
+put H 30
+display
+put R 31
+put A 32
+put J 33
+put A 34
+display
+put R 35
+put E 36
+put H 37
+put A 38
+put N 39
+put A 40
+display
+delete A
+delete B
+delete C
+delete D
+delete E
+delete F
+get H
+get M
+get N
+get R
+get P
+get A
+display
+delete G
+delete H
+delete I
+delete J
+delete K
+delete L
+display
+delete M
+get N
+delete N
+get N
+display
+delete O
+delete P
+delete Q
+display
+delete R
+display
+get R
+delete S
+delete T
+delete U
+delete V
+delete W
+delete X

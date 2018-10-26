@@ -1,0 +1,81 @@
+80
+get O
+put N 3377
+put H 6640
+put B 3831
+get L
+get V
+put Y 7299
+put U 330
+delete G
+delete F
+get X
+delete U
+delete X
+delete M
+delete X
+display
+get Y
+delete V
+put E 2195
+delete M
+get G
+get G
+display
+get Y
+display
+display
+put Q 4761
+put V 1852
+delete N
+display
+put Q 1598
+display
+get V
+put W 220
+display
+delete V
+get F
+delete P
+delete O
+put O 5972
+delete M
+delete F
+delete H
+put C 5578
+put I 5929
+get X
+put E 2221
+display
+get Q
+delete L
+get A
+put M 4202
+display
+display
+get O
+display
+get F
+delete V
+put N 7081
+display
+put M 6950
+put W 6617
+get L
+put Z 2877
+delete C
+put M 7091
+get H
+put R 9275
+delete G
+get Q
+delete L
+get X
+display
+put G 1758
+display
+delete H
+get C
+get L
+get R
+display

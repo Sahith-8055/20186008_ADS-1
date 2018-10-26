@@ -1,0 +1,11 @@
+10
+put L 4389
+display
+get E
+put W 7900
+delete L
+delete A
+delete Y
+put O 2901
+display
+get O

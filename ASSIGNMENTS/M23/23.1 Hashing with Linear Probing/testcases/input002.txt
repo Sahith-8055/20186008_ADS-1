@@ -1,0 +1,31 @@
+30
+get N
+put H 6019
+delete R
+display
+get W
+display
+put W 674
+get G
+display
+display
+get C
+put I 735
+display
+display
+put O 8003
+display
+put U 7018
+delete S
+display
+display
+display
+delete I
+get J
+delete M
+display
+display
+put N 2547
+delete U
+put W 392
+delete A
