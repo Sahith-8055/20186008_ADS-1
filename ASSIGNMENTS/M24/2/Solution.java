@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+ * Class for student data.
+ */
 class StudentData implements Comparable<StudentData> {
     /**
      * {Roll number of the student}.
@@ -98,13 +101,18 @@ class StudentData implements Comparable<StudentData> {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
         // Unused Constructor.
     }
+    /**
+     * {Client Program}.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         BST<StudentData, Integer> bst;
@@ -112,7 +120,8 @@ public class Solution {
         int n = Integer.parseInt(scan.nextLine());
         while (n > 0) {
             String[] tokens = scan.nextLine().split(",");
-            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2]), Integer.parseInt(tokens[0])),
+            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2]),
+                Integer.parseInt(tokens[0])),
                 Integer.parseInt(tokens[0]));
             n--;
         }
