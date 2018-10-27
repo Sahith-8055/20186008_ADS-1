@@ -125,7 +125,12 @@ public class Solution {
                     }
                 }
             } else if (queries[0].equals("LE")) {
-
+                double c = Double.parseDouble(queries[1]);
+                for (StudentData student : bst.keys()) {
+                    if (student.getMarks() <= c) {
+                        System.out.println(student.getName());
+                    }
+                }
             } else if (queries[0].equals("GE")) {
 
             }
