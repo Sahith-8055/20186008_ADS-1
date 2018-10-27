@@ -1,6 +1,10 @@
 import java.util.Scanner;
 /**
  * Class for student data.
+ * This search is performed using Binary Search Tree(BST).
+ * of unordered implementation.
+ * Time complexity of put and get methods in average case:
+ * O(log(N)).
  */
 class StudentData implements Comparable<StudentData> {
     /**
