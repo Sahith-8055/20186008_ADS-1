@@ -1,14 +1,11 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Clark
 Rivest
 Dan
 Abegg
 Your Output: 
-Clark
-Rivest
-Dan
-Abegg
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -1420,16 +1417,6 @@ Sammy Hagar
 Keith Habersberger
 Yamile Saied Méndez
 Namita Jain
-Ruby Jackson
-Charles B. Macdonald
-Greg Page
-Andrew Macdonald
-Alex James
-Marina Palmer
-David Jacobs
-Jeannette Haien
-Daniel Hahn
-Sara Palacios
 Ed J. Paine
 Jimmy Palmiotti
 Laurence Packer
@@ -1514,41 +1501,6 @@ Kevin MacAllister
 Cynthia Jabar
 Howard Jacobson
 D. J. MacHale
-Charles Panati
-Fiona MacKenzie
-Mark Haddon
-Julie Mac
-James Macdonald
-Jane MacDougall
-Tim Page
-Harvey B. Mackay
-Jennifer Page
-Audrey Mackaman
-Burton L. Mack
-Jessie Haas
-Joshilyn Jackson
-Melissa Jacobs
-Michael Hale
-Jeff MacGregor
-Fiona MacDonald
-Katharina Hagena
-Sarah Jacoby
-Anna-Liisa Hakkarainen
-Joie Jager-Hyman
-Alex Palmer
-David Hagedorn
-M MacCallum
-James B. Maas
-Aparna Pande
-John W. Jacobs
-Thomas Paine
-Richard Mabey
-Jo Jackson King
-Baby Halder
-Kinley MacGregor
-Liza Palmer
-Libby Jackson
-Kristin Halbrook
 Ed J. Paine
 Jimmy Palmiotti
 Laurence Packer
@@ -1612,19 +1564,4 @@ Richard Jackson
 Carrington MacDuffie
 Katherine Hall Page
 Chuck Hagel
-Auston Habershaw
-Chris Packham
-Nafisa Haji
-Rebecca Paley
-Marilyn Hagerty
-Shaili Jain M.D.
-John Jacobs
-Nasim Marie Jafry
-Laura Holmes Haddad
-David H. Hackworth
-Shelley Jackson
-Daniel Palmer
-Marianna Palk
-Thelma Page
-Vicky Hales-Dutton
 ----------------------------------------

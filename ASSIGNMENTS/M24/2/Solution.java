@@ -120,7 +120,7 @@ public class Solution {
                 double a = Double.parseDouble(queries[1]);
                 double b = Double.parseDouble(queries[2]);
                 for (StudentData student : bst.keys()) {
-                    if (student.getMarks() >= a && student.getMarks() <= b) {
+                    if (student.getMarks() <= a && student.getMarks() >= b) {
                         System.out.println(student.getName());
                     }
                 }
