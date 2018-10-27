@@ -19,7 +19,7 @@ class StudentData implements Comparable<StudentData> {
      * @param      name1   The name1
      * @param      marks1  The marks1
      */
-    StudentData(final int roll, final String name1, final double marks1) {
+    StudentData(final String name1, final double marks1, final int roll) {
         this.rollNumber = roll;
         this.name = name1;
         this.marks = marks1;
@@ -109,8 +109,7 @@ public class Solution {
         int n = Integer.parseInt(scan.nextLine());
         while (n > 0) {
             String[] tokens = scan.nextLine().split(",");
-            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2])),
-                    Integer.parseInt(tokens[0]));
+            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2]), Integer.parseInt(tokens[0])), Integer.parseInt(tokens[0]));
             n--;
         }
         int m = Integer.parseInt(scan.nextLine());
@@ -120,7 +119,7 @@ public class Solution {
                 double a = Double.parseDouble(queries[1]);
                 double b = Double.parseDouble(queries[2]);
                 for (StudentData student : bst.keys()) {
-                    if (student.getMarks() <= a && student.getMarks() >= b) {
+                    if (student.getMarks() >= a && student.getMarks() <= b) {
                         System.out.println(student.getName());
                     }
                 }
