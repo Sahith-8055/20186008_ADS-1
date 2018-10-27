@@ -132,7 +132,12 @@ public class Solution {
                     }
                 }
             } else if (queries[0].equals("GE")) {
-
+                double d = Double.parseDouble(queries[1]);
+                for (StudentData student : bst.keys()) {
+                    if (student.getMarks() >= d) {
+                        System.out.println(student.getName());
+                    }
+                }
             }
             m--;
         }

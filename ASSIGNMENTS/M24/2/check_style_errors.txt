@@ -7,6 +7,5 @@ Starting audit...
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:102:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:105:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:105:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:134:49: Must have at least one statement. [EmptyBlock]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 8 errors.
