@@ -1,0 +1,312 @@
+300
+10001,H3CZ,97.83
+10002,Michael Haag,90.74
+10003,Pamela Haag,10.31
+10004,Charlie Haas,30.97
+10005,Jessie Haas,73.58
+10006,Todd Haberkorn,90.91
+10007,Keith Habersberger,99.46
+10008,Auston Habershaw,35.14
+10009,Heather Hach,83.43
+10010,Mary Curran Hackett,5.410
+10011,Thomas Hackett,3.391
+10012,Taylor Hackford,62.17
+10013,Gene Hackman,87.16
+10014,David H. Hackworth,36.40
+10015,Laura Holmes Haddad,36.24
+10016,Gerry Hadden,54.08
+10017,Brad Haddin,20.62
+10018,Margaret Peterson Haddix,3.336
+10019,Mark Haddon,71.85
+10020,Anthony Haden-Guest,43.12
+10021,June Hadley,4.058
+10022,Tessa Hadley,98.87
+10023,William Haefeli,48.77
+10024,Tracy Hafen,15.56
+10025,Debra W. Haffner,44.63
+10026,Margaret Haffner,4.048
+10027,Marylin Hafner,30.75
+10028,Sammy Hagar,99.38
+10029,Rawi Hage,40.10
+10030,David Hagedorn,76.48
+10031,Chuck Hagel,19.32
+10032,Bethany Hagen,32.81
+10033,Don Hagen,42.81
+10034,Steve Hagen,41.03
+10035,Katharina Hagena,75.18
+10036,Jenna Bush Hager,6.627
+10037,Marilyn Hagerty,35.60
+10038,Keach Hagey,92.85
+10039,Merle Haggard,55.34
+10040,Michael Hague,24.02
+10041,William Hague,4.893
+10042,Daniel Hahn,69.74
+10043,Kristin Hahn,14.24
+10044,Mary Downing Hahn,89.14
+10045,Jeannette Haien,69.73
+10046,David Haig,62.74
+10047,Jennifer Haigh,48.84
+10048,Kellie Hailes,17.54
+10049,Kathryn Miller Haines,40.43
+10050,Peter Haining,11.63
+10051,Emily Hainsworth,89.85
+10052,Sylvie Haisman,60.27
+10053,Nafisa Haji,35.46
+10054,Anna-Liisa Hakkarainen,75.86
+10055,A.N.D Haksar,54.45
+10056,David Halberstam,46.81
+10057,Betty Halbreich,81.10
+10058,Kristin Halbrook,79.87
+10059,Baby Halder,79.38
+10060,Bruce Hale,81.72
+10061,James Graham Hale,54.82
+10062,John Hale,7.213
+10063,Kathleen Hale,47.48
+10064,Michael Hale,74.62
+10065,Nathan Hale,10.30
+10066,Shannon Hale,57.53
+10067,Sheila Hale,5.739
+10068,W. G. Hale,43.91
+10069,Vicky Hales-Dutton,39.78
+10070,Yossi Klein Halevi,87.00
+10071,Allan Hall,48.28
+10072,Amanda Hall,11.09
+10073,Araminta Hall,87.74
+10074,Carla Hall,23.87
+10075,Elaine Hall,3.876
+10076,Terrence J,93.95
+10077,Cynthia Jabar,28.69
+10078,Carla Jablonski,88.48
+10079,Albert Jack,24.34
+10080,Colin Jack,14.88
+10081,Dana C. Jack,61.60
+10082,Gordon Jack,49.47
+10083,Ian Jackman,17.50
+10084,Bradley Jackson,63.57
+10085,Ellen Jackson,53.48
+10086,Emma Jackson,16.78
+10087,Gildart Jackson,6.364
+10088,H. JACKSON,91.92
+10089,J.D. Jackson,85.69
+10090,Jeremy Jackson,5.843
+10091,Jerome A. Jackson,24.84
+10092,Joshilyn Jackson,73.72
+10093,Kennell Jackson,17.55
+10094,Korey Jackson,7.065
+10095,Libby Jackson,79.58
+10096,Mick Jackson,31.38
+10097,Myla Jackson,84.43
+10098,Nate Jackson,60.37
+10099,Peter Jackson,17.20
+10100,Richard Jackson,17.86
+10101,Robert Jackson,89.61
+10102,Ruby Jackson,65.06
+10103,Shelley Jackson,36.88
+10104,Steve Jackson,43.06
+10105,Tiffany D. Jackson,32.99
+10106,Tracey Jackson,52.12
+10107,Jo Jackson King,79.31
+10108,Piers A. Jacob,50.89
+10109,Dana Jacobi,43.33
+10110,Derek Jacobi,8.360
+10111,Kathryn Jacobi,4.731
+10112,Simcha Jacobovici,85.84
+10113,Alan Jacobs,45.32
+10114,David Jacobs,69.29
+10115,George Jacobs,45.09
+10116,John Jacobs,35.74
+10117,John Jacobs,98.13
+10118,John Hornor Jacobs,91.51
+10119,John W. Jacobs,78.56
+10120,John W. Jacobs M.D.,1.603
+10121,Lynn F. Jacobs,87.60
+10122,Melissa Jacobs,74.05
+10123,Meredith L. Jacobs,27.87
+10124,Rachel Jacobs,24.40
+10125,Ruth H. Jacobs,40.95
+10126,Andrew Jacobson,23.21
+10127,Howard Jacobson,28.71
+10128,Shane Jacobson,93.97
+10129,Simon Jacobson,59.67
+10130,Kate Jacoby,45.39
+10131,Richard Jacoby,48.67
+10132,Sarah Jacoby,75.60
+10133,Adele Jacques,34.21
+10134,Meredith Jaeger,8.759
+10135,Sophie Jaff,63.33
+10136,Michele Jaffe,16.50
+10137,Rona Jaffe,12.06
+10138,Al Jaffee,35.74
+10139,Madhur Jaffrey,11.58
+10140,Nasim Marie Jafry,35.81
+10141,Guru Jagat,40.06
+10142,Joie Jager-Hyman,76.01
+10143,Steph Jagger,59.62
+10144,Roger O.M.D. Jahnke,59.63
+10145,Michael Jaime-Becerra,91.15
+10146,Aparna Jain,62.03
+10147,Namita Jain,99.90
+10148,Shaili Jain M.D.,35.71
+10149,Shvetha Jaishankar,15.89
+10150,Alex James,68.00
+10151,Yamile Saied Méndez,99.65
+10152,Kathryn Ma,50.88
+10153,Saskia Maarleveld,30.10
+10154,James B. Maas,76.93
+10155,Peter Maas,92.00
+10156,Richard Mabey,79.09
+10157,Madeleine Maby,61.23
+10158,Bernie Mac,10.42
+10159,Julie Mac,72.14
+10160,Katie MacAlister,7.803
+10161,Kevin MacAllister,28.06
+10162,Kevin MacAllister,90.91
+10163,T. T. Macan,20.62
+10164,Robin MacArthur,25.92
+10165,Catherine Macaulay,21.24
+10166,Tony Macaulay,87.26
+10167,Bonnie MacBird,26.54
+10168,Bonnie MacBird,8.108
+10169,Roger Lea MacBride,85.27
+10170,Stuart MacBride,40.94
+10171,Stuart MacBride,24.51
+10172,Stuart B. MacBride,96.83
+10173,M MacCallum,76.56
+10174,Annie Maccoby,82.63
+10175,Mary MacCracken,90.69
+10176,Andrew Macdonald,66.37
+10177,Ann-Marie MacDonald,86.65
+10178,Betty MacDonald,26.33
+10179,Charles B. Macdonald,66.20
+10180,Ellie Macdonald,50.75
+10181,Fiona MacDonald,75.00
+10182,James Macdonald,72.19
+10183,Margaret Read MacDonald,88.39
+10184,Mark Macdonald,31.84
+10185,Norm MacDonald,51.43
+10186,Norm Macdonald,57.70
+10187,Philip MacDonald,14.77
+10188,Sara MacDonald,12.70
+10189,Kady MacDonald Denton,84.78
+10190,Jane MacDougall,72.20
+10191,Carrington MacDuffie,18.28
+10192,Olivia Mace,46.77
+10193,David Macfarlane,91.38
+10194,Robert Macfarlane,89.47
+10195,Magnus MacFarlane-Barrow,17.39
+10196,Gracie MacGregor,53.79
+10197,Jeff MacGregor,74.64
+10198,Kinley MacGregor,79.49
+10199,Virginia Macgregor,80.31
+10200,D. J. MacHale,29.77
+10201,Niccolo Machiavelli,45.28
+10202,Melanie MacHugh,31.84
+10203,Joseph A. Maciariello,8.463
+10204,Amanda Maciel,50.24
+10205,Portia MacIntosh,50.80
+10206,Linden MacIntyre,60.54
+10207,Juliette MacIver,61.06
+10208,Burton L. Mack,73.47
+10209,Jeff Mack,82.13
+10210,Lorrie Mack,62.80
+10211,Louise Mack,30.31
+10212,Audrey Mackaman,73.45
+10213,Harvey Mackay,5.852
+10214,Harvey B. Mackay,72.86
+10215,Aggie MacKenzie,14.37
+10216,Fiona MacKenzie,71.27
+10217,Maxwell Mackenzie,90.78
+10218,Niall Mackenzie,85.89
+10219,Robert Ian MacKenzie,64.08
+10220,Sara Mackenzie,88.05
+10221,Warren Mackenzie,59.69
+10222,Amanda Mackenzie Stuart,26.87
+10223,Amanda Mackenzie Stuart,98.56
+10224,Alison Mackey,12.21
+10225,Alison Mackey PhD,98.39
+10226,Melissa P,4.539
+10227,Hannah Paasch,94.75
+10228,Tim Andres Pabon,59.95
+10229,Wayne Pacelle,97.54
+10230,Frank Pacetta,21.53
+10231,Steven Pacey,56.43
+10232,Rebecca Pacheco,8.834
+10233,Andy Paciorek,85.55
+10234,David Packard,8.495
+10235,George Packer,59.14
+10236,Laurence Packer,1.224
+10237,Chris Packham,35.15
+10238,Bonner Paddock,11.84
+10239,Ron Padgett,49.66
+10240,Colleen Padilla,47.14
+10241,Sari Padorr,90.36
+10242,Sean Padraic,93.21
+10243,Christopher N. Page,50.59
+10244,Emma Page,3.813
+10245,Greg Page,66.25
+10246,Jake Page,91.46
+10247,Jean Reynolds Page,83.66
+10248,Jennifer Page,73.35
+10249,Katherine Hall Page,19.24
+10250,Michael Page,57.79
+10251,Nick Page,79.38
+10252,Thelma Page,39.15
+10253,Tim Page,72.38
+10254,Elaine Pagels,98.70
+10255,Jamuna Pai,84.28
+10256,Edward Paice,56.76
+10257,Danielle Paige,7.034
+10258,Helena S. Paige,52.26
+10259,Jim Paillot,12.42
+10260,Barry Pain,25.44
+10261,Ed J. Paine,0.051
+10262,Thomas Paine,78.96
+10263,Daniel Paisner,12.86
+10264,Sang Pak,93.22
+10265,Thomas Pakenham,93.81
+10266,Sara Palacios,69.82
+10267,Margie Palatini,41.33
+10268,Jane Paley,89.68
+10269,Rebecca Paley,35.47
+10270,Bristol Palin,62.00
+10271,Sarah Palin,30.69
+10272,Marianna Palk,38.70
+10273,Marianna Palka,11.23
+10274,Chris Pallace,4.782
+10275,Penny Palmano,52.46
+10276,Alex Palmer,76.29
+10277,Bethany Palmer,31.82
+10278,Daniel Palmer,37.03
+10279,Douglas Palmer,49.40
+10280,Fiona Palmer,87.31
+10281,Helen Palmer,95.79
+10282,Iva-Marie Palmer,21.98
+10283,Kieran Palmer,95.00
+10284,Liza Palmer,79.51
+10285,Marina Palmer,69.17
+10286,Mark Palmer,34.00
+10287,Pamela Palmer,10.00
+10288,Parker J. Palmer,10.00
+10289,Scott Palmer,10.00
+10290,Svetlana Palmer,95.00
+10291,Jimmy Palmiotti,1.156
+10292,Monica Palms,1.156
+10293,Macky Pamintuan,1.156
+10294,Carlos Pan,44.22
+10295,Cindy Pan,6.892
+10296,Cindy Dr. Pan,81.65
+10297,Charles Panati,70.49
+10298,Michael Panckridge,1.651
+10299,Aparna Pande,77.69
+10300,Manoj Pandey,77.69
+10
+GE 95.96
+LE 68.32
+GE 70.57
+LE 10.00
+GE 50.36
+BE 65.00 70.00
+LE 30.00
+BE 70.00 80.00
+LE 20.00
+BE 35.00 40.00

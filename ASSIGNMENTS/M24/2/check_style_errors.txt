@@ -1,0 +1,13 @@
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:85:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:101: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:101:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:105:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:105:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:127:49: Must have at least one statement. [EmptyBlock]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\2\Solution.java:129:49: Must have at least one statement. [EmptyBlock]
+Audit done.
+Checkstyle ends with 10 errors.
