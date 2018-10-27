@@ -1,0 +1,21 @@
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:4:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:37: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:37:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Solution.java:41:29: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 18 errors.

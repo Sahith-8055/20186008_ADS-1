@@ -1,0 +1,17 @@
+Knuth
+100.0
+Clark
+78.2
+Abegg
+85.6
+Wayne
+88.3
+John
+65.7
+Hank
+13.3
+Jeannette Caines
+Student doesn't exists...
+Student doesn't exists...
+Student doesn't exists...
+Student doesn't exists...

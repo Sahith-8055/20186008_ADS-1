@@ -1,0 +1,65 @@
+45
+101,Alice,88.3
+102,Bob,100.0
+103,Adams,91.2
+104,Knuth,100.1
+118,Rivest,78.2
+107,Wayne,98.3
+108,Charles,99.4
+119,Megon,17.5
+110,John,56.7
+111,Abegg,65.7
+113,Peter,88.8
+114,Douglas,45.9
+115,Tony,44.7
+120,Simon,35.5
+125,Daniel,23.4
+135,Fred,49.3
+141,Clark,76.4
+132,Hank,11.2
+133,Keith,45.4
+134,Yassi,94.5
+135,Access,85.6
+150,Maria Cabezas,100.7
+151,David Cabot,90.6
+152,Meg Cabot,45.5
+11,Sally Cabot,54.3
+12,Cozbi A. Cabrera,77.3
+13,Deborah Cadbury,13.3
+14,Dan Caddy,14.4
+15,Neil Cadigan,15.45
+16,Meili Cady,19.65
+18,Steve Cafferty,2.0
+20,James Caffin,55.4
+21,Brian Caffrey,66.4
+34,Sasha Cagen,77.3
+25,Biba Caggiano,88.4
+26,Rhian Cahill,76.5
+29,Tim Cahill,64.6
+31,Rovina Cai,54.7
+33,Greig Caigou,43.8
+42,George Cain,42.3
+44,James Cain,24.3
+55,Tim Cain,55.4
+66,Rachel Caine,87.6
+77,Jonathan Cainer,98.7
+88,Jeannette Caines,99.3
+17
+get 104 1
+get 102 2
+get 141 1
+get 118 2
+get 111 1
+get 135 2
+get 107 1
+get 101 2
+get 110 1
+get 111 2
+get 132 1
+get 13 2
+get 88 1
+get 10 2
+get 202 2
+get 30 2
+get 40 1
+get 400 1
