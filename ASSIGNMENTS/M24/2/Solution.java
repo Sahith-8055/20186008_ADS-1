@@ -25,16 +25,6 @@ class StudentData implements Comparable<StudentData> {
         this.marks = marks1;
     }
     /**
-     * Constructs the object.
-     * Time complexity of this method is O(1).
-     * @param      name3   The name3
-     * @param      marks3  The marks3
-     */
-    StudentData(final String name3, final double marks3) {
-        this.name = name3;
-        this.marks = marks3;
-    }
-    /**
      * Gets the roll number.
      * Time complexity of this method is O(1).
      * @return     The roll number.
@@ -82,6 +72,13 @@ class StudentData implements Comparable<StudentData> {
     public void setMarks(final double marks2) {
         this.marks = marks2;
     }
+    /**
+     * {Method to compare two methods in a class}.
+     * Time complexity of this method is O(1).
+     * @param      that  The that
+     *
+     * @return     {Integer}
+     */
     public int compareTo(final StudentData that) {
         if (this.marks > that.marks) {
             return 1;
@@ -98,18 +95,25 @@ class StudentData implements Comparable<StudentData> {
         return 0;
     }
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
-    public Solution() {
-        // Constructor.
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        // Unused Constructor.
     }
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         BST<StudentData, Integer> bst;
         bst = new BST<StudentData, Integer>();
         int n = Integer.parseInt(scan.nextLine());
         while (n > 0) {
             String[] tokens = scan.nextLine().split(",");
-            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2]), Integer.parseInt(tokens[0])), Integer.parseInt(tokens[0]));
+            bst.put(new StudentData(tokens[1], Double.parseDouble(tokens[2]), Integer.parseInt(tokens[0])),
+                Integer.parseInt(tokens[0]));
             n--;
         }
         int m = Integer.parseInt(scan.nextLine());
