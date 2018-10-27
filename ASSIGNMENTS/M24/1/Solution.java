@@ -1,6 +1,10 @@
 import java.util.Scanner;
 /**
  * Class for student data.
+ * This search is performed using Separate Chaining
+ * Symbol Table.
+ * Time complexities of put and get method is O(1).
+ * in average case.
  */
 class StudentData {
     /**
