@@ -1,2 +1,51 @@
 Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:16: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:19: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:28:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:29:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:30:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:33: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:34:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:35:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:72: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:81:25: Parameter item should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:86: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:87: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:98: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:102: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:121: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:123: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:130: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:131:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:133:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:133:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:133:29: Parameter first should be final. [FinalParameters]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:133:40: 'first' hides a field. [HiddenField]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:137: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:137:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:138: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:138:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:140:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\Queue.java:141: 'if' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 29 errors.
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:67:34: '0x7fffffff' is a magic number. [MagicNumber]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:107: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:108: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:109: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SeparateChainingHashST.java:120:18: '10' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 6 errors.
+Starting audit...
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SequentialSearchST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SequentialSearchST.java:60: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SequentialSearchST.java:77: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SequentialSearchST.java:89: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\XYZ\20186008_ADS-1\ASSIGNMENTS\M24\1\SequentialSearchST.java:91: Line is longer than 80 characters (found 92). [LineLength]
+Audit done.
+Checkstyle ends with 5 errors.
+Starting audit...
 Audit done.
