@@ -9,9 +9,3 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-tanvi,90,ST
-Aditya,80,Open
-priya,76,SC
-Ajay,76,Open
-Tanya,66,BC

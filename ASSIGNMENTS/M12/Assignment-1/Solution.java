@@ -189,25 +189,25 @@ class Student implements Comparable<Student> {
                 } else if (this.getMarks2() < that.getMarks2()) {
                     return -1;
                 } else {
-                    if (Integer.parseInt(this.getAge()[2]) >
-                            Integer.parseInt(that.getAge()[2])) {
+                    if (Integer.parseInt(this.getAge()[2])
+                           > Integer.parseInt(that.getAge()[2])) {
                         return 1;
-                    } else if (Integer.parseInt(this.getAge()[2]) <
-                               Integer.parseInt(that.getAge()[2])) {
+                    } else if (Integer.parseInt(this.getAge()[2])
+                            <  Integer.parseInt(that.getAge()[2])) {
                         return -1;
                     } else {
-                        if (Integer.parseInt(this.getAge()[1]) >
-                                Integer.parseInt(that.getAge()[1])) {
+                        if (Integer.parseInt(this.getAge()[1])
+                            > Integer.parseInt(that.getAge()[1])) {
                             return 1;
-                        } else if (Integer.parseInt(this.getAge()[1]) <
-                                   Integer.parseInt(that.getAge()[1])) {
+                        } else if (Integer.parseInt(this.getAge()[1])
+                                > Integer.parseInt(that.getAge()[1])) {
                             return -1;
                         } else {
-                            if (Integer.parseInt(this.getAge()[0]) >
-                                    Integer.parseInt(that.getAge()[0])) {
+                            if (Integer.parseInt(this.getAge()[0])
+                                > Integer.parseInt(that.getAge()[0])) {
                                 return 1;
-                            } else if (Integer.parseInt(this.getAge()[0]) <
-                                       Integer.parseInt(that.getAge()[0])) {
+                            } else if (Integer.parseInt(this.getAge()[0])
+                                    < Integer.parseInt(that.getAge()[0])) {
                                 return -1;
                             }
                         }
@@ -222,6 +222,11 @@ class Student implements Comparable<Student> {
  * Class for insertion sort.
  */
 class InsertionSort {
+    /**
+     * {Method for sort}
+     * Time complexity of this method is O(N^2).
+     * @param      students  The students
+     */
     public void sort(final Student[] students) {
         for (int i = 0; i < students.length; i++) {
             for (int j = i; j > 0; j--) {
@@ -332,29 +337,32 @@ public class Solution {
                 if (s[i].getCategory().equals("BC") || s[i].getCategory().equals("SC") ||
                         s[i].getCategory().equals("ST")) {
                     if (s[i].getCategory().equals("BC") && back > 0) {
-                        System.out.println(s[i].getName() + "," +
-                                           s[i].getTotal() + "," +
-                                           s[i].getCategory());
-                    back--;
-                    vacancy--;
+                        array[count++] = s[i];
+                        back--;
+                        vacancy--;
                     } else if (s[i].getCategory().equals("SC") && sc > 0) {
-                        System.out.println(s[i].getName() + "," +
-                                           s[i].getTotal() + "," +
-                                           s[i].getCategory());
+                        array[count++] = s[i];
                         sc--;
                         vacancy--;
                     } else if (s[i].getCategory().equals("ST") && st > 0) {
-                        System.out.println(s[i].getName() + "," +
-                                           s[i].getTotal() + "," +
-                                           s[i].getCategory());
+                        array[count++] = s[i];
                         st--;
                         vacancy--;
                     }
                 } else if (vacancy > 0 && bcStudents == 0 &&
                            scStudents == 0 && stStudents == 0) {
-                    System.out.println(s[i].getName() + "," +
-                                       s[i].getTotal() + "," +
-                                       s[i].getCategory());
+                    array[count++] = s[i];
+                    vacancy--;
+                }
+            }
+        }
+        if (vacancy > 0) {
+            for (int i = 0; i < s.length; i++) {
+                if (vacancy <= 0) {
+                    break;
+                }
+                if (s[i] != array[i]) {
+                    array[count++] = s[i];
                     vacancy--;
                 }
             }

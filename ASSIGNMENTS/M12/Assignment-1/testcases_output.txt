@@ -24,17 +24,10 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Aditya,80,ST
-priya,72,SC
 Your Output: 
 
-Aditya,80,ST
-Anjali,38,SC
 ----------------------------------------
+
 ########## Testcase 1: Failed ##########
 Expected Output: 
 divya,99,ST
@@ -68,20 +61,10 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-Aditya,80,ST
-priya,72,SC
 Your Output: 
 
-Aditya,80,ST
-tanvi,90,BC
-ROHIT,70,SC
 ----------------------------------------
+
 ########## Testcase 2: Failed ##########
 Expected Output: 
 divya,99,Open
@@ -95,14 +78,10 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-Aditya,80,ST
-priya,76,SC
 Your Output: 
 
-priya,76,SC
-Aditya,80,ST
 ----------------------------------------
+
 ########## Testcase 3: Failed ##########
 Expected Output: 
 divya,99,Open
@@ -116,17 +95,10 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-divya,99,Open
-tanvi,90,ST
-Aditya,80,Open
-priya,76,SC
-Ajay,76,Open
-Tanya,66,BC
 Your Output: 
 
-Tanya,66,BC
-tanvi,90,ST
 ----------------------------------------
+
 ########## Testcase 4: Failed ##########
 Expected Output: 
 divya,99,Open
@@ -160,28 +132,10 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 
-divya,99,Open
-tanvi,99,Open
-Ishita,99,Open
-Deepak,98,Open
-Ira,93,Open
-Raj,87,Open
-mahesh,87,Open
-riya,83,Open
-Aditya,80,Open
-priya,76,Open
-Ajay,76,Open
-Amit,76,Open
-Arjun,75,Open
 Your Output: 
 
-divya,99,Open
-Amit,76,Open
-tanvi,99,Open
-mahesh,87,Open
-Ishita,99,Open
-ROHIT,70,Open
 ----------------------------------------
+
 ########## Testcase 5: Failed ##########
 Expected Output: 
 divya,99,ST
@@ -215,27 +169,7 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-divya,99,ST
-Deepak,99,Open
-Ishita,99,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-mahesh,87,BC
-riya,83,Open
-Aditya,80,ST
-Ajay,76,Open
-Amit,76,Open
-Arjun,75,Open
-rahul,73,Open
-priya,72,SC
-varsha,66,BC
 Your Output: 
 
-tanvi,90,BC
-mahesh,87,BC
-ROHIT,70,SC
-shyam,71,ST
-Raj,87,BC
-varsha,66,BC
 ----------------------------------------
+
